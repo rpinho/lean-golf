@@ -218,12 +218,13 @@ def check_result(result, code, statement_hash):
 
 
 def run_checker(root, item, statement_hash):
-    deadline = monotonic() + 145
     image = subprocess.check_output(["bash", "scripts/image-ref.sh"], cwd=root, text=True).strip()
     cached = subprocess.run(["docker", "image", "inspect", image], stdout=subprocess.DEVNULL,
                             stderr=subprocess.DEVNULL, timeout=5)
     if cached.returncode:
-        subprocess.run(["docker", "pull", image], check=True, timeout=105)
+        # A cold pull of the Mathlib image takes about 90 s; it has its own budget, outside the checker's.
+        subprocess.run(["docker", "pull", "-q", image], check=True, timeout=240)
+    deadline = monotonic() + 145
     name = f"lean-golf-{uuid4().hex}"
     with tempfile.TemporaryDirectory() as work:
         temp = Path(work)
