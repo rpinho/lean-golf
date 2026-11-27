@@ -98,10 +98,9 @@ SCORER = score_v1
 
 
 def limit_child():
-    if sys.platform.startswith("linux"):
-        _, hard = resource.getrlimit(resource.RLIMIT_AS)
-        cap = MAX_ADDRESS_SPACE if hard == resource.RLIM_INFINITY else min(hard, MAX_ADDRESS_SPACE)
-        resource.setrlimit(resource.RLIMIT_AS, (cap, cap))
+    # 11-27: no address-space cap. Lean reserves large virtual regions (thread stacks, olean maps), so an RLIMIT_AS
+    # cap failed thread creation on Linux at 1.2 GB of real memory. The container's cgroup limit bounds real memory.
+    return None
 
 
 def remaining_time(stage, deadline):
