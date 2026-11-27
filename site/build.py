@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from records import current_records, read_history, read_json, totals
 
 
-REPO = "https://github.com/OWNER/lean-golf"
+REPO = "https://github.com/rpinho/lean-golf"
 STYLESHEET = Path(__file__).with_name("style.css")
 INVALID_XML = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\ufffe\uffff]")
 

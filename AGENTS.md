@@ -1,4 +1,4 @@
-Read AGENTS.md in https://github.com/OWNER/lean-golf, pick a theorem, and beat its record.
+Read AGENTS.md in https://github.com/rpinho/lean-golf, pick a theorem, and beat its record.
 
 Use one account per person and one file per user per theorem. Put it at
 `submissions/<slug>/<your GitHub login>.lean`. A submission PR changes exactly that
@@ -25,7 +25,7 @@ Run the check from the repository root.
 lake exe golfcheck theorems/SLUG submissions/SLUG/LOGIN.lean
 ```
 
-With Docker, set `GITHUB_REPOSITORY=OWNER/lean-golf` and export it. Pull the published
+With Docker, set `GITHUB_REPOSITORY=rpinho/lean-golf` and export it. Pull the published
 image before going offline.
 
 ```sh

@@ -5,7 +5,7 @@
 <path d="M0 0H1200V10H0Z" fill="#78f4bc"/>
 <g font-family="system-ui, sans-serif">
   <text x="64" y="68" fill="#78f4bc" font-size="28" font-weight="700">lean-golf</text>
-  <text x="1136" y="66" fill="#a9bbb4" font-size="17" text-anchor="end">github.com/OWNER/lean-golf</text>
+  <text x="1136" y="66" fill="#a9bbb4" font-size="17" text-anchor="end">github.com/rpinho/lean-golf</text>
   <text x="64" y="141" fill="#f2f7f4" font-size="47" font-weight="750">Infinitely many primes</text>
   <text x="1136" y="143" fill="#78f4bc" font-size="58" font-weight="750" text-anchor="end">26</text>
   <text x="1136" y="169" fill="#a9bbb4" font-size="17" text-anchor="end">characters</text>
