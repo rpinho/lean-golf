@@ -27,8 +27,10 @@ type, and the axiom list is empty when dependency collection has yet to run.
    The checker runs the pinned Lean compiler separately on the prepared
    submission and trusted `Statement.lean` in a fresh directory
    named with the submission SHA-256. The stages share a 120-second deadline.
-   Lean runs with a 6 GiB memory setting and one compiler thread. Linux also
-   applies a 12 GiB address-space limit. The checker kills and reaps the worker
+   Lean runs with one compiler thread. Its own memory setting (16 GiB) sits above
+   the container's 10 GB memory limit, which bounds real use; a check peaks near
+   1.2 GB. There is no address-space limit, because Lean reserves large virtual
+   regions. The checker kills and reaps the worker
    process group on timeout and clears its scratch directory.
 3. **Verify.** A separate Lean process reads both compiled theorem declarations.
    It compares their expression structure, including binder annotations, after
