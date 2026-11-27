@@ -1,0 +1,19 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2020 Kevin Lacker. All rights reserved. Authors: Kevin Lacker",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Ring.Identities",
+    "Mathlib.Data.Int.NatPrime",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Data.Set.Finite.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1969_p1",
+  "slug": "compfiles-imo1969_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1969P1.lean",
+  "statement_hash": "89c422b13db9f3718ca0294e0529239f97445374d7875010ec2a579711461c3d",
+  "title": "IMO1969 P1"
+}

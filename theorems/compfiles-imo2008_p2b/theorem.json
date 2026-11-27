@@ -1,0 +1,29 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2021 Manuel Candales. All rights reserved. Authors: Manuel Candales",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Data.Set.Finite.Lattice",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.Abel",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2008_p2b",
+  "slug": "compfiles-imo2008_p2b",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Data.Set.Finite.Lattice",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.Abel",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2008P2.lean",
+  "statement_hash": "1f1e3b18e3e8fd3fd3cf7dd66eba8d54c4a847b6fadbbd1042b02104cf971616",
+  "title": "IMO2008 P2B"
+}

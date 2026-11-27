@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "difficulty": "2003 A5",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.putnambench.putnam_2003_a5",
+  "slug": "putnambench-putnam_2003_a5",
+  "source": "PutnamBench",
+  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2003_a5.lean",
+  "statement_hash": "c35d8ee46b4cf0bec61f25b1e80beeaf7cfd69abb21af521e29efe479f353260",
+  "title": "Putnam 2003 A5"
+}

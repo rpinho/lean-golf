@@ -1,0 +1,34 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.Chebyshev",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib",
+    "Mathlib.Data.Nat.Choose.Cast",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1987_p5_part1",
+  "slug": "compfiles-usa1987_p5_part1",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.Chebyshev",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Order.Int.ConditionallyCompleteOrder",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.Data.Nat.Choose.Cast",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1987P5.lean",
+  "statement_hash": "9d3ba3aac5b9d256b9f0802d8ae9bdeb23145a1f9add071d363ef6b1c746c1c0",
+  "title": "USA1987 P5 PART1"
+}

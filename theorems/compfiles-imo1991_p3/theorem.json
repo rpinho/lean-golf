@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1991_p3",
+  "slug": "compfiles-imo1991_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1991P3.lean",
+  "statement_hash": "390254190053ef1e6e227288f52478005a67a4a469edc98ac7a8845905267696",
+  "title": "IMO1991 P3"
+}

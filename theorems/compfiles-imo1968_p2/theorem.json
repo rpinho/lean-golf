@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Nat.Digits.Lemmas",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1968_p2",
+  "slug": "compfiles-imo1968_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1968P2.lean",
+  "statement_hash": "0f70f4c7b12352ba5e979877ec7f8006683f94f3563cf01be2847b16a78a1a7d",
+  "title": "IMO1968 P2"
+}

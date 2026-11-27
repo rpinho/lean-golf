@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "difficulty": "Ireland-Rosen",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.proofnet.ireland_rosen_exercise_3_4",
+  "slug": "proofnet-ireland_rosen_exercise_3_4",
+  "source": "ProofNet",
+  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Ireland-Rosen.lean",
+  "statement_hash": "9e41c382f96c004b11c1de1daece8a644b129d6be8faedfd4b6938abab503e04",
+  "title": "Ireland-Rosen · exercise 3 4"
+}

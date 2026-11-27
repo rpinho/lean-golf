@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "numbertheory",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.numbertheory_notEquiv2i2jasqbsqdiv8",
+  "slug": "minif2f-numbertheory_notequiv2i2jasqbsqdiv8",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/numbertheory_notEquiv2i2jasqbsqdiv8.lean",
+  "statement_hash": "a3a2b51a4298272b53760b6c48421add4c83466f3b0cac1478f30f203666aae8",
+  "title": "numbertheory_notEquiv2i2jasqbsqdiv8"
+}

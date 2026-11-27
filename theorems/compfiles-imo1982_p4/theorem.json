@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: InternLM-MATH LEAN Formalizer v0.1, Goedel-Prover-V2",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1982_p4",
+  "slug": "compfiles-imo1982_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1982P4.lean",
+  "statement_hash": "a808d9c5b68f01150ad03f00d406551591a33d0a64e310f003e7d701ee0fbec4",
+  "title": "IMO1982 P4"
+}

@@ -1,0 +1,23 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Karl Mehltretter",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Geometry.Euclidean.Circumcenter",
+    "Mathlib.Geometry.Euclidean.Triangle"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1988_p4",
+  "slug": "compfiles-usa1988_p4",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Geometry.Euclidean.Incenter.Basic",
+    "Mathlib.Geometry.Euclidean.Circumcenter",
+    "Mathlib.Geometry.Euclidean.Triangle"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1988P4.lean",
+  "statement_hash": "242845ee805b975cc3306ca48b572742cea86905d9a16c56b4f9b026ca2c2d61",
+  "title": "USA1988 P4"
+}

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: Benpigchu",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2004_p2",
+  "slug": "compfiles-imo2004_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2004P2.lean",
+  "statement_hash": "26c122ca9406331cccea75b98ecdd967edfaa35e2b5e739e715c2a6eb041581c",
+  "title": "IMO2004 P2"
+}

@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 Joseph Myers. All rights reserved. Authors: Joseph Myers, Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Field.ZMod",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Tactic.Cases"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2021_p5",
+  "slug": "compfiles-imo2021_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2021P5.lean",
+  "statement_hash": "2c75663e6dd461cf86729c66096238849c2868da8e01ea7f53d71475bc4c3bd7",
+  "title": "IMO2021 P5"
+}

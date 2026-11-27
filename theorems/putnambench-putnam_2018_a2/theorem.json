@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "difficulty": "2018 A2",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.putnambench.putnam_2018_a2",
+  "slug": "putnambench-putnam_2018_a2",
+  "source": "PutnamBench",
+  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2018_a2.lean",
+  "statement_hash": "06976166f14b5a3b3c87a3d0f57f91c74664b628e5dca8e810ff07c486d704f3",
+  "title": "Putnam 2018 A2"
+}

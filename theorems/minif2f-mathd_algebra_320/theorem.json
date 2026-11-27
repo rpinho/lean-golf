@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "mathd",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.mathd_algebra_320",
+  "slug": "minif2f-mathd_algebra_320",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/mathd_algebra_320.lean",
+  "statement_hash": "9784eef264bf54092a6d92f3bb541c9fafaa209d2daa314f8b63387f9983cb88",
+  "title": "mathd_algebra_320"
+}

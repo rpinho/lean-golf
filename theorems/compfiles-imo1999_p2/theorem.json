@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Claude (Fable 5, via Claude Code)",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1999_p2",
+  "slug": "compfiles-imo1999_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1999P2.lean",
+  "statement_hash": "3302604e3707ac11e7c86c14b1a444c88bcaf7e7384ff19637af18c15a410c6d",
+  "title": "IMO1999 P2"
+}

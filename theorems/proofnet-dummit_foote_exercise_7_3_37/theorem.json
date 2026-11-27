@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "difficulty": "Dummit-Foote",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.proofnet.dummit_foote_exercise_7_3_37",
+  "slug": "proofnet-dummit_foote_exercise_7_3_37",
+  "source": "ProofNet",
+  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Dummit-Foote.lean",
+  "statement_hash": "59340ad04bdee0c9f2b63bfaba1b6a096dd14cf2f29a6772b28a7452e7219cfc",
+  "title": "Dummit-Foote · exercise 7 3 37"
+}

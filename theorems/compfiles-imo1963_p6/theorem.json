@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Data.Fin.VecNotation",
+    "Mathlib.Data.Fintype.Perm"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1963_p6",
+  "slug": "compfiles-imo1963_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1963P6.lean",
+  "statement_hash": "b2f78fa55a4945a668864bf1f25696fa644661d670ff5d51201e709b367e8d22",
+  "title": "IMO1963 P6"
+}

@@ -1,0 +1,31 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Field.Basic",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib",
+    "Mathlib.GroupTheory.Perm.Fin",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Linarith.Lemmas"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2018_p6",
+  "slug": "compfiles-usa2018_p6",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.Field.Basic",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Algebra.Order.Star.Rat",
+    "Mathlib.GroupTheory.Perm.Fin",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Linarith.Lemmas"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2018P6.lean",
+  "statement_hash": "10edda05bb77bd39834f4115e882fed67a3a265acd84b310c57fdd56ee462f9d",
+  "title": "USA2018 P6"
+}

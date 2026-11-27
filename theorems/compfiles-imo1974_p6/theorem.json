@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Algebra.Polynomial.Roots"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1974_p6",
+  "slug": "compfiles-imo1974_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1974P6.lean",
+  "statement_hash": "e14f91033a2939128c845bf9dfd965105afeba67881d76e1cfb1de680dc67cd2",
+  "title": "IMO1974 P6"
+}

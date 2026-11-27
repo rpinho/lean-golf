@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Analysis.Normed.Ring.Lemmas",
+    "Mathlib.RingTheory.Polynomial.Vieta",
+    "Mathlib.Tactic.GCongr",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Positivity.Basic",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2023_p3_imo2023p3",
+  "slug": "compfiles-imo2023_p3-imo2023p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2023P3.lean",
+  "statement_hash": "281feb3793ad7fc507e70050fceed85269d33d02b7d4bf4d2b53fe362f3ba4aa",
+  "title": "Imo2023P3"
+}

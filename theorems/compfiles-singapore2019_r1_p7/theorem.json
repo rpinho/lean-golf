@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved.",
+  "difficulty": "Singapore",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.singapore2019_r1_p7",
+  "slug": "compfiles-singapore2019_r1_p7",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Singapore2019P7.lean",
+  "statement_hash": "ae9e9dd25ad3282a842d10dc189ce19f5f832416ebb86698e2f572e5e26d9c93",
+  "title": "SINGAPORE2019 R1 P7"
+}

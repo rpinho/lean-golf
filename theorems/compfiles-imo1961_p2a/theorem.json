@@ -1,0 +1,23 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 lean-tom. All rights reserved. Authors: lean-tom (with assistance from Gemini)",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Analysis.SpecialFunctions.Sqrt",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1961_p2a",
+  "slug": "compfiles-imo1961_p2a",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Analysis.SpecialFunctions.Sqrt",
+    "Mathlib.Tactic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1961P2.lean",
+  "statement_hash": "3f2efbb8c423549128cbd9f4e2e09db188c566cd7ea9f772807ceb1c7d859fc8",
+  "title": "IMO1961 P2A"
+}

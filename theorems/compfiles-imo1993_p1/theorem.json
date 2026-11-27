@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 Constantin Seebach. All rights reserved. Authors: Constantin Seebach",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1993_p1",
+  "slug": "compfiles-imo1993_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1993P1.lean",
+  "statement_hash": "a2671cead328b5b2dfe6f9f5d861ac9c7d29a77b2057714a1bd7370e5d74ea6b",
+  "title": "IMO1993 P1"
+}

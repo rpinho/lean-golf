@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "numbertheory",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.numbertheory_2dvd4expn",
+  "slug": "minif2f-numbertheory_2dvd4expn",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/numbertheory_2dvd4expn.lean",
+  "statement_hash": "36c3ccce3f42e3335244cf24775a1c55df5a8e4c3ed73f1beb9e905e11c23fe8",
+  "title": "numbertheory_2dvd4expn"
+}

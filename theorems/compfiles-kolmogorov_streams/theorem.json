@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "KolmogorovStreams",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Stream.Defs",
+    "Mathlib.Data.Stream.Init",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.kolmogorov_streams",
+  "slug": "compfiles-kolmogorov_streams",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/KolmogorovStreams.lean",
+  "statement_hash": "f674b634d2c55d2f0075971121684d810f0d0f8334a040601e2398e1c389759e",
+  "title": "KOLMOGOROV STREAMS"
+}

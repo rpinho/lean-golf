@@ -1,0 +1,24 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: Zhiyi Luo",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Algebra.Order.Positive.Field",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2022_p3",
+  "slug": "compfiles-usa2022_p3",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Basic.NNReal.Basic",
+    "Mathlib.Algebra.Order.Positive.Field",
+    "Mathlib.Tactic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2022P3.lean",
+  "statement_hash": "3068e9ea79b945a3c962cd053eebcd6d75492112da523f928c8a81cb3fdcffe1",
+  "title": "USA2022 P3"
+}

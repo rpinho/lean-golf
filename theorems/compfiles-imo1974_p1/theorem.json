@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Contributors. All rights reserved. Authors: Lynn Van Hauwe",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1974_p1",
+  "slug": "compfiles-imo1974_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1974P1.lean",
+  "statement_hash": "86e5c6b7e62be42455609454ff102ea506ea26f774aa713a11f734fe17f71061",
+  "title": "IMO1974 P1"
+}

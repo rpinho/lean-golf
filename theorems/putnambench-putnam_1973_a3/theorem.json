@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "difficulty": "1973 A3",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.putnambench.putnam_1973_a3",
+  "slug": "putnambench-putnam_1973_a3",
+  "source": "PutnamBench",
+  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1973_a3.lean",
+  "statement_hash": "eeb0960986e8a68560dba5af5f5cefec0def06b4c28b2a116ba04d50f67a1f15",
+  "title": "Putnam 1973 A3"
+}

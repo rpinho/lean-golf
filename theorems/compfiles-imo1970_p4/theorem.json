@@ -1,0 +1,19 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 David Renshaw. All rights reserved. Authors: David Renshaw, Adam Kurkiewicz",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Associated",
+    "Mathlib.Algebra.BigOperators.Intervals",
+    "Mathlib.Data.ZMod.Basic",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1970_p4",
+  "slug": "compfiles-imo1970_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1970P4.lean",
+  "statement_hash": "678fe292422ec7027caae8c5778fab2d24312d0ef9ba76827b236cd151f09109",
+  "title": "IMO1970 P4"
+}

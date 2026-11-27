@@ -1,0 +1,19 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "Bulgaria",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Analysis.InnerProductSpace.PiL2",
+    "Mathlib.LinearAlgebra.AffineSpace.Midpoint",
+    "Mathlib.Geometry.Euclidean.Basic",
+    "Mathlib.Geometry.Euclidean.Triangle"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.bulgaria1998_p2",
+  "slug": "compfiles-bulgaria1998_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Bulgaria1998P2.lean",
+  "statement_hash": "f0edfd783185cc551f1bbe38b83f5a8ae47db3ae3ebc2eeca1ba6acbcaf99096",
+  "title": "BULGARIA1998 P2"
+}

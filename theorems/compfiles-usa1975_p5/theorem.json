@@ -1,0 +1,39 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.EuclideanDomain.Basic",
+    "Mathlib.Algebra.EuclideanDomain.Field",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib",
+    "Mathlib.Order.Interval.Finset.Nat",
+    "Mathlib.Tactic.CancelDenoms.Core",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.NormNum.Ineq",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1975_p5",
+  "slug": "compfiles-usa1975_p5",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.EuclideanDomain.Basic",
+    "Mathlib.Algebra.EuclideanDomain.Field",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Algebra.Order.Star.Rat",
+    "Mathlib.Order.Interval.Finset.Nat",
+    "Mathlib.Tactic.CancelDenoms.Core",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.NormNum.Ineq",
+    "Mathlib.Tactic.Ring"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1975P5.lean",
+  "statement_hash": "da5cb48753c79a96d5c573f83780ec98f20e59c5fdd1b126f5cf52de5c4e04c1",
+  "title": "USA1975 P5"
+}

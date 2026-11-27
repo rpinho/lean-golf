@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "induction",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.induction_pprime_pdvdapowpma",
+  "slug": "minif2f-induction_pprime_pdvdapowpma",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/induction_pprime_pdvdapowpma.lean",
+  "statement_hash": "68ee679b8d3b71c907cc2479dc715f661fd211ca83f632887d960bd155db2501",
+  "title": "induction_pprime_pdvdapowpma"
+}

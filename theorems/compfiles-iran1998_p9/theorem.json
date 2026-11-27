@@ -1,0 +1,24 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "Iran",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Analysis.InnerProductSpace.PiL2",
+    "Mathlib.Analysis.Normed.Lp.PiLp"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.iran1998_p9",
+  "slug": "compfiles-iran1998_p9",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib",
+    "Mathlib.Analysis.InnerProductSpace.PiL2",
+    "Mathlib.Analysis.Normed.Lp.PiLp"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Iran1998P9.lean",
+  "statement_hash": "ae3c5fd83950a6ce1c6cf6869865c65d8a883aacd9aa87ac0f3f8341dab07d60",
+  "title": "IRAN1998 P9"
+}

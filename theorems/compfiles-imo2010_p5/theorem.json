@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 Jeremy Tan. All rights reserved. Authors: Jeremy Tan",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Group.Fin.Basic",
+    "Mathlib.Algebra.Order.Pi",
+    "Mathlib.Algebra.Order.Ring.Nat",
+    "Mathlib.Algebra.Order.Sub.Basic",
+    "Mathlib.Algebra.Order.Sub.Prod",
+    "Mathlib.Data.Fintype.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2010_p5",
+  "slug": "compfiles-imo2010_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2010P5.lean",
+  "statement_hash": "a14e800c181c59261960991b2037e0e5682154a31a67cac675a46afb8542949f",
+  "title": "IMO2010 P5"
+}

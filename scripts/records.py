@@ -27,11 +27,19 @@ def read_history(path):
     return []
 
 
+def characters_saved(event):
+    previous = event["previous"]
+    return 0 if previous is None else previous["score"] - event["score"]
+
+
 def totals(records, history):
     users = defaultdict(lambda: dict(records_held=0, records_ever_set=0, characters_saved=0))
     initial = records.copy()
     for event in reversed(history):
-        initial[event["slug"]] = event["previous"]
+        if event["previous"] is None:
+            initial.pop(event["slug"], None)
+        else:
+            initial[event["slug"]] = event["previous"]
     for record in initial.values():
         users[record["holder"].lower()]["records_ever_set"] += 1
     for record in records.values():
@@ -39,7 +47,7 @@ def totals(records, history):
     for event in history:
         user = users[event["holder"].lower()]
         user["records_ever_set"] += 1
-        user["characters_saved"] += event["previous"]["score"] - event["score"]
+        user["characters_saved"] += characters_saved(event)
     return sorted(
         (dict(login=login, **counts) for login, counts in users.items()),
         key=lambda row: (-row["records_held"], -row["records_ever_set"],
@@ -65,8 +73,8 @@ def apply(root, slug, holder, pr, utc, proof, result):
         raise ValueError("Statement hash differs from the checked statement")
 
     records = current_records(root)
-    previous = records[slug]
-    if score >= previous["score"]:
+    previous = records.get(slug)
+    if previous is not None and score >= previous["score"]:
         return []
 
     data = root / "data"

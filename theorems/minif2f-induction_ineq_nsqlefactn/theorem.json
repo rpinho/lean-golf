@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "induction",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.induction_ineq_nsqlefactn",
+  "slug": "minif2f-induction_ineq_nsqlefactn",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/induction_ineq_nsqlefactn.lean",
+  "statement_hash": "67858c626b97bca6cc193df1c005f304add7347c45327f2a7ab5db9cbb80071d",
+  "title": "induction_ineq_nsqlefactn"
+}

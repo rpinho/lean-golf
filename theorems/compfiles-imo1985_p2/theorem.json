@@ -1,0 +1,19 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 Jeremy Tan. All rights reserved. Authors: Jeremy Tan",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Canonical",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Data.Int.NatAbs",
+    "Mathlib.Data.Nat.ModEq"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1985_p2",
+  "slug": "compfiles-imo1985_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1985P2.lean",
+  "statement_hash": "6da03a67cbaf8f834e0f37897999dd2812c66585dae5119fd19a15c986156d36",
+  "title": "IMO1985 P2"
+}

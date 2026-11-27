@@ -1,0 +1,20 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.AffineMonoid.Basic",
+    "Mathlib.Algebra.Polynomial.Coeff",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Analysis.Normed.Ring.Lemmas",
+    "Mathlib.GroupTheory.Perm.Fin"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2017_p2",
+  "slug": "compfiles-usa2017_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2017P2.lean",
+  "statement_hash": "5f3be29c7cf2011dca602a33f9b720ea2cbee263a3ce15efc4ef8c831db39ccb",
+  "title": "USA2017 P2"
+}

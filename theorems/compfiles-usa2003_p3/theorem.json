@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Tactic.NormNum.Ineq"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2003_p3",
+  "slug": "compfiles-usa2003_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2003P3.lean",
+  "statement_hash": "e49d3599343efdd22bd177ec531b940f82692f533bcc3dbf6f24769bff985c87",
+  "title": "USA2003 P3"
+}

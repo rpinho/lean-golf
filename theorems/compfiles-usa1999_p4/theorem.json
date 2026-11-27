@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Archimedean.Real.Basic",
+    "Mathlib.Algebra.Order.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.Ring.Star"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1999_p4",
+  "slug": "compfiles-usa1999_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1999P4.lean",
+  "statement_hash": "2d1b97aa7f9559044e0226476229f5e1a12e1093b2f28c9dfdab24d34ae21b7a",
+  "title": "USA1999 P4"
+}

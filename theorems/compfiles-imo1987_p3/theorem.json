@@ -1,0 +1,29 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Algebra.Order.Star.Real",
+    "Mathlib.Analysis.Normed.Ring.Lemmas",
+    "Mathlib",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Positivity.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1987_p3",
+  "slug": "compfiles-imo1987_p3",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Algebra.Order.Star.Real",
+    "Mathlib.Analysis.Normed.Ring.Lemmas",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Positivity.Basic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1987P3.lean",
+  "statement_hash": "e4ad55f5b80708e71666ffd141f537669a4c9918e7c05d0bec62eea3bb101077",
+  "title": "IMO1987 P3"
+}

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "difficulty": "Artin",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.proofnet.artin_exercise_3_2_7",
+  "slug": "proofnet-artin_exercise_3_2_7",
+  "source": "ProofNet",
+  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Artin.lean",
+  "statement_hash": "b0cd5aaa8f1218ac0ba5a0809d8176100b4197e70bd812a775b9dbf25cd26714",
+  "title": "Artin · exercise 3 2 7"
+}

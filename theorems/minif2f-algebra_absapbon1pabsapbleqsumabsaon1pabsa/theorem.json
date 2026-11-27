@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "algebra",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.algebra_absapbon1pabsapbleqsumabsaon1pabsa",
+  "slug": "minif2f-algebra_absapbon1pabsapbleqsumabsaon1pabsa",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/algebra_absapbon1pabsapbleqsumabsaon1pabsa.lean",
+  "statement_hash": "fd15a883304923dab0442a13c6197487fa8caf204815fd22538040a528736221",
+  "title": "algebra_absapbon1pabsapbleqsumabsaon1pabsa"
+}

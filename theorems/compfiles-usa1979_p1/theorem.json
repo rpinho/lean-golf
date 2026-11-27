@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: Hongyu Ouyang",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1979_p1",
+  "slug": "compfiles-usa1979_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1979P1.lean",
+  "statement_hash": "db52522875eb7f14d1583b685a5ca2fe00f0d2db9f63d63a5f5064be2855e2c7",
+  "title": "USA1979 P1"
+}

@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 the Compfiles Contributors. All rights reserved. Authors: Joseph Myers, Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Field.ZMod",
+    "Mathlib.Analysis.Normed.Ring.Lemmas",
+    "Mathlib.Logic.Equiv.Fin.Rotate",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2023_p3",
+  "slug": "compfiles-imo2023_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2022P3.lean",
+  "statement_hash": "7abb662b3b9df2d4fde2826dc7d9b5583d1957422dad29f15f2cba03b4bf32f3",
+  "title": "IMO2023 P3"
+}

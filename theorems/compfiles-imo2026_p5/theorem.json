@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.CharP.Defs",
+    "Mathlib.Algebra.Order.Star.Real",
+    "Mathlib.Analysis.Normed.Field.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2026_p5",
+  "slug": "compfiles-imo2026_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2026P5.lean",
+  "statement_hash": "305206c45ca04c9ae7c61844ec4a4f5284e24699a27dc2cd87410db133fb2a93",
+  "title": "IMO2026 P5"
+}

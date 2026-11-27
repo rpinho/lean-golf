@@ -1,0 +1,37 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.Archimedean.Real.Basic",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Data.Fintype.BigOperators",
+    "Mathlib.Data.Nat.Bitwise",
+    "Mathlib.Data.Nat.Log",
+    "Mathlib",
+    "Mathlib.Tactic.IntervalCases"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2022_p5",
+  "slug": "compfiles-usa2022_p5",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.Archimedean.Real.Basic",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Data.Fintype.BigOperators",
+    "Mathlib.Data.Nat.Bitwise",
+    "Mathlib.Data.Nat.Log",
+    "Mathlib.Order.SuccPred.Nat",
+    "Mathlib.Tactic.IntervalCases"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2022P5.lean",
+  "statement_hash": "87cc8eeba4774555ae6a9a4850b62642b7dc966951b7a4f843070a55617f09e3",
+  "title": "USA2022 P5"
+}

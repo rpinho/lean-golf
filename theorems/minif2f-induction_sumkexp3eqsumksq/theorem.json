@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "induction",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.induction_sumkexp3eqsumksq",
+  "slug": "minif2f-induction_sumkexp3eqsumksq",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/induction_sumkexp3eqsumksq.lean",
+  "statement_hash": "3fd059d45cd9ea722a04fc5b3365c88dbcad49a5af412df0cd55733f8e39b1ae",
+  "title": "induction_sumkexp3eqsumksq"
+}

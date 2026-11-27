@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "algebra",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.algebra_amgm_sum1toneqn_prod1tonleq1",
+  "slug": "minif2f-algebra_amgm_sum1toneqn_prod1tonleq1",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/algebra_amgm_sum1toneqn_prod1tonleq1.lean",
+  "statement_hash": "b2c8ef69645188f5de988ba318e9a0b0818240bed399ddae793dfaf75b129a96",
+  "title": "algebra_amgm_sum1toneqn_prod1tonleq1"
+}

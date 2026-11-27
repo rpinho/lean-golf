@@ -1,0 +1,21 @@
+import Mathlib
+
+noncomputable section
+
+open Topology Filter
+
+abbrev putnam_2019_a5_solution : ℕ → ℕ :=
+  (fun p : ℕ => (p - 1) / 2)
+
+theorem LeanGolf.putnambench.putnam_2019_a5
+  (p : ℕ)
+  (q : Polynomial (ZMod p))
+  (a : ℕ → ZMod p)
+  (npoly : ℕ → Polynomial (ZMod p))
+  (podd : Odd p)
+  (pprime : p.Prime)
+  (hq : ∀ k : ℕ, q.coeff k = a k)
+  (ha0 : a 0 = 0 ∧ ∀ k > p - 1, a k = 0)
+  (haother : ∀ k : Set.Icc 1 (p - 1), a k = ((k : ℕ) ^ ((p - 1) / 2)) % p)
+  (hnpoly : ∀ n : ℕ, npoly n = (Polynomial.X - 1) ^ n) :
+  IsGreatest {n | npoly n ∣ q} (putnam_2019_a5_solution p) := by sorry

@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 Elan Roth. All rights reserved. Authors: Elan Roth",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Nat.Basic",
+    "Mathlib.Data.Nat.ModEq",
+    "Mathlib.Data.Nat.GCD.Basic",
+    "Mathlib.Data.Set.Card",
+    "Mathlib.Data.Nat.Prime.Basic",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2016_p1_usa2017p1",
+  "slug": "compfiles-usa2016_p1-usa2017p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2017P1.lean",
+  "statement_hash": "fae32ccec0d8caf98908ff44ad88c6563e3316b08766257cd9ef7e0a7d682919",
+  "title": "Usa2017P1"
+}

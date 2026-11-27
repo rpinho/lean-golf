@@ -1,0 +1,23 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 The Compfiles Contributors. All rights reserved. Authors: Hongyu Ouyang",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Analysis.Real.Pi.Bounds",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1996_p1",
+  "slug": "compfiles-usa1996_p1",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Analysis.Real.Pi.Bounds",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1996P1.lean",
+  "statement_hash": "7a425dbd9dc636226a283d56e403130db2edaa0aff4fe25b730511950e12225a",
+  "title": "USA1996 P1"
+}

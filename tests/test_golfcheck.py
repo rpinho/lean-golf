@@ -3,12 +3,17 @@ import json
 import os
 from pathlib import Path
 import subprocess
+import sys
 import time
 
 import pytest
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from check_source import statement_template  # noqa: E402
+from records import apply, read_history  # noqa: E402
+
 ENV = os.environ | {"PATH": f"{Path.home() / '.elan/bin'}{os.pathsep}{os.environ['PATH']}"}
 AXIOMS = {"propext", "Classical.choice", "Quot.sound"}
 SEEDS = (
@@ -51,6 +56,16 @@ def invoke(packet_path, submission_file):
     result = json.loads(process.stdout)
     assert result.keys() == {"valid", "score", "statement_hash", "axioms", "reason"}
     assert process.returncode == (0 if result["valid"] else 1), (result, process.stderr)
+    return result
+
+
+def fingerprint(packet_path):
+    process = subprocess.run(
+        ["lake", "-q", "--no-build", "exe", "golfcheck", "--statement", str(packet_path)],
+        cwd=ROOT, env=ENV, text=True, capture_output=True, timeout=145,
+    )
+    result = json.loads(process.stdout)
+    assert process.returncode == (0 if result["valid"] else 1), process.stderr
     return result
 
 
@@ -175,6 +190,61 @@ def test_reference_hash_is_checked(packet):
     result = submit(directory, f"{FIXTURE} := True.intro\n")
     rejected(result, "statement_hash does not match Statement.lean")
     assert result["statement_hash"] != "0" * 64
+
+
+def test_contextual_open_theorem_sets_its_first_record(packet, tmp_path):
+    declaration = "theorem _root_.LeanGolf.fixture : Answer"
+    directory = packet()
+    theorems = tmp_path / "theorems"
+    theorems.mkdir()
+    folder = directory.rename(theorems / "fixture")
+    context = """namespace Imported
+def grow : Nat → Nat
+  | 0 => 1
+  | n + 1 => grow n + grow n
+abbrev Answer : Prop := grow 0 = 1"""
+    (folder / "Statement.lean").write_text(f"{context}\n\n{declaration} := by sorry\n")
+    verified_type = fingerprint(folder)
+    assert verified_type["valid"], verified_type
+    policy = folder / "theorem.json"
+    meta = json.loads(policy.read_text())
+    policy.write_text(json.dumps(dict(meta, statement_hash=verified_type["statement_hash"])))
+    reference = (folder / "Statement.lean").read_text()
+    preamble, template = statement_template(reference, meta)
+    request = dict(name=meta["name"], allowed=meta["imports"], reference=reference,
+                   preamble=preamble, template=template.decode())
+    batch_file = tmp_path / "batch.jsonl"
+    batch_file.write_text((json.dumps(request) + "\n") * 2)
+    batch = subprocess.run(
+        ["lake", "-q", "--no-build", "exe", "golfcheck", "--statement-batch", str(batch_file)],
+        cwd=ROOT, env=ENV, text=True, capture_output=True, check=True, timeout=145,
+    )
+    fingerprints = [json.loads(line)["fingerprint"] for line in batch.stdout.splitlines()]
+    assert [hashlib.sha256(item.encode()).hexdigest() for item in fingerprints] == [
+        verified_type["statement_hash"], verified_type["statement_hash"],
+    ]
+    source = f"{declaration} := rfl\n"
+    result = submit(folder, source)
+    assert result["valid"], result
+    assert result["score"] == len("rfl")
+    assert result["statement_hash"] == verified_type["statement_hash"]
+    rejected(submit(folder, f"{context}\n{source}"), "banned token namespace")
+    rejected(submit(folder, f"{declaration.replace('Answer', 'True')} := True.intro\n"),
+             "statement type differs")
+
+    assert not (folder / "record.json").exists()
+    assert apply(tmp_path, "fixture", "Player", 11, "2026-11-27T12:00:00Z", source.encode(), result)
+    assert (folder / "Record.lean").read_text() == source
+    assert json.loads((folder / "record.json").read_text())["score"] == result["score"]
+    assert read_history(tmp_path / "data/history.jsonl")[0]["previous"] is None
+
+
+def test_statement_verifier_rejects_answer_with_sorry(packet):
+    folder = packet()
+    (folder / "Statement.lean").write_text(
+        "abbrev answer : Nat := sorry\ntheorem LeanGolf.fixture : answer = 0 := by sorry\n"
+    )
+    rejected(fingerprint(folder), "statement depends on disallowed axiom sorryAx")
 
 
 def test_scoring_uses_parsed_delimiter_and_only_proof_code_points(packet):

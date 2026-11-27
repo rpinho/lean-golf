@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2022 Violeta Hernández Palacios. All rights reserved. Authors: Violeta Hernández Palacios",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Polynomial.Roots",
+    "Mathlib.Dynamics.PeriodicPts.Defs"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2006_p5",
+  "slug": "compfiles-imo2006_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2006P5.lean",
+  "statement_hash": "039cdd0f944d8b4685543b71db8336a5519ef09a998dd831fb503f1b5f17bc5f",
+  "title": "IMO2006 P5"
+}

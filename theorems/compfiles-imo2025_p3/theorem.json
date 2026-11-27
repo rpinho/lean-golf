@@ -1,0 +1,31 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Authors: Reuven Peleg (Problem statement) , Shahar Blumentzvaig",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Data.ENat.Basic",
+    "Mathlib.NumberTheory.LSeries.PrimesInAP",
+    "Mathlib.NumberTheory.Multiplicity",
+    "Mathlib.Data.Nat.Basic",
+    "Mathlib",
+    "Mathlib.Order.Bounds.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2025_p3",
+  "slug": "compfiles-imo2025_p3",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Data.ENat.Basic",
+    "Mathlib.NumberTheory.LSeries.PrimesInAP",
+    "Mathlib.NumberTheory.Multiplicity",
+    "Mathlib.Data.Nat.Basic",
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Order.Bounds.Basic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2025P3.lean",
+  "statement_hash": "5b48dba5960039dd83a3f7b91bf1d806a8238fcf116d0772a3d4db979101dd20",
+  "title": "IMO2025 P3"
+}

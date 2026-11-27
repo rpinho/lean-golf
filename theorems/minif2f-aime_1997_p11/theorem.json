@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "aime",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.aime_1997_p11",
+  "slug": "minif2f-aime_1997_p11",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/aime_1997_p11.lean",
+  "statement_hash": "d8b01f7193b4d6d8c975753d49385a47c1f772b5974b036f67aaabdab1102325",
+  "title": "aime_1997_p11"
+}

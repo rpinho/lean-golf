@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 David Renshaw. All rights reserved. Authors: David Renshaw, Constantin Seebach",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1991_p6",
+  "slug": "compfiles-imo1991_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1991P6.lean",
+  "statement_hash": "1a98dd65104c85d09a6abbe61036e4b231173635576db1ecc337721d7a6dd65f",
+  "title": "IMO1991 P6"
+}

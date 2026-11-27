@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Intervals",
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.BigOperators.ModEq",
+    "Mathlib.Algebra.Field.ZMod",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Tactic.Ring.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1995_p6",
+  "slug": "compfiles-imo1995_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1995P6.lean",
+  "statement_hash": "8585f1a6e5ab83d41b2e85d78466123317c631b408fcda750e3ce78e2231bf60",
+  "title": "IMO1995 P6"
+}

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "mathd",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.mathd_numbertheory_150",
+  "slug": "minif2f-mathd_numbertheory_150",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/mathd_numbertheory_150.lean",
+  "statement_hash": "85946d2ae87b69478b5739d869d0e01af675c9b4616cb32136c1dc7398b205fa",
+  "title": "mathd_numbertheory_150"
+}

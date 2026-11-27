@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Pacmanboss256",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Analysis.SpecialFunctions.Log.Base"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2016_p4",
+  "slug": "compfiles-usa2016_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2016P4.lean",
+  "statement_hash": "82e1876a79dd00a3cd5cd628d4501a15b80a6953b8f5ecbf62bfcf8576f75eb8",
+  "title": "USA2016 P4"
+}

@@ -1,0 +1,31 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.GCDMonoid.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Analysis.Normed.Field.Lemmas",
+    "Mathlib",
+    "Mathlib.NumberTheory.Padics.PadicVal.Basic",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.LinearCombination.Lemmas"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2009_p6",
+  "slug": "compfiles-usa2009_p6",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.GCDMonoid.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Analysis.Normed.Field.Lemmas",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.NumberTheory.Padics.PadicVal.Basic",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.LinearCombination.Lemmas"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2009P6.lean",
+  "statement_hash": "9191b86f67211650386c4a11cf980fefd1d134cd25061b75850cb68516bc506a",
+  "title": "USA2009 P6"
+}

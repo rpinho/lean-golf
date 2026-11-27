@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2020 Kevin Lacker. All rights reserved. Authors: Kevin Lacker",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Nat.Digits.Lemmas"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1962_p1",
+  "slug": "compfiles-imo1962_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1962P1.lean",
+  "statement_hash": "e25e0b4c8180940abd6c69de224fecd6cbeff571add348e46a100097b240f265",
+  "title": "IMO1962 P1"
+}

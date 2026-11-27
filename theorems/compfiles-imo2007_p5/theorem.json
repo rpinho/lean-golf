@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 The Compfiles Contributors. All rights reserved. Authors: Gian Sanjaya",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Int.ModEq",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2007_p5",
+  "slug": "compfiles-imo2007_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2007P5.lean",
+  "statement_hash": "b585c79bad6bca45e430211fbd5a8b8b01fd703ddd02b2fc5cfb8858bf112267",
+  "title": "IMO2007 P5"
+}

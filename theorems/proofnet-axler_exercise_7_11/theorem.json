@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "difficulty": "Axler",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.proofnet.axler_exercise_7_11",
+  "slug": "proofnet-axler_exercise_7_11",
+  "source": "ProofNet",
+  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Axler.lean",
+  "statement_hash": "082e11fea1c0d3de99dc337d3437bac211e079ebeebfa247b84ba31213b79e5a",
+  "title": "Axler · exercise 7 11"
+}

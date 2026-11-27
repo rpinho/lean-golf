@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2020 Joseph Myers. All rights reserved. Authors: Joseph Myers, Yury Kudryashov",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Analysis.MeanInequalities"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2020_p2",
+  "slug": "compfiles-imo2020_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2020P2.lean",
+  "statement_hash": "2339d15b0903bdbf047ba00a796210a0a3ddc69e4e228474a26917d6a5a239e2",
+  "title": "IMO2020 P2"
+}

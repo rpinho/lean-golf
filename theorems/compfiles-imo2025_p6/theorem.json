@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 lean-tom. All rights reserved. Authors: lean-tom (with assistance from Gemini)",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Analysis.MeanInequalities",
+    "Mathlib.Algebra.Order.Group.Nat",
+    "Mathlib.Data.Finset.Max",
+    "Mathlib.Data.Fintype.Powerset",
+    "Mathlib.Data.Set.Monotone",
+    "Mathlib.Order.Interval.Finset.Nat"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2025_p6",
+  "slug": "compfiles-imo2025_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2025P6.lean",
+  "statement_hash": "0db3f77cc7f2ce7bca8595ec231bea2730fcef51c53915303f7747517369d0b1",
+  "title": "IMO2025 P6"
+}

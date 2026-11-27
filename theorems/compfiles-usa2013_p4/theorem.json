@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2013_p4",
+  "slug": "compfiles-usa2013_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2013P4.lean",
+  "statement_hash": "c9df24c408ceb8d94ce9fdebed7721ee4bbeacda0d9d8508abfd1fa7d47e8d70",
+  "title": "USA2013 P4"
+}

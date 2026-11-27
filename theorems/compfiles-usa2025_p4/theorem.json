@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026. All rights reserved. Authors: Daniel Liao",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2025_p4",
+  "slug": "compfiles-usa2025_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2025P4.lean",
+  "statement_hash": "ceda00bb6bff29ceebfd0153c53983518b07fa43691cdaca26e00b3ef56e7dfa",
+  "title": "USA2025 P4"
+}

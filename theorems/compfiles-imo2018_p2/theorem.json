@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 The Compfiles Contributors. All rights reserved. Authors: Clayton Knittel",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2018_p2",
+  "slug": "compfiles-imo2018_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2018P2.lean",
+  "statement_hash": "bf44ba054bb698bd6b0b7081ec3c64814af3599632fe69ee0335ff1a0a133cd8",
+  "title": "IMO2018 P2"
+}

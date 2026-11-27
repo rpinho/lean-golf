@@ -1,0 +1,25 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2022 Mantas Bakšys. All rights reserved. Authors: Mantas Bakšys",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Algebra.Order.Rearrangement",
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Order.Interval.Finset.Nat"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1975_p1",
+  "slug": "compfiles-imo1975_p1",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Algebra.Order.Rearrangement",
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Order.Interval.Finset.Nat"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1975P1.lean",
+  "statement_hash": "a0869e1f05dcc756d4bd2011b708c46bed3301d2b08742e4220650c6ea4cda3c",
+  "title": "IMO1975 P1"
+}

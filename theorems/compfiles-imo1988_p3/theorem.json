@@ -1,0 +1,19 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: InternLM-MATH LEAN Formalizer v0.1, Goedel-Prover-V2",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Nat.Digits.Lemmas",
+    "Mathlib.Data.List.Palindrome",
+    "Mathlib.Data.PNat.Basic",
+    "Mathlib.Data.Set.Card"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1988_p3",
+  "slug": "compfiles-imo1988_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1988P3.lean",
+  "statement_hash": "a4e21210b94a5298764baac4f23a59862dc58ea34ed1b31a68ab5ac748762234",
+  "title": "IMO1988 P3"
+}

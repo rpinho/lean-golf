@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 Roozbeh Yousefzadeh. All rights reserved. Authors: Roozbeh Yousefzadeh",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1978_p5",
+  "slug": "compfiles-imo1978_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1978P5.lean",
+  "statement_hash": "c4b98465afdb1e1f03bb47125ce17ecfde8439b28e70d86677394334947ba279",
+  "title": "IMO1978 P5"
+}

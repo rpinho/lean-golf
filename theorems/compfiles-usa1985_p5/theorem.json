@@ -1,0 +1,19 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Group.Finset.Piecewise",
+    "Mathlib.Algebra.BigOperators.Group.Finset.Sigma",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.NormNum.BigOperators"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1985_p5",
+  "slug": "compfiles-usa1985_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1985P5.lean",
+  "statement_hash": "d3954b9076dc3104b3f0baf23531902b77b626d16f468cc6852956496017f6c3",
+  "title": "USA1985 P5"
+}

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 Gian Cordana Sanjaya. All rights reserved. Authors: Gian Cordana Sanjaya",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2017_p2",
+  "slug": "compfiles-imo2017_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2017P2.lean",
+  "statement_hash": "33e8805143cca5d65fab4d856e6f80c3550c682427e97f9510ea282f45af46a1",
+  "title": "IMO2017 P2"
+}

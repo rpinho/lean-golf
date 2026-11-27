@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Karl Mehltretter",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Int.Basic",
+    "Mathlib.Data.Nat.Digits.Defs",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1996_p6",
+  "slug": "compfiles-usa1996_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1996P6.lean",
+  "statement_hash": "70b54364c5f6239d902e8a7876bd0d9a4188283623e1a9977750918177ae6c28",
+  "title": "USA1996 P6"
+}

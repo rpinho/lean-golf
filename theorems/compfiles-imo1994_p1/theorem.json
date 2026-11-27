@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2021 Antoine Labelle. All rights reserved. Authors: Antoine Labelle",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Group.Fin.Basic",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Data.Finset.Sort",
+    "Mathlib.Order.Interval.Finset.Fin",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.ByContra"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1994_p1",
+  "slug": "compfiles-imo1994_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1994P1.lean",
+  "statement_hash": "44907d278f1ab96abcdd3df67f4b1bdfc612615ce38ba49c01e69cf0d02965d0",
+  "title": "IMO1994 P1"
+}

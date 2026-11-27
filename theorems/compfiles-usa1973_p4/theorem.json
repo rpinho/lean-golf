@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Contributors. All rights reserved. Authors: Shalev Wengrowsky",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Tactic.LinearCombination"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1973_p4",
+  "slug": "compfiles-usa1973_p4",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Complex.Basic",
+    "Mathlib.Tactic.LinearCombination"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1973P4.lean",
+  "statement_hash": "4ce1311e8f0e7fb46203a7696258aae74365cd00fdf846028ad5aa5802db6b2a",
+  "title": "USA1973 P4"
+}

@@ -1,0 +1,41 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Associated",
+    "Mathlib.Algebra.CharP.Defs",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Algebra.Order.Star.Real",
+    "Mathlib.Data.Nat.Cast.Order.Field",
+    "Mathlib.Data.Nat.Factorization.Basic",
+    "Mathlib.Data.Nat.Log",
+    "Mathlib",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Positivity.Basic",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2014_p6",
+  "slug": "compfiles-usa2014_p6",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.BigOperators.Associated",
+    "Mathlib.Algebra.CharP.Defs",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Algebra.Order.Star.Real",
+    "Mathlib.Data.Nat.Cast.Order.Field",
+    "Mathlib.Data.Nat.Factorization.Basic",
+    "Mathlib.Data.Nat.Log",
+    "Mathlib.Algebra.Order.Star.Rat",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Positivity.Basic",
+    "Mathlib.Tactic.Ring"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2014P6.lean",
+  "statement_hash": "77ada90fb8628b0d1c5d4b833a42899e2af4d444a86da150c9f9d0880f896af4",
+  "title": "USA2014 P6"
+}

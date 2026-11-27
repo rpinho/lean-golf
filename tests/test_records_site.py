@@ -15,7 +15,7 @@ SLUG = "inf-primes"
 TIMESTAMP = "2026-11-27T01:00:00Z"
 RESULT = json.loads((FIXTURE / "verified.json").read_text())
 sys.path.insert(0, str(ROOT / "scripts"))
-from records import apply, read_history, read_json  # noqa: E402
+from records import apply, read_history, read_json, write_json  # noqa: E402
 from check_workflows import test_workflow_boundaries  # noqa: E402, F401
 
 
@@ -98,3 +98,55 @@ def test_site_and_svg_are_deterministic(tmp_path):
     assert "2026-11-27" in texts
     assert any("Nat.exists_infinite_primes -- < & >" in text for text in texts)
     assert b"&lt; &amp; &gt;" in generated[path]
+
+
+def test_mixed_catalog_paginates_and_open_theorem_gets_history(tmp_path):
+    root = shutil.copytree(FIXTURE, tmp_path / "fixture")
+    for number in range(51):
+        slug = f"minif2f-example-{number:02}"
+        folder = root / "theorems" / slug
+        folder.mkdir()
+        name = f"LeanGolf.fixture{number}"
+        write_json(folder / "theorem.json", {
+            "slug": slug, "name": name, "title": f"Example {number}",
+            "statement_hash": RESULT["statement_hash"], "source": "miniF2F",
+            "source_url": "https://example.org/pinned/Example.lean",
+            "license": "MIT", "credit": "Example contributor",
+            "difficulty": "imo" if number == 50 else "amc",
+        })
+        (folder / "Statement.lean").write_text(f"theorem {name} : True := by sorry\n")
+
+    first, second, updated = (tmp_path / name for name in ("first", "second", "updated"))
+    run_build(root, first)
+    run_build(root, second)
+    generated = files(first)
+    assert generated == files(second)
+    assert b"<strong>51</strong> open" in generated["index.html"]
+    assert b"<strong>1</strong> records set" in generated["index.html"]
+    assert generated["index.html"].index(b"Seed theorems") < generated["index.html"].index(b"miniF2F")
+    all_first = "catalog/minif2f/index.html"
+    all_second = "catalog/minif2f/page/2/index.html"
+    filtered = "catalog/minif2f/difficulty/imo/index.html"
+    assert b"Example 50" not in generated[all_first]
+    assert b"catalog/minif2f/page/2/" in generated[all_first]
+    assert b"Example 50" in generated[all_second]
+    assert b"Example 50" in generated[filtered] and b"Example 49" not in generated[filtered]
+    target = "theorems/minif2f-example-50"
+    assert b"open: first valid proof sets the record" in generated[f"{target}/index.html"]
+    assert f"{target}/record.svg" not in generated
+
+    slug = "minif2f-example-50"
+    proof = b"theorem LeanGolf.fixture50 : True := by trivial\n"
+    apply(root, slug, "first", 11, TIMESTAMP, proof, RESULT)
+    assert read_json(root / "data/leaderboard.json")[0] == {
+        "login": "first", "records_held": 1, "records_ever_set": 1, "characters_saved": 0,
+    }
+    apply(root, slug, "second", 12, TIMESTAMP, proof, dict(RESULT, score=7))
+    assert {row["login"]: row["characters_saved"] for row in
+            read_json(root / "data/leaderboard.json")} == {"first": 0, "second": 12, "fixture-player": 0}
+    run_build(root, updated)
+    assert b"<strong>50</strong> open" in (updated / "index.html").read_bytes()
+    assert b"<strong>2</strong> records set" in (updated / "index.html").read_bytes()
+    assert (updated / target / "record.svg").is_file()
+    page = (updated / target / "index.html").read_bytes()
+    assert b"Record history" in page and b"@first" in page and b"@second" in page

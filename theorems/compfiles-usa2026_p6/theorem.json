@@ -1,0 +1,23 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Data.Nat.Totient",
+    "Mathlib.Data.Nat.Fib.Basic",
+    "Mathlib.Data.Nat.Factorization.PrimePow",
+    "Mathlib.Data.Nat.PrimeFin",
+    "Mathlib.Data.ZMod.Basic",
+    "Mathlib.FieldTheory.Finite.Basic",
+    "Mathlib.GroupTheory.OrderOfElement"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2026_p6",
+  "slug": "compfiles-usa2026_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2026P6.lean",
+  "statement_hash": "a5a4ecc59488a0b81d4d4f0143df67e1f359a104cd9d4972264d0a8a1be94c59",
+  "title": "USA2026 P6"
+}

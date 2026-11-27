@@ -1,0 +1,22 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Field.ZMod",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Data.Fin.VecNotation",
+    "Mathlib.Data.Fintype.Perm",
+    "Mathlib.Order.CompletePartialOrder",
+    "Mathlib.Tactic.IntervalCases"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2000_p4",
+  "slug": "compfiles-imo2000_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2000P4.lean",
+  "statement_hash": "fcf6629e2f0ad4c63ccbc832ed2425604ed5afaa593a325db09e815b25525ca6",
+  "title": "IMO2000 P4"
+}

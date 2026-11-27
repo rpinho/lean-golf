@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Contributors. All rights reserved. Authors: Evan Chen",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Analysis.SpecialFunctions.Pow.Real"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1997_p5",
+  "slug": "compfiles-usa1997_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1997P5.lean",
+  "statement_hash": "9294f69dd4337b55b8cd6e33c6a5c796570cf03b8a865398cd8bab3187f3303c",
+  "title": "USA1997 P5"
+}

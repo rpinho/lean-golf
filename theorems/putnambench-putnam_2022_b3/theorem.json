@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "difficulty": "2022 B3",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.putnambench.putnam_2022_b3",
+  "slug": "putnambench-putnam_2022_b3",
+  "source": "PutnamBench",
+  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2022_b3.lean",
+  "statement_hash": "a0849f253c079dd31e1be1a8677ccdec9133cf3b7ce0d5eeae467466c3172394",
+  "title": "Putnam 2022 B3"
+}

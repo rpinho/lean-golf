@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Markus Rydh, Codex",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2007_p6",
+  "slug": "compfiles-imo2007_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2007P6.lean",
+  "statement_hash": "aed568154c230cdaa7e7150b0ae23f0e2e353a6a639830baefca78e278f96b6e",
+  "title": "IMO2007 P6"
+}

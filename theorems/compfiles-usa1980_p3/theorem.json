@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 pacmanboss256. All rights reserved. Authors: Pacmanboss256, hillosanation",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1980_p3",
+  "slug": "compfiles-usa1980_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1980P3.lean",
+  "statement_hash": "f907a37866231f8c53cb704024c8eca36efac0ebaef8f77bae55fe26389b767e",
+  "title": "USA1980 P3"
+}

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "difficulty": "1991 B2",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.putnambench.putnam_1991_b2",
+  "slug": "putnambench-putnam_1991_b2",
+  "source": "PutnamBench",
+  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1991_b2.lean",
+  "statement_hash": "3c7305ae5ce7856f55c2676d56ac944844a64d59a8c7d26b00138e42b7f980bd",
+  "title": "Putnam 1991 B2"
+}

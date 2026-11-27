@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1985_p1",
+  "slug": "compfiles-usa1985_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1985P1.lean",
+  "statement_hash": "f98d364db652dfa14577f199896037378817ab26cf128e41ec52df54a9702c5e",
+  "title": "USA1985 P1"
+}

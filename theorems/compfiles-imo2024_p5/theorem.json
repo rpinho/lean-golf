@@ -1,0 +1,22 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Joseph Myers. All rights reserved. Authors: Joseph Myers",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Fin.VecNotation",
+    "Mathlib.Data.List.ChainOfFn",
+    "Mathlib.Data.List.TakeWhile",
+    "Mathlib.Data.Nat.Dist",
+    "Mathlib.Data.Fintype.Fin",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.IntervalCases"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2024_p5",
+  "slug": "compfiles-imo2024_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2024P5.lean",
+  "statement_hash": "a9992e8371bf519bf0066cbfbeb48b7ba5217b498918cea49eddbfc4ced5d887",
+  "title": "IMO2024 P5"
+}

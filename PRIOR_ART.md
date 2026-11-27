@@ -1,0 +1,11 @@
+# Prior art
+
+Reviewed locally on 2026-11-27. The job's offline constraint prevented inspecting live scoreboards, open PRs, paper revisions, or community discussion. The source READMEs and pinned history below supply the available evidence. This import makes no benchmark or novelty claim.
+
+- Lean Golf baseline at `3b02f04` has ten seeded theorem packets, an empty tracked leaderboard and history, and a static site that reads `record.json` to discover theorem pages. The checkout exposes only `origin/main` as a remote tracking ref. Its locally available history and workflows are the baseline for the [official repository and scoreboard source](https://github.com/rpinho/lean-golf).
+- miniF2F uses separate Valid and Test directories in the [Lean 4 port, 2026-03-25](https://github.com/yangky11/miniF2F-lean4/tree/5746b7d6c47855ce1294bed87329618ff7f1bc31). Its README credits the [miniF2F paper, 2021](https://arxiv.org/abs/2109.00110) and points to the OpenAI and Meta code.
+- PutnamBench's [pinned README, 2026-10-06](https://github.com/trishullab/PutnamBench/tree/a635813f5edf297d928f9bd5ef8324a26bdde09c) reports 672 Lean 4 formalizations and explains the two evaluation modes for factored answers. It links to its [official leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html) and [paper, 2024](https://arxiv.org/abs/2407.11214). It requests private proof handling for its own benchmark.
+- Compfiles documents its `problem` and `determine` commands and extraction convention in its [pinned README, 2026-11-04](https://github.com/dwrensha/compfiles/tree/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a). Its [dashboard](https://dwrensha.github.io/compfiles/) reports upstream coverage. The importer uses the documented declaration convention and does its own extraction.
+- The [ProofNet Lean 4 port, 2025-06-09](https://github.com/rahul3613/ProofNet-lean4/tree/6deae98b38954dadf732746d023e8be65c56f246) credits [original ProofNet](https://github.com/zhangir-azerbayev/ProofNet). The port organizes its formal statements by textbook.
+
+Baseline reproduction ran `lake -q exe golfcheck theorems/cantor theorems/cantor/Record.lean` on the pinned local toolchain. It returned `valid: true`, 133 characters, no axioms, and fingerprint `1374fa9eeaec6d155d013a23ea40177c8010d1936a73731c7b6a69e457300cd0`.

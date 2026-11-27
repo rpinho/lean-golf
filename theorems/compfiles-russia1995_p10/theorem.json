@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Contributors. All rights reserved. Authors: Maximiliano Onofre Martínez",
+  "difficulty": "Russia",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Data.Nat.GCD.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.russia1995_p10",
+  "slug": "compfiles-russia1995_p10",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Russia1995P10.lean",
+  "statement_hash": "11857e70ffce6081d8f8414f7d614b8bf74eed729e74a54d52c13b1bab272de0",
+  "title": "RUSSIA1995 P10"
+}

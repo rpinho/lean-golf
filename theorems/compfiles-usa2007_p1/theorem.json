@@ -1,0 +1,20 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+    "Mathlib.Algebra.Order.Group.Nat",
+    "Mathlib.Order.Lattice.Nat",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Tactic.Ring.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2007_p1",
+  "slug": "compfiles-usa2007_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2007P1.lean",
+  "statement_hash": "93c45be5dc54c2666f78d22ad799e1c3809ad3cdea057f687e50d4a434ef2c4c",
+  "title": "USA2007 P1"
+}

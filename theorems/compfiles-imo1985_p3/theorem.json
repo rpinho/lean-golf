@@ -1,0 +1,20 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.CharP.Lemmas",
+    "Mathlib.Algebra.Field.ZMod",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.RingTheory.Polynomial.Basic",
+    "Mathlib.Tactic.NormNum"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1985_p3",
+  "slug": "compfiles-imo1985_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1985P3.lean",
+  "statement_hash": "4c80e4835da91496312e6be178034b40c2cce577806c487cd832bd4986117901",
+  "title": "IMO1985 P3"
+}

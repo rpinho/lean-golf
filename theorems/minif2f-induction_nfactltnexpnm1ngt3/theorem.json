@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "induction",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.induction_nfactltnexpnm1ngt3",
+  "slug": "minif2f-induction_nfactltnexpnm1ngt3",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/induction_nfactltnexpnm1ngt3.lean",
+  "statement_hash": "cbba334ba120c37c9852195fcf1fe45c0e612630b5ce6dc53c719f0b1f1f57da",
+  "title": "induction_nfactltnexpnm1ngt3"
+}

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: short_c1rcuit",
+  "difficulty": "UK",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.uk2024_r1_p2",
+  "slug": "compfiles-uk2024_r1_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/UK2024R1P2.lean",
+  "statement_hash": "083c4c7a324b502feb77871be4bbf03e8ae9f6585864d33eddaaa8c55f6f32bf",
+  "title": "UK2024 R1 P2"
+}

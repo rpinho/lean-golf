@@ -1,0 +1,25 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan",
+    "Mathlib.Analysis.MeanInequalities",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1998_p3",
+  "slug": "compfiles-usa1998_p3",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan",
+    "Mathlib.Analysis.MeanInequalities",
+    "Mathlib.Tactic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1998P3.lean",
+  "statement_hash": "5d3d7aabaf3ec9d44fe8214c9f95c15ca76fe49981ea0d3d7fb3f7ba88e0d9c7",
+  "title": "USA1998 P3"
+}

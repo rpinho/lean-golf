@@ -1,0 +1,26 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2011_p6_sharp",
+  "slug": "compfiles-usa2011_p6_sharp",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Order.Int.ConditionallyCompleteOrder",
+    "Mathlib.Algebra.Order.Star.Int"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2011P6.lean",
+  "statement_hash": "fc8f779f540fd19afb106452ba6e04e1b178366cb2c8f243c71d2d6e75dc37aa",
+  "title": "USA2011 P6 SHARP"
+}

@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2022 Joseph Myers. All rights reserved. Authors: Joseph Myers",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Geometry.Euclidean.Angle.Sphere",
+    "Mathlib.Geometry.Euclidean.Sphere.SecondInter"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2019_p2",
+  "slug": "compfiles-imo2019_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2019P2.lean",
+  "statement_hash": "7cb90ef654b242e715fe385281904e2a294b30e1f006e657d579c4c32ce87416",
+  "title": "IMO2019 P2"
+}

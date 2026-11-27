@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "algebra",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.algebra_2rootsintpoly_am10tap11eqasqpam110",
+  "slug": "minif2f-algebra_2rootsintpoly_am10tap11eqasqpam110",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/algebra_2rootsintpoly_am10tap11eqasqpam110.lean",
+  "statement_hash": "18982d511461d2e62b7b44ff7567153b3e55c6716f1a5aef6ac76d0f4a03d459",
+  "title": "algebra_2rootsintpoly_am10tap11eqasqpam110"
+}

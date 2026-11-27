@@ -1,0 +1,23 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "Romania",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.romania1998_p12",
+  "slug": "compfiles-romania1998_p12",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+    "Mathlib.Tactic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Romania1998P12.lean",
+  "statement_hash": "f2fdf1811b4a7546a22d04b241f3041cae6a210192680bc7e8f5a35364955cd5",
+  "title": "ROMANIA1998 P12"
+}

@@ -1,0 +1,28 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2021 Manuel Candales. All rights reserved. Authors: Manuel Candales",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Data.Nat.Prime.Basic",
+    "Mathlib.NumberTheory.PrimesCongruentOne",
+    "Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity",
+    "Mathlib.Tactic.LinearCombination"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2008_p3",
+  "slug": "compfiles-imo2008_p3",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib",
+    "Mathlib.Data.Nat.Prime.Basic",
+    "Mathlib.NumberTheory.PrimesCongruentOne",
+    "Mathlib.NumberTheory.LegendreSymbol.QuadraticReciprocity",
+    "Mathlib.Tactic.LinearCombination"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2008P3.lean",
+  "statement_hash": "bce75d7b337250352aba55398205c92fc3b935c8547b5ba4126b1f8c44594e6b",
+  "title": "IMO2008 P3"
+}

@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Authors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.CharP.Defs",
+    "Mathlib.Algebra.Order.Archimedean.Real.Basic",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Data.Finset.Max",
+    "Mathlib.Data.Set.Finite.Lattice",
+    "Mathlib.Order.ConditionallyCompleteLattice.Indexed"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2000_p3",
+  "slug": "compfiles-imo2000_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2000P3.lean",
+  "statement_hash": "ecda948c5e33b387d4e88348f7c7cd5624a0a890ad827f5054cc45d4031e0ddd",
+  "title": "IMO2000 P3"
+}

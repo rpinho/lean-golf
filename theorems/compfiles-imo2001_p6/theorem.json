@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2021 Sara Díaz Real. All rights reserved. Authors: Sara Díaz Real",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2001_p6",
+  "slug": "compfiles-imo2001_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2001P6.lean",
+  "statement_hash": "d48d4effeccfa140327dd21f31b847e69cae63c090dba2ad586b523aa7141b16",
+  "title": "IMO2001 P6"
+}

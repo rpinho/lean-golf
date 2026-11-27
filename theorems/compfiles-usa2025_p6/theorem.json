@@ -1,0 +1,38 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Algebra.BigOperators.Fin",
+    "Mathlib.Algebra.BigOperators.Intervals",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Combinatorics.Hall.Basic",
+    "Mathlib",
+    "Mathlib.Data.ZMod.Basic",
+    "Mathlib.Tactic.Abel",
+    "Mathlib.Tactic.Linarith.Lemmas",
+    "Mathlib.Tactic.Ring.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2025_p6",
+  "slug": "compfiles-usa2025_p6",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Algebra.BigOperators.Fin",
+    "Mathlib.Algebra.BigOperators.Intervals",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Combinatorics.Hall.Basic",
+    "Mathlib.Order.Int.ConditionallyCompleteOrder",
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Data.ZMod.Basic",
+    "Mathlib.Tactic.Abel",
+    "Mathlib.Tactic.Linarith.Lemmas",
+    "Mathlib.Tactic.Ring.Basic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2025P6.lean",
+  "statement_hash": "a8f51115b0965f002945c13c046b6fcb0cbe4807cbbcf9b231b559acef22d305",
+  "title": "USA2025 P6"
+}

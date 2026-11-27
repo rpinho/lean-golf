@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "algebra",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.algebra_bleqa_apbon2msqrtableqambsqon8b",
+  "slug": "minif2f-algebra_bleqa_apbon2msqrtableqambsqon8b",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/algebra_bleqa_apbon2msqrtableqambsqon8b.lean",
+  "statement_hash": "8bbf7f037e355f2a5cdd23666b3fa75ac18e4623fd90dda64ff48fe38ed4ab51",
+  "title": "algebra_bleqa_apbon2msqrtableqambsqon8b"
+}

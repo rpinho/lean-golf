@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 Jeremy Tan. All rights reserved. Authors: Jeremy Tan",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Algebra.Order.Group.Int.Sum"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2015_p6",
+  "slug": "compfiles-imo2015_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2015P6.lean",
+  "statement_hash": "7614f2f0b6378e09c08f284a7102361a3c05376694a5e6ad79d5e67cb4317c7c",
+  "title": "IMO2015 P6"
+}

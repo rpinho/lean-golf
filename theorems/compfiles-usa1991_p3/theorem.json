@@ -1,0 +1,24 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib",
+    "Mathlib.FieldTheory.Finite.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1991_p3",
+  "slug": "compfiles-usa1991_p3",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Order.Int.ConditionallyCompleteOrder",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.FieldTheory.Finite.Basic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1991P3.lean",
+  "statement_hash": "7e1cf2cd685998751443767dc20d50cdc68d9c12406f8d5ebf723d17b77ca4f6",
+  "title": "USA1991 P3"
+}

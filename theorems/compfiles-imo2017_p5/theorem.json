@@ -1,0 +1,33 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Data.Finset.Fin",
+    "Mathlib",
+    "Mathlib.Data.ZMod.Defs",
+    "Mathlib.Order.Interval.Finset.Nat",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2017_p5",
+  "slug": "compfiles-imo2017_p5",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Data.Finset.Fin",
+    "Mathlib.Order.SuccPred.Nat",
+    "Mathlib.Data.ZMod.Defs",
+    "Mathlib.Order.Interval.Finset.Nat",
+    "Mathlib.Tactic.Ring"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2017P5.lean",
+  "statement_hash": "581da5bab84c8a7e6de53ffdba3a97e5b4c3f67fe9f65a3575e612af4b110941",
+  "title": "IMO2017 P5"
+}

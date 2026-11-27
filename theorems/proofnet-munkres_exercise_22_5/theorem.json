@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "difficulty": "Munkres",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.proofnet.munkres_exercise_22_5",
+  "slug": "proofnet-munkres_exercise_22_5",
+  "source": "ProofNet",
+  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Munkres.lean",
+  "statement_hash": "ee716bceb7b7466a368e067aef56aea393a7175bd7b8c18141b0f37497c450a9",
+  "title": "Munkres · exercise 22 5"
+}

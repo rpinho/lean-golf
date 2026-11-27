@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "difficulty": "Pugh",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.proofnet.pugh_exercise_2_126",
+  "slug": "proofnet-pugh_exercise_2_126",
+  "source": "ProofNet",
+  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Pugh.lean",
+  "statement_hash": "4fc06fda2b63ebdf0f312a95a653e3593936cee0bb7b956add6fd5404a4d0f92",
+  "title": "Pugh · exercise 2 126"
+}

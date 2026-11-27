@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Evan Chen, Kenny Lau, Jujian Zhang",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2015_p5",
+  "slug": "compfiles-usa2015_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2015P5.lean",
+  "statement_hash": "723fc557c3702c1e337f79121429b34ddadd7ae3b33d53316c39b08ff86b9ac9",
+  "title": "USA2015 P5"
+}

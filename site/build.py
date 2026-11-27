@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Render the public leaderboard, theorem and user pages, and SVG cards."""
 import argparse
+from collections import defaultdict
 from html import escape
 from pathlib import Path
 import re
@@ -9,12 +10,13 @@ import sys
 import textwrap
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from records import current_records, read_history, read_json, totals
+from records import characters_saved, current_records, read_history, read_json, totals
 
 
 REPO = "https://github.com/rpinho/lean-golf"
 STYLESHEET = Path(__file__).with_name("style.css")
 INVALID_XML = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\ufffe\uffff]")
+PAGE_SIZE = 50
 
 
 def html_page(title, prefix, body):
@@ -74,15 +76,21 @@ def write_page(path, title, prefix, body):
 
 def theorem_source(folder):
     statement = (folder / "Statement.lean").read_text(encoding="utf-8").strip()
-    record = (folder / "Record.lean").read_text(encoding="utf-8").strip()
-    declaration = re.split(r"(?m)^\s*(?=theorem\s)", statement, maxsplit=1)[-1]
+    before, declaration = re.split(r"(?m)^(?=theorem\s)", statement, maxsplit=1)
     declaration = re.sub(r"\s*:=\s*by\s+sorry\s*$", "", declaration)
+    imports = re.match(r"(?:import [^\n]+\n)*", before)[0]
+    context = before[len(imports):].strip()
+    return declaration, imports, context
+
+
+def record_source(folder, declaration):
+    record = (folder / "Record.lean").read_text(encoding="utf-8").strip()
     record_body = re.split(r"(?m)^\s*(?=theorem\s)", record, maxsplit=1)[-1]
     if record_body.startswith(declaration) and record_body[len(declaration):].lstrip().startswith(":="):
         proof = record_body[len(declaration):].lstrip()[2:].lstrip()
     else:
         proof = record_body
-    return declaration, proof, record
+    return proof, record
 
 
 def xml(text):
@@ -137,42 +145,159 @@ def svg_card(title, statement, proof, record):
 """
 
 
+def catalog_key(label):
+    return re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
+
+
+def catalog_rows(packets, records, prefix):
+    for slug, meta in packets:
+        record = records.get(slug)
+        yield (theorem_link(slug, meta["title"], prefix), escape(meta.get("difficulty", "")),
+               f'{record["score"]} characters' if record else "Open")
+
+
+def build_catalog(out, source, packets, records):
+    source_path = f"catalog/{catalog_key(source)}"
+    difficulties = defaultdict(list)
+    for item in packets:
+        difficulty = item[1].get("difficulty", "Unclassified")
+        # Readers choose a year first, then see its A/B problem labels together.
+        parts = difficulty.split()
+        if source == "PutnamBench" and len(parts) == 2:
+            for part in parts:
+                difficulties[part].append(item)
+        else:
+            difficulties[difficulty].append(item)
+    def pages(path, entries, group=None):
+        label = source if group is None else f"{source} · {group}"
+        count = (len(entries) + PAGE_SIZE - 1) // PAGE_SIZE
+        for index in range(count):
+            number = index + 1
+            relative = path if index == 0 else f"{path}/page/{number}"
+            prefix = "../" * len(relative.split("/"))
+            rows = catalog_rows(entries[index * PAGE_SIZE:number * PAGE_SIZE], records, prefix)
+            body = table(("Theorem", "Difficulty", "Record"), rows)
+            links = []
+            for page in range(1, count + 1):
+                href = path if page == 1 else f"{path}/page/{page}"
+                if page == number:
+                    links.append(f'<span aria-current="page">{page}</span>')
+                else:
+                    links.append(f'<a href="{prefix}{href}/">{page}</a>')
+            nav = (f'<nav class="pagination" aria-label="Catalog pages">{" ".join(links)}</nav>'
+                   if links else "")
+            source_link = f'<a href="{prefix}{source_path}/">All {escape(source)} theorems</a>'
+            filter_links = "".join(
+                f'<li><a href="{prefix}{source_path}/difficulty/{catalog_key(option)}/">'
+                f'{escape(option)}</a></li>' for option in sorted(difficulties)
+            )
+            filter_nav = (f'<details><summary>Filter by difficulty</summary><ul class="filters">'
+                          f"{filter_links}</ul></details>" if group is None else f"<p>{source_link}</p>")
+            write_page(out / relative / "index.html", label, prefix, f"""
+<h1>{escape(label)}</h1>
+<p>{len(entries)} theorems</p>
+{filter_nav}
+{body}
+{nav}
+""")
+
+    pages(source_path, packets)
+    for group, entries in sorted(difficulties.items()):
+        pages(f"{source_path}/difficulty/{catalog_key(group)}", entries, group)
+
+
+def theorem_credit(meta):
+    url = meta.get("source_url", "")
+    if not url.startswith("https://"):
+        return ""
+    source = escape(meta["source"])
+    return (f'<p class="theorem-credit"><a href="{escape(url)}">{source}</a>'
+            f' · {escape(meta["difficulty"])} · {escape(meta["license"])}'
+            f'<br>{escape(meta["credit"])}</p>')
+
+
 def build(root, out):
     records = current_records(root)
     history = read_history(root / "data" / "history.jsonl")
     theorems = root / "theorems"
-    titles = {slug: read_json(theorems / slug / "theorem.json")["title"] for slug in records}
+    packets = {path.parent.name: read_json(path)
+               for path in sorted(theorems.glob("*/theorem.json"))}
+    titles = {slug: meta["title"] for slug, meta in packets.items()}
+    groups = defaultdict(list)
+    seeds = []
+    for slug, meta in packets.items():
+        if meta.get("source_url"):
+            groups[meta["source"]].append((slug, meta))
+        else:
+            seeds.append((slug, meta))
+    events_by_slug = defaultdict(list)
+    for event in history:
+        events_by_slug[event["slug"]].append(event)
     users = totals(records, history)
     out.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(STYLESHEET, out / "style.css")
     (out / ".nojekyll").write_text("", encoding="utf-8")
-    board = table(("Theorem", "Characters", "Holder", "Date"),
-                  record_rows(records, titles, "")) if records else "<p>No theorems yet.</p>"
+    seed_rows = []
+    for slug, meta in seeds:
+        if slug in records:
+            seed_rows.extend(record_rows({slug: records[slug]}, titles, ""))
+        else:
+            seed_rows.append((theorem_link(slug, meta["title"], ""), "Open", "", ""))
+    board = (table(("Theorem", "Characters", "Holder", "Date"), seed_rows)
+             if seed_rows else "")
+    group_rows = []
+    for source, items in sorted(groups.items()):
+        recorded = sum(slug in records for slug, _ in items)
+        group_rows.append((f'<a href="catalog/{catalog_key(source)}/">{escape(source)}</a>',
+                           str(len(items) - recorded), str(recorded)))
+        build_catalog(out, source, items, records)
+    catalog = (table(("Source", "Open", "Records set"), group_rows)
+               if group_rows else "")
+    seed_section = (f'<section aria-labelledby="records"><h2 id="records">Seed theorems</h2>'
+                    f'{board}</section>' if board else "")
+    group_section = (f'<section aria-labelledby="catalog"><h2 id="catalog">Theorems by source</h2>'
+                     f'{catalog}</section>' if catalog else "")
     player_rows = [(user_link(row["login"], ""), str(row["records_held"]),
                     str(row["records_ever_set"]), str(row["characters_saved"])) for row in users]
     players = table(("Player", "Held", "Ever set", "Characters saved"), player_rows) if users else ""
     write_page(out / "index.html", "Lean Golf", "", f"""
 <h1>The leaderboard</h1>
 <p>Shortest Lean 4 proofs. Scores count non-whitespace proof characters after comments are stripped.</p>
-<section aria-labelledby="records"><h2 id="records">Theorem records</h2>{board}</section>
+<p class="record"><strong>{len(packets) - len(records)}</strong> open · <strong>{len(records)}</strong> records set</p>
+{seed_section}
+{group_section}
 <section aria-labelledby="players"><h2 id="players">Players</h2>{players or "<p>No players yet.</p>"}</section>
 """)
 
-    for slug, record in records.items():
+    for slug, meta in packets.items():
         title = titles[slug]
         folder = theorems / slug
         target = out / "theorems" / slug
-        statement, proof, full_record = theorem_source(folder)
-        events = [event for event in history if event["slug"] == slug]
+        statement, imports, context = theorem_source(folder)
+        credit = theorem_credit(meta)
+        details = (f"<details><summary>Trusted statement context</summary>{code(context)}</details>"
+                   if context else "")
+        if slug not in records:
+            write_page(target / "index.html", f"{title} · Lean Golf", "../../", f"""
+<h1>{escape(title)}</h1>
+<p class="record">open: first valid proof sets the record</p>
+{credit}
+<section><h2>Statement</h2>{code(imports + statement)}{details}</section>
+""")
+            continue
+        record = records[slug]
+        proof, full_record = record_source(folder, statement)
+        events = events_by_slug[slug]
         event_rows = reversed([events[0]["previous"], *events] if events else [record])
         changes = table(("Holder", "Characters", "Date"), [
             (user_link(event["holder"], "../../"), str(event["score"]), date(event["utc"]))
-            for event in event_rows
+            for event in event_rows if event is not None
         ])
         write_page(target / "index.html", f"{title} · Lean Golf", "../../", f"""
 <h1>{escape(title)}</h1>
 <p class="record"><strong>{record["score"]}</strong> characters · {user_link(record["holder"], "../../")} · {date(record["utc"])}</p>
-<section><h2>Statement</h2>{code(statement)}</section>
+{credit}
+<section><h2>Statement</h2>{code(imports + statement)}{details}</section>
 <section><h2>Record proof</h2>{code(full_record)}<p><a href="record.svg">Record card (SVG)</a></p></section>
 <section><h2>Record history</h2>{changes}</section>
 """)
@@ -182,18 +307,18 @@ def build(root, out):
         login = user["login"]
         held = {slug: record for slug, record in records.items() if record["holder"].lower() == login}
         rows = [(theorem_link(event["slug"], titles[event["slug"]], "../../"), str(event["score"]),
-                 str(event["previous"]["score"] - event["score"]), date(event["utc"]))
+                 str(characters_saved(event)), date(event["utc"]))
                 for event in reversed(history)
                 if event["holder"].lower() == login and event["slug"] in titles]
         current = table(("Theorem", "Characters", "Holder", "Date"),
                         record_rows(held, titles, "../../")) if held else "<p>No current records.</p>"
         changes = (table(("Theorem", "Characters", "Saved", "Date"), rows)
-                   if rows else "<p>No recorded improvements.</p>")
+                   if rows else "<p>No recorded records.</p>")
         write_page(out / "users" / login / "index.html", f"@{login} · Lean Golf", "../../", f"""
 <h1>@{escape(login)}</h1>
 <p class="record">{user["records_held"]} held · {user["records_ever_set"]} ever set · {user["characters_saved"]} characters saved</p>
 <section><h2>Current records</h2>{current}</section>
-<section><h2>Improvements</h2>{changes}</section>
+<section><h2>Records set</h2>{changes}</section>
 """)
 
 

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "difficulty": "Cambridge-Tripos",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.proofnet.cambridge_tripos_exercise_2022_IA_4_I_1E_a",
+  "slug": "proofnet-cambridge_tripos_exercise_2022_ia_4_i_1e_a",
+  "source": "ProofNet",
+  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Cambridge-Tripos.lean",
+  "statement_hash": "9aee4c196cc530ac4f76c06a5a90c65c38f46cc9777916dd12eb18862ff6f5b4",
+  "title": "Cambridge-Tripos · exercise 2022 IA 4 I 1E a"
+}

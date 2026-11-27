@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "induction",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.induction_sum_1oktkp1",
+  "slug": "minif2f-induction_sum_1oktkp1",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/induction_sum_1oktkp1.lean",
+  "statement_hash": "dd261be0b0504a30aa7cb504ac7c8cc025a8c6c3955884e513df63f145115808",
+  "title": "induction_sum_1oktkp1"
+}

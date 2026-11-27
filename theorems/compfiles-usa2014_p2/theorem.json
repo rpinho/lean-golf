@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Contributors. All rights reserved. Authors: Ansar Azhdarov",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2014_p2",
+  "slug": "compfiles-usa2014_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2014P2.lean",
+  "statement_hash": "27bca77b11c78814449eebf50674c3ebab2926f3cb1e573f37e19f447ebfd570",
+  "title": "USA2014 P2"
+}

@@ -1,0 +1,10 @@
+import Mathlib
+
+noncomputable section
+
+abbrev putnam_2010_a2_solution : Set (ℝ → ℝ) :=
+  {f : ℝ → ℝ | ∃ c d : ℝ, ∀ x : ℝ, f x = c*x + d}
+
+theorem LeanGolf.putnambench.putnam_2010_a2
+: {f : ℝ → ℝ | Differentiable ℝ f ∧
+∀ x : ℝ, ∀ n : ℤ, n > 0 → deriv f x = (f (x + n) - f x)/n} = putnam_2010_a2_solution := by sorry

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Authors. All rights reserved. Authors: Markus Rydh",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1967_p5",
+  "slug": "compfiles-imo1967_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1967P5.lean",
+  "statement_hash": "1d589a1d1222505da7978be401f478129ea322bb11791606515742816b74c070",
+  "title": "IMO1967 P5"
+}

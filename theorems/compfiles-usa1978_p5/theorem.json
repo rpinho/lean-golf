@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1978_p5",
+  "slug": "compfiles-usa1978_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1978P5.lean",
+  "statement_hash": "a62f7966ab2e75dee97aa4071db97772c3c160e45a96072087ae7372d04544e7",
+  "title": "USA1978 P5"
+}

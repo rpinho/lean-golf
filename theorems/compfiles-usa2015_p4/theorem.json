@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Multiset.Sort",
+    "Mathlib.Data.Sym.Card",
+    "Mathlib.SetTheory.Cardinal.Finite"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2015_p4",
+  "slug": "compfiles-usa2015_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2015P4.lean",
+  "statement_hash": "9273e042534a6a103e0d5668ff34aa1f2fea4c20f306bf0bf49ac23b87ba29e4",
+  "title": "USA2015 P4"
+}

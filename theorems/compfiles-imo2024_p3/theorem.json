@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: Joseph Myers",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Data.Set.Card",
+    "Mathlib.Data.Nat.Nth"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2024_p3",
+  "slug": "compfiles-imo2024_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2024P3.lean",
+  "statement_hash": "66c6f94171b3fac6844ecb4bba9b0261d5f32092a5d299b060633214c42e5b80",
+  "title": "IMO2024 P3"
+}

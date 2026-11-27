@@ -1,0 +1,20 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Intervals",
+    "Mathlib.Data.Int.ModEq",
+    "Mathlib.Data.Finset.Interval",
+    "Mathlib.Data.Fintype.BigOperators",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1998_p1",
+  "slug": "compfiles-usa1998_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1998P1.lean",
+  "statement_hash": "e6ec2aa1288800c146a4b46918609fc1a892f93c1c45f74b9b69568d6598441f",
+  "title": "USA1998 P1"
+}

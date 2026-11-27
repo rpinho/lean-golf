@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "numbertheory",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.numbertheory_sumkmulnckeqnmul2pownm1",
+  "slug": "minif2f-numbertheory_sumkmulnckeqnmul2pownm1",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/numbertheory_sumkmulnckeqnmul2pownm1.lean",
+  "statement_hash": "c6e8253f252045907d53c92b6b20020200570e877f440b6fdac02c75cef3cbda",
+  "title": "numbertheory_sumkmulnckeqnmul2pownm1"
+}

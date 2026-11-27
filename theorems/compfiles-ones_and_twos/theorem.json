@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "ZeroesOnesAndTwos",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Nat.Digits.Lemmas",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.ones_and_twos",
+  "slug": "compfiles-ones_and_twos",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/ZeroesOnesAndTwos.lean",
+  "statement_hash": "dd7ef5f1451780a54ba1c3e2d2258a6a0b0604f7bd9149386c9a7632758fc60e",
+  "title": "ONES AND TWOS"
+}

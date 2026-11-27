@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Field",
+    "Mathlib.Algebra.EuclideanDomain.Basic",
+    "Mathlib.Algebra.EuclideanDomain.Field",
+    "Mathlib.Algebra.Order.Chebyshev",
+    "Mathlib.Algebra.Order.Star.Real",
+    "Mathlib.Analysis.Normed.Field.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2024_p6",
+  "slug": "compfiles-usa2024_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2024P6.lean",
+  "statement_hash": "d1730a92ae462d942a3100ebc17a5afbefc653d686cfc944383946c66d8a38cb",
+  "title": "USA2024 P6"
+}

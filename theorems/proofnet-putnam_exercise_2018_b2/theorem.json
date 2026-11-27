@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "difficulty": "Putnam",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.proofnet.putnam_exercise_2018_b2",
+  "slug": "proofnet-putnam_exercise_2018_b2",
+  "source": "ProofNet",
+  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Putnam.lean",
+  "statement_hash": "f21c4da9d958840042d1246091fa6bd6a4d6205426af5dfd34ee228ff891987b",
+  "title": "Putnam · exercise 2018 b2"
+}

@@ -1,0 +1,23 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.CharP.Defs",
+    "Mathlib.Algebra.Ring.IsFormallyReal",
+    "Mathlib.Analysis.Normed.Field.Lemmas",
+    "Mathlib.Data.Int.ModEq",
+    "Mathlib.Data.Nat.Factorization.Basic",
+    "Mathlib.Data.Nat.Prime.Int",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.LinearCombination.Lemmas"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2019_p5",
+  "slug": "compfiles-usa2019_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2019P5.lean",
+  "statement_hash": "f9a9f6e8d018f40c1f1805ddab43d2263a717b4880a708c6faa3f97f61c2157a",
+  "title": "USA2019 P5"
+}

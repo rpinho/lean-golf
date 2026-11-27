@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2020_p5",
+  "slug": "compfiles-imo2020_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2020P5.lean",
+  "statement_hash": "792a8001dad31028e8a73267306e31d2a9ea960f67b5fa50c70ab9e95486b456",
+  "title": "IMO2020 P5"
+}

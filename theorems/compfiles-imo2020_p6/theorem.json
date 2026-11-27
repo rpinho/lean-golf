@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Authors. All rights reserved. Authors: Jovan Gerbscheid",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2020_p6",
+  "slug": "compfiles-imo2020_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2020P6.lean",
+  "statement_hash": "04a32d79ef9694cc76b629ff0900a15418178249f28c6787236cb1c7656e1ec9",
+  "title": "IMO2020 P6"
+}

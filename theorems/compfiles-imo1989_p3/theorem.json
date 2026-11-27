@@ -1,0 +1,22 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Analysis.InnerProductSpace.PiL2",
+    "Mathlib.LinearAlgebra.AffineSpace.FiniteDimensional",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Positivity.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1989_p3",
+  "slug": "compfiles-imo1989_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1989P3.lean",
+  "statement_hash": "934f13568a7f16ce38d35409df5876d9c58c550760c1f968f8d206abf0b93e40",
+  "title": "IMO1989 P3"
+}

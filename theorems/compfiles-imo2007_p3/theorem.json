@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Combinatorics.SimpleGraph.Clique"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2007_p3",
+  "slug": "compfiles-imo2007_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2007P3.lean",
+  "statement_hash": "b4416709bc1c821456b382c3ace82bdeaaad34b3715a8e9bd7c2cc838cc1db86",
+  "title": "IMO2007 P3"
+}

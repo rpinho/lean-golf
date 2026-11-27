@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2021 Tian Chen. All rights reserved. Authors: Tian Chen",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.PNat.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1977_p6",
+  "slug": "compfiles-imo1977_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1977P6.lean",
+  "statement_hash": "0f540dd47823ee738887373a3b19d8a00cd5df661865ddab45ab3339a2a53b35",
+  "title": "IMO1977 P6"
+}

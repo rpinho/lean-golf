@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Field.ZMod",
+    "Mathlib.Data.Nat.Factorial.BigOperators",
+    "Mathlib.Data.Nat.Factorization.Basic",
+    "Mathlib.Data.Nat.GCD.BigOperators",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.LinearCombination.Lemmas"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2025_p5",
+  "slug": "compfiles-usa2025_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2025P5.lean",
+  "statement_hash": "7cca9bc8c1ec0f2639b867bbd1f507960b2041cc5545c1bca47f1b6497163cc8",
+  "title": "USA2025 P5"
+}

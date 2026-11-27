@@ -29,6 +29,26 @@ private def canonicalType (thm : TheoremVal) : Expr :=
   let levels := thm.levelParams.zipIdx.map fun (_, i) => Level.param (.num .anonymous i)
   canonicalBinders (thm.type.instantiateLevelParams thm.levelParams levels)
 
+private def sameStatement (reference : TheoremVal) (referenceType : Expr) (submission : TheoremVal) :
+    Bool :=
+  submission.levelParams.length == reference.levelParams.length &&
+    referenceType.equal (canonicalType submission)
+
+private def fingerprint (thm : TheoremVal) (type : Expr) : String :=
+  s!"{thm.levelParams.length}\n{type}"
+
+-- The compiler emits unsafe executable implementations for some safe recursive
+-- packet definitions. Only the kernel definitions belong in the certificate.
+private def recursiveImplementations (reference : ModuleData) : NameSet := Id.run do
+  let mut names : NameSet := {}
+  for info in reference.constants do
+    if let some parent := Compiler.isUnsafeRecName? info.name then
+      if info.isPartial && reference.constants.any (fun candidate =>
+          candidate.name == parent && (candidate matches .defnInfo _) &&
+            !candidate.isUnsafe && !candidate.isPartial) then
+        names := names.insert info.name
+  return names
+
 -- Follow compiler-generated local helpers, but stop at the imported library boundary.
 private partial def forbiddenDependency (localConstants : Std.HashMap Name ConstantInfo)
     (forbidden : List String) (pending : List Name) (seen : NameSet := {}) : Option Name :=
@@ -44,14 +64,19 @@ private partial def forbiddenDependency (localConstants : Std.HashMap Name Const
     else
       forbiddenDependency localConstants forbidden rest seen
 
-private def inspectProof (data : ModuleData) (thm : TheoremVal) (forbidden allowed : List String) :
-    IO (Array Name × String) := do
+private def certificateEnvironment (data : ModuleData) (allowed : List String)
+    (implementations : NameSet) (cachedImports : Option Environment := none) :
+    IO (Environment × Std.HashMap Name ConstantInfo) := do
   for imp in data.imports do
     unless (imp.module == `Init || allowed.contains imp.module.toString) && !imp.importAll do
       throw <| IO.userError s!"unapproved compiled import {imp.module}"
-  let imports ← importModules data.imports {}
+  let imports ← match cachedImports with
+    | some env => pure env
+    | none => importModules data.imports {}
   let mut localConstants : Std.HashMap Name ConstantInfo := {}
   for constant in data.constants do
+    if constant.isPartial && implementations.contains constant.name then
+      continue
     if constant.isUnsafe || constant.isPartial then
       throw <| IO.userError s!"disallowed generated declaration {constant.name}"
     if imports.contains constant.name || localConstants.contains constant.name then
@@ -59,6 +84,38 @@ private def inspectProof (data : ModuleData) (thm : TheoremVal) (forbidden allow
     localConstants := localConstants.insert constant.name constant
   -- Replay the compiled certificate from the source module, with no submission initializers.
   let env ← imports.replay localConstants
+  return (env, localConstants)
+
+def fingerprintStatementData (data draft : ModuleData) (name : Name) (allowed : List String)
+    (cachedImports : Option Environment := none) : IO String := do
+  let thm ← theoremFrom data name
+  let type := canonicalType thm
+  unless sameStatement thm type (← theoremFrom draft name) do
+    throw <| IO.userError "the submission template type differs from Statement.lean"
+  let implementations := recursiveImplementations data
+  let (env, _) ← certificateEnvironment data allowed implementations cachedImports
+  -- The placeholder proof is allowed here. Its type and the packet's other
+  -- declarations must be independent of it and of any other nonstandard axiom.
+  let dependencies := thm.type.getUsedConstants.toList ++
+    (data.constants.toList.filterMap fun info =>
+      if info.name == name || implementations.contains info.name then none else some info.name)
+  for dependency in dependencies do
+    let axioms ← Core.CoreM.toIO' (collectAxioms dependency)
+      { fileName := "<statement>", fileMap := default } { env }
+    if let some disallowed := axioms.find? (!allowAxioms.contains ·) then
+      throw <| IO.userError s!"statement depends on disallowed axiom {disallowed} through {dependency}"
+  return fingerprint thm type
+
+def fingerprintStatement (referencePath draftPath : System.FilePath) (name : Name)
+    (allowed : List String) : IO String := do
+  let (data, _) ← readModuleData referencePath
+  let (draft, _) ← readModuleData draftPath
+  fingerprintStatementData data draft name allowed
+
+private def inspectProof (data : ModuleData) (thm : TheoremVal) (forbidden allowed : List String)
+    (implementations : NameSet) :
+    IO (Array Name × String) := do
+  let (env, localConstants) ← certificateEnvironment data allowed implementations
   let axioms ← Core.CoreM.toIO' (collectAxioms thm.name)
     { fileName := "<certificate>", fileMap := default } { env }
   if let some disallowed := axioms.find? (!allowAxioms.contains ·) then
@@ -74,15 +131,13 @@ def verify (referencePath submissionPath : System.FilePath) (name : Name)
   let (referenceData, _) ← readModuleData referencePath
   let reference ← theoremFrom referenceData name
   let referenceType := canonicalType reference
-  let fingerprint := s!"{reference.levelParams.length}\n{referenceType}"
   let (submissionData, _) ← readModuleData submissionPath
   let submission ← theoremFrom submissionData name
-  let (axioms, reason) ← if submission.levelParams.length != reference.levelParams.length ||
-      !referenceType.equal (canonicalType submission) then
+  let (axioms, reason) ← if !sameStatement reference referenceType submission then
     pure (#[], "statement type differs from Statement.lean")
   else
-    inspectProof submissionData submission forbidden allowed
-  return Json.mkObj [("fingerprint", toJson fingerprint),
+    inspectProof submissionData submission forbidden allowed (recursiveImplementations referenceData)
+  return Json.mkObj [("fingerprint", toJson (fingerprint reference referenceType)),
     ("axioms", toJson (axioms.map Name.toString)), ("reason", toJson reason)]
 
 end Golfcheck

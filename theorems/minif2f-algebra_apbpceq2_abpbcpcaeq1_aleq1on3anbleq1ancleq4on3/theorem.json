@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "algebra",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.algebra_apbpceq2_abpbcpcaeq1_aleq1on3anbleq1ancleq4on3",
+  "slug": "minif2f-algebra_apbpceq2_abpbcpcaeq1_aleq1on3anbleq1ancleq4on3",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/algebra_apbpceq2_abpbcpcaeq1_aleq1on3anbleq1ancleq4on3.lean",
+  "statement_hash": "f72856d27554c1cf7cfdc8d611151567f293f208636fbd3e98a83f4cf9f4c076",
+  "title": "algebra_apbpceq2_abpbcpcaeq1_aleq1on3anbleq1ancleq4on3"
+}

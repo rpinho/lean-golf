@@ -1,0 +1,27 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 the Compfiles Contributers. All rights reserved. Authors: Jeremy Tan",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Intervals",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Analysis.Normed.Ring.Lemmas",
+    "Mathlib",
+    "Mathlib.GroupTheory.Perm.Fin"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2001_p4",
+  "slug": "compfiles-imo2001_p4",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.BigOperators.Intervals",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Analysis.Normed.Ring.Lemmas",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.GroupTheory.Perm.Fin"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2001P4.lean",
+  "statement_hash": "6bd8276679ff5837371ad498a56754cbfe518cd01cf61ee7842fd919cb0cd53c",
+  "title": "IMO2001 P4"
+}

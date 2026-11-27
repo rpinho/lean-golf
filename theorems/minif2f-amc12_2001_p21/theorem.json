@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "amc12",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.amc12_2001_p21",
+  "slug": "minif2f-amc12_2001_p21",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/amc12_2001_p21.lean",
+  "statement_hash": "2507869aae1a6539ed33211bc397c122e1e08d18b3c540a5b2d8bcf8133b4580",
+  "title": "amc12_2001_p21"
+}

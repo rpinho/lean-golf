@@ -1,0 +1,20 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Data.Nat.Digits.Lemmas",
+    "Mathlib.Data.Set.Card",
+    "Mathlib.Data.Set.Finite.Lattice",
+    "Mathlib.Order.CompletePartialOrder"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1990_p4",
+  "slug": "compfiles-usa1990_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1990P4.lean",
+  "statement_hash": "34835855dfc854a93af1ce3574cc2885df1f8e40dc573f075df6789feab359a8",
+  "title": "USA1990 P4"
+}

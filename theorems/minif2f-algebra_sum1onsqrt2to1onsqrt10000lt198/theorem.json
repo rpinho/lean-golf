@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "algebra",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.algebra_sum1onsqrt2to1onsqrt10000lt198",
+  "slug": "minif2f-algebra_sum1onsqrt2to1onsqrt10000lt198",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/algebra_sum1onsqrt2to1onsqrt10000lt198.lean",
+  "statement_hash": "53338e467d22bb0d353f146c78419273b719e26a1af209cf039f32f5df2f4705",
+  "title": "algebra_sum1onsqrt2to1onsqrt10000lt198"
+}

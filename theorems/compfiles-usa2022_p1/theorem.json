@@ -1,0 +1,27 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "The Compfiles Contributors",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Finset.Card",
+    "Mathlib.Data.Finset.Prod",
+    "Mathlib.Data.Finset.Sum",
+    "Mathlib.Data.Fintype.Card",
+    "Mathlib.Data.Fintype.Prod",
+    "Mathlib.Combinatorics.Hall.Finite",
+    "Mathlib.GroupTheory.Perm.Sign",
+    "Mathlib.Logic.Equiv.Fintype",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.GCongr",
+    "Mathlib.Tactic.Ring",
+    "Lean.Elab.Tactic.Omega"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2022_p1",
+  "slug": "compfiles-usa2022_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2022P1.lean",
+  "statement_hash": "7e71d5aa7b5369ab697064310bfe4d5b059a5bf6370da600337d456791465653",
+  "title": "USA2022 P1"
+}

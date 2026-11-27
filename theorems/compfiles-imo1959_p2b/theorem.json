@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Yury Kudryashov. All rights reserved. Authors: Yury Kudryashov",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1959_p2b",
+  "slug": "compfiles-imo1959_p2b",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1959P2.lean",
+  "statement_hash": "0ee46cdb4a44a4ee2c280ea0778beedbf86ffade47c9cfe06f09123c42516506",
+  "title": "IMO1959 P2B"
+}

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 David Renshaw. All rights reserved. Authors: David Renshaw, Kimi K3",
+  "difficulty": "CIIM",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.ciim2022_p6",
+  "slug": "compfiles-ciim2022_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/CIIM2022P6.lean",
+  "statement_hash": "4b431cf976f9c7a77955bccc1c9a72984f032c8cb4a742888c8ea5fabec5d740",
+  "title": "CIIM2022 P6"
+}

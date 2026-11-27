@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Contributors. All rights reserved. Authors: Roozbeh Yousefzadeh",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.NumberTheory.Zsqrtd.Basic",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1974_p3",
+  "slug": "compfiles-imo1974_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1974P3.lean",
+  "statement_hash": "f51b1e61c687863caa1421ca248537a7ea7a6eaa137245ce07bb04d2f290a1d4",
+  "title": "IMO1974 P3"
+}

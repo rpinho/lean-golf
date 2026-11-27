@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "difficulty": "1981 B1",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.putnambench.putnam_1981_b1",
+  "slug": "putnambench-putnam_1981_b1",
+  "source": "PutnamBench",
+  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1981_b1.lean",
+  "statement_hash": "d0183e4f10ff185c9ec400ddd965357d85455e17f74fd82288f866673b723a5a",
+  "title": "Putnam 1981 B1"
+}

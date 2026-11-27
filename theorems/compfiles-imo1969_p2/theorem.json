@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 The Compfiles Contributors. All rights reserved. Authors: Roozbeh Yousefzadeh",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1969_p2",
+  "slug": "compfiles-imo1969_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1969P2.lean",
+  "statement_hash": "f12f57ac3db0dd206fdfba7ed9bf62e8fe73ada1ca88407b409cb8287ef1f4d7",
+  "title": "IMO1969 P2"
+}

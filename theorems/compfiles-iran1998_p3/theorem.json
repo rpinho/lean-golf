@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "Iran",
+  "forbidden": [],
+  "imports": [
+    "Mathlib",
+    "Mathlib.Analysis.MeanInequalities"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.iran1998_p3",
+  "slug": "compfiles-iran1998_p3",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Analysis.MeanInequalities"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Iran1998P3.lean",
+  "statement_hash": "d383c0200e459c5646d1ba134dff39803dc0ad2a8da2164503187ffc402e5d7e",
+  "title": "IRAN1998 P3"
+}

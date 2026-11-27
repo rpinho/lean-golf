@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved.",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2009_p1",
+  "slug": "compfiles-imo2009_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2009P1.lean",
+  "statement_hash": "1bcc2f9adc6a5d218fd97f899748418fd53e0f6af3fc83784c9eeb90e5c2b492",
+  "title": "IMO2009 P1"
+}

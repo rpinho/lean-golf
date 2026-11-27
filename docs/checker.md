@@ -21,11 +21,14 @@ type, and the axiom list is empty when dependency collection has yet to run.
    exactly one plain theorem with the specified name and a `:=` body, and
    rejects the banned tokens and commands in the interface, along with
    related elaboration and file-reading forms such as `by_elab` and `include_str`.
-2. **Compile.** The checker runs the pinned Lean compiler separately on the
-   comment-free submission and trusted `Statement.lean` in a fresh directory
+2. **Compile.** If a reference packet has a preamble between its imports and
+   theorem, the parser uses its trusted context to read the submission. After
+   linting, the checker inserts that context after the submitted imports.
+   The checker runs the pinned Lean compiler separately on the prepared
+   submission and trusted `Statement.lean` in a fresh directory
    named with the submission SHA-256. The stages share a 120-second deadline.
-   Lean runs with a 2 GiB memory setting and one compiler thread. Linux also
-   applies a 4 GiB address-space limit. The checker kills and reaps the worker
+   Lean runs with a 6 GiB memory setting and one compiler thread. Linux also
+   applies a 12 GiB address-space limit. The checker kills and reaps the worker
    process group on timeout and clears its scratch directory.
 3. **Verify.** A separate Lean process reads both compiled theorem declarations.
    It compares their expression structure, including binder annotations, after
@@ -40,9 +43,20 @@ type, and the axiom list is empty when dependency collection has yet to run.
    `Expr.toString` rendering of the canonical reference type. When supplied,
    the hash in `theorem.json` must match. A blank hash permits authoring a new
    packet. `score_v1` counts non-whitespace Unicode code points after the
-   parsed `:=`. The leaderboard compares the score with `record.json` and
-   counts strictly lower scores. The checker can validate incumbent proofs and
-   ties.
+   parsed `:=`. On an open theorem, a verified first proof creates
+   `record.json` and `Record.lean`. Later records require strictly lower
+   scores. The checker can validate incumbent proofs and ties.
+
+The authoring command `lake exe golfcheck --statement THEOREM_DIR` compiles
+the reference with its `by sorry` placeholder, lints the submission template,
+and compiles a temporary copy to compare its elaborated type with the
+reference. It replays the reference declarations, checks axioms reachable
+from the type and context, and returns the canonical hash used by submission
+checking. The importer can reuse an import environment for packets with
+the same imports. Each packet gets a new elaboration state and a separate
+kernel replay. Recursive packet definitions contribute their safe kernel
+definitions to the replay. Lean's generated executable implementations
+stay outside the certificate.
 
 ## Trust and coverage
 

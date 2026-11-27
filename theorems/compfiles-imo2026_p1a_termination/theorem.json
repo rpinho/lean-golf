@@ -1,0 +1,27 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.GCDMonoid.Multiset",
+    "Mathlib.Algebra.GCDMonoid.Nat",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib",
+    "Mathlib.NumberTheory.Padics.PadicVal.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2026_p1a_termination",
+  "slug": "compfiles-imo2026_p1a_termination",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.GCDMonoid.Multiset",
+    "Mathlib.Algebra.GCDMonoid.Nat",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Order.Prod.Lex.Basic",
+    "Mathlib.NumberTheory.Padics.PadicVal.Basic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2026P1.lean",
+  "statement_hash": "c66ae6125bfec56b165632d0e28c0cc83be1b99d59f343ace73fc0d894896a37",
+  "title": "IMO2026 P1A TERMINATION"
+}

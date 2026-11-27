@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "algebra",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.algebra_amgm_sumasqdivbgeqsuma",
+  "slug": "minif2f-algebra_amgm_sumasqdivbgeqsuma",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/algebra_amgm_sumasqdivbgeqsuma.lean",
+  "statement_hash": "887fc08e049e164bd0609e79d0a554edcb87760f111eb608e3692294d5282ba1",
+  "title": "algebra_amgm_sumasqdivbgeqsuma"
+}

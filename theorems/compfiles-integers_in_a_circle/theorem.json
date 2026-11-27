@@ -1,0 +1,19 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "IntegersInACircle",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Intervals",
+    "Mathlib.Data.Int.ModEq",
+    "Mathlib.Data.ZMod.Basic",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.integers_in_a_circle",
+  "slug": "compfiles-integers_in_a_circle",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/IntegersInACircle.lean",
+  "statement_hash": "565cd375bdf589208626c329acd67ade9fd97bd4d7138495ab7fbd57768e38bd",
+  "title": "INTEGERS IN A CIRCLE"
+}

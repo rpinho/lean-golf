@@ -1,0 +1,43 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Order.Field.Basic",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Data.Fintype.BigOperators",
+    "Mathlib",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.FieldSimp.Lemmas",
+    "Mathlib.Tactic.IntervalCases",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Linarith.Preprocessing",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Tactic.Ring.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2014_p5",
+  "slug": "compfiles-imo2014_p5",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Order.Field.Basic",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Data.Fintype.BigOperators",
+    "Mathlib.Algebra.Order.Star.Rat",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.FieldSimp.Lemmas",
+    "Mathlib.Tactic.IntervalCases",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Linarith.Preprocessing",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Tactic.Ring.Basic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2014P5.lean",
+  "statement_hash": "9c0033cb1f8ae4214c225ae258b0c5af6838beaed47e2edc4470fd3916d9ded1",
+  "title": "IMO2014 P5"
+}

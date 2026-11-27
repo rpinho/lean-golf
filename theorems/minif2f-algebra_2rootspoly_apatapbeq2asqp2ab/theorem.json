@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "algebra",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.algebra_2rootspoly_apatapbeq2asqp2ab",
+  "slug": "minif2f-algebra_2rootspoly_apatapbeq2asqp2ab",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/algebra_2rootspoly_apatapbeq2asqp2ab.lean",
+  "statement_hash": "2303f4d44fc043232c18bd600aa489c3a8dd1a3c3622a5feeb23a4af9d4baa1e",
+  "title": "algebra_2rootspoly_apatapbeq2asqp2ab"
+}

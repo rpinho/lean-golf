@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: Hongyu Ouyang",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Analysis.MeanInequalities"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2018_p1",
+  "slug": "compfiles-usa2018_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2018P1.lean",
+  "statement_hash": "b2cf249fd9b58cb3e97c2b6ff504ef53bc4d36daef71aca57ede4008b447703b",
+  "title": "USA2018 P1"
+}

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "numbertheory",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.numbertheory_2pownm1prime_nprime",
+  "slug": "minif2f-numbertheory_2pownm1prime_nprime",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/numbertheory_2pownm1prime_nprime.lean",
+  "statement_hash": "cf1eddca0e6a855b1633964b8c468cc2324393f2a7686cccd9f5761d07671a8d",
+  "title": "numbertheory_2pownm1prime_nprime"
+}

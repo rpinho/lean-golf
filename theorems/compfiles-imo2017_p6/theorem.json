@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw, Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Analysis.Normed.Ring.Lemmas",
+    "Mathlib.FieldTheory.Finite.Basic",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2017_p6",
+  "slug": "compfiles-imo2017_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2017P6.lean",
+  "statement_hash": "991543f9802c10eca849e821a058bd83ff6225c4f3e8667ec2694e447a5e6f44",
+  "title": "IMO2017 P6"
+}

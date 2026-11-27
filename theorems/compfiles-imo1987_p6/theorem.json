@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Contributors. All rights reserved. Authors: Jia-Jun Ma",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Nat.Prime.Basic",
+    "Mathlib",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1987_p6",
+  "slug": "compfiles-imo1987_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1987P6.lean",
+  "statement_hash": "efaf0e788e0ae8734aba0926c9ad35a2e9b956ce149163a3a9d12fbef9e13776",
+  "title": "IMO1987 P6"
+}

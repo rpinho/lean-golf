@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Contributors. All rights reserved. Authors: Maximiliano Onofre Martínez",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Int.Basic",
+    "Mathlib.Algebra.Polynomial.Div"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1974_p1",
+  "slug": "compfiles-usa1974_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1974P1.lean",
+  "statement_hash": "3c64a5acfade52a4267f3af50c51e86fb63def5b2a121207ce0d73693cbbf60a",
+  "title": "USA1974 P1"
+}

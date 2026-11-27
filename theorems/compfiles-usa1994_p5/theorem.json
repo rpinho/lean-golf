@@ -1,0 +1,36 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib",
+    "Mathlib.Order.ConditionallyCompleteLattice.Basic",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Linarith.Lemmas",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Tactic.Ring.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1994_p5",
+  "slug": "compfiles-usa1994_p5",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Order.Int.ConditionallyCompleteOrder",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.Order.ConditionallyCompleteLattice.Basic",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Linarith.Lemmas",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Tactic.Ring.Basic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1994P5.lean",
+  "statement_hash": "d612369ba9195acd881b69d05644cef6d2af0f33b539cf32c52cfcf8b9c1a52a",
+  "title": "USA1994 P5"
+}

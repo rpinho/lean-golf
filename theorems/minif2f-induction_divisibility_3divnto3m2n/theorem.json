@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "induction",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.induction_divisibility_3divnto3m2n",
+  "slug": "minif2f-induction_divisibility_3divnto3m2n",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/induction_divisibility_3divnto3m2n.lean",
+  "statement_hash": "eb44ac95f5934db00edf9380cb2c770b0852f5ef031733e355a1d44eb7013be7",
+  "title": "induction_divisibility_3divnto3m2n"
+}

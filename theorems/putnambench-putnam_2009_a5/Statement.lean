@@ -1,0 +1,11 @@
+import Mathlib
+
+noncomputable section
+
+open Topology MvPolynomial Filter Set
+
+abbrev putnam_2009_a5_solution : Prop :=
+  False
+
+theorem LeanGolf.putnambench.putnam_2009_a5
+: (∃ (G : Type*) (_ : CommGroup G) (_ : Fintype G), ∏ g : G, orderOf g = 2^2009) ↔ putnam_2009_a5_solution := by sorry

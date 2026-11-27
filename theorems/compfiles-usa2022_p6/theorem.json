@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Combinatorics.SimpleGraph.Operations",
+    "Mathlib.Data.Set.Card"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2022_p6",
+  "slug": "compfiles-usa2022_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2022P6.lean",
+  "statement_hash": "76f10066998b6af2d60a963777452081d66193436a6163c984319e23e315e0b5",
+  "title": "USA2022 P6"
+}

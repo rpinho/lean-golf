@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "difficulty": "1967 A2",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.putnambench.putnam_1967_a2",
+  "slug": "putnambench-putnam_1967_a2",
+  "source": "PutnamBench",
+  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1967_a2.lean",
+  "statement_hash": "8c3e5ebed1f08c6f2479dc3f2783e161bfe1211d33d284ac5b8632544db53deb",
+  "title": "Putnam 1967 A2"
+}

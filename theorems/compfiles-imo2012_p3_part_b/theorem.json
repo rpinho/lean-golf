@@ -1,0 +1,19 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Algebra.Order.Star.Real",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Analysis.SpecificLimits.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2012_p3_part_b",
+  "slug": "compfiles-imo2012_p3_part_b",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2012P3.lean",
+  "statement_hash": "ce4d86e7c465d536a9546065ee820202593177c9929051e9729c3a59579dbbeb",
+  "title": "IMO2012 P3 PART B"
+}

@@ -1,0 +1,20 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 the Compfiles Contributers. All rights reserved. Authors: Jeremy Tan, David Renshaw",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Group.Finset.Piecewise",
+    "Mathlib.Algebra.Group.Action.Defs",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Data.Fintype.Prod",
+    "Mathlib.Tactic.NormNum.Ineq"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2001_p3",
+  "slug": "compfiles-imo2001_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2001P3.lean",
+  "statement_hash": "f894db9bd9314bb6067817da6afcb95b65d59fd904a31ab709d3d21fbb7a3924",
+  "title": "IMO2001 P3"
+}

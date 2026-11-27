@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Algebra.Order.Floor.Semiring",
+    "Mathlib.Analysis.SpecialFunctions.Pow.Real"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1976_p3",
+  "slug": "compfiles-imo1976_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1976P3.lean",
+  "statement_hash": "0b98bffe9738352ca9d37bdb4bedb6f787602929052512c827a940eb3dafc080",
+  "title": "IMO1976 P3"
+}

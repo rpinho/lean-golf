@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 lean-tom. All rights reserved. Authors: lean-tom (with assistance from Gemini)",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Finset.Basic",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1999_p3",
+  "slug": "compfiles-imo1999_p3",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1999P3.lean",
+  "statement_hash": "7dd2ee5690b3d02bc7e0e91b900418485842f12bc2dcc930e83624c092a80f0f",
+  "title": "IMO1999 P3"
+}

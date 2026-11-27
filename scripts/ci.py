@@ -239,7 +239,7 @@ def run_checker(root, item, statement_hash):
         command = [
             "docker", "run", "--rm", "--name", name, "--pull", "never", "--network", "none",
             "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges",
-            "--memory", "4g", "--cpus", "2", "--pids-limit", "128", "--log-driver", "none",
+            "--memory", "10g", "--cpus", "2", "--pids-limit", "128", "--log-driver", "none",
             "--tmpfs", "/work:rw,exec,nosuid,nodev,size=1g,uid=10001,gid=10001,mode=0700",
             "--mount", f"type=bind,src={source},dst=/source,readonly",
             "--mount", f"type=bind,src={proof},dst=/Submission.lean,readonly",
@@ -264,8 +264,8 @@ def run_checker(root, item, statement_hash):
 
 def theorem(root, slug):
     folder = root / "theorems" / slug
-    if not (folder / "Statement.lean").is_file() or not (folder / "record.json").is_file():
-        raise Rejected("The theorem has no statement and record on the default branch.")
+    if not (folder / "Statement.lean").is_file() or not (folder / "theorem.json").is_file():
+        raise Rejected("The theorem has no statement packet on the default branch.")
     meta = read_json(folder / "theorem.json")
     if meta["slug"] != slug or not DIGEST.fullmatch(meta[STATEMENT_HASH]):
         raise RuntimeError("The default branch has invalid theorem metadata.")
@@ -275,9 +275,12 @@ def theorem(root, slug):
 
 def summary(result, old_score=None):
     if result["valid"]:
-        outcome = (f"The current record is {old_score} characters."
-                   if result["score"] >= old_score
-                   else f"This improves the current record of {old_score} characters.")
+        if old_score is None:
+            outcome = "This theorem is open. The first valid proof sets the record."
+        elif result["score"] >= old_score:
+            outcome = f"The current record is {old_score} characters."
+        else:
+            outcome = f"This improves the current record of {old_score} characters."
         body = f"**{result['score']} characters.** {outcome}"
     else:
         reason = "".join(c for c in result["reason"][:1000] if c.isprintable() or c == "\n")
@@ -304,7 +307,8 @@ def verify(api, event, root, result_path, *, trusted):
         reject_case_alias((p.relative_to(root).as_posix() for p in folder.glob("*")), item.path)
         expected_hash, raw_hash = theorem(root, item.slug)
         result = run_checker(root, item, expected_hash)
-        old_score = read_json(root / "theorems" / item.slug / "record.json")["score"]
+        record_path = root / "theorems" / item.slug / "record.json"
+        old_score = read_json(record_path)["score"] if record_path.is_file() else None
     except Rejected as error:
         result, old_score = invalid(str(error)), None
     except (OSError, ApiError, RuntimeError, ValueError, subprocess.SubprocessError) as error:
@@ -324,12 +328,19 @@ def verify(api, event, root, result_path, *, trusted):
     return 0 if trusted or result["valid"] else 1
 
 
-def read_blob(api, tree, path, *, optional=False):
+def read_blob(api, tree, path, *, optional=False, checkout=None):
     if optional and path not in tree:
         return None
     entry = tree.get(path)
     if entry is None or entry["mode"] != "100644" or entry["type"] != "blob":
         raise RuntimeError(f"Expected a regular default-branch file at {path}.")
+    if checkout is not None:
+        local = checkout / path
+        if local.is_file() and not local.is_symlink():
+            content = local.read_bytes()
+            oid = sha1(f"blob {len(content)}\0".encode() + content).hexdigest()
+            if oid == entry["sha"]:
+                return content
     return api.blob(api.repo, entry["sha"])
 
 
@@ -341,7 +352,8 @@ def latest_record(api, tree, item, receipt):
     if (meta["slug"] != item.slug or meta[STATEMENT_HASH] != expected
             or sha256(statement).hexdigest() != receipt["raw_statement_sha256"]):
         raise Rejected("The theorem statement changed after verification.")
-    return json.loads(read_blob(api, tree, f"{folder}/record.json"))
+    record = read_blob(api, tree, f"{folder}/record.json", optional=True)
+    return json.loads(record) if record is not None else None
 
 
 def record_paths(api, tree, root, item, receipt, utc):
@@ -349,8 +361,11 @@ def record_paths(api, tree, root, item, receipt, utc):
              and name.split("/")[0] == "theorems" and name.endswith("/record.json")
              and SLUG.fullmatch(name.split("/")[1])]
     paths.append(f"theorems/{item.slug}/theorem.json")
+    # Most rows already match the verified default-branch checkout. Fetch only
+    # changed rows on retries, rather than issuing one request per record.
+    checkout = Path.cwd()
     for name in paths + ["data/history.jsonl"]:
-        content = read_blob(api, tree, name, optional=(name == "data/history.jsonl"))
+        content = read_blob(api, tree, name, optional=(name == "data/history.jsonl"), checkout=checkout)
         if content is not None:
             path = root / name
             path.parent.mkdir(parents=True, exist_ok=True)
@@ -382,7 +397,7 @@ def publish_record(api, branch, receipt):
     if pull["head"]["sha"] != head or pull["base"]["ref"] != branch or pull["changed_files"] != 1:
         raise Rejected("The pull request changed before publication.")
     if pull["state"] == "open":
-        if score >= previous["score"]:
+        if previous is not None and score >= previous["score"]:
             body = (f"Thanks for golfing this proof! Your verified score is **{score}** characters. "
                     f"The record is **{previous['score']}**, and a new record needs a lower score. "
                     f"Checked commit `{head[:12]}`.")
@@ -406,10 +421,11 @@ def publish_record(api, branch, receipt):
     for _ in range(3):
         base, tree = api.snapshot(branch)
         previous = latest_record(api, tree, item, receipt)
-        if previous["pr"] == number and previous["score"] == score:
-            return True
-        if score >= previous["score"]:
-            return False
+        if previous is not None:
+            if previous["pr"] == number and previous["score"] == score:
+                return True
+            if score >= previous["score"]:
+                return False
         with tempfile.TemporaryDirectory() as work:
             root = Path(work)
             paths = record_paths(api, tree, root, item, receipt, pull["merged_at"])

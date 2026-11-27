@@ -1,0 +1,31 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 Jeremy Tan. All rights reserved. Authors: Jeremy Tan",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Field",
+    "Mathlib.Algebra.BigOperators.Fin",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2017_p6",
+  "slug": "compfiles-usa2017_p6",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.BigOperators.Field",
+    "Mathlib.Algebra.BigOperators.Fin",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2017P6.lean",
+  "statement_hash": "f88a6c53c659fef951296294afc5199a35a0328c4485571c6e6377d8b54c9390",
+  "title": "USA2017 P6"
+}

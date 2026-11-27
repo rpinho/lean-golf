@@ -1,0 +1,23 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw, Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Group.Finset.Piecewise",
+    "Mathlib.Algebra.BigOperators.Intervals",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Data.Finset.Max",
+    "Mathlib.Data.Nat.Log",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.NormNum.Ineq",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2023_p5",
+  "slug": "compfiles-imo2023_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2023P5.lean",
+  "statement_hash": "3325adc96a369677dafc6a28df55b9f78e1988d74fe0f87882beab5b128f249a",
+  "title": "IMO2023 P5"
+}

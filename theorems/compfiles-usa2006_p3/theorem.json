@@ -1,0 +1,30 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Algebra.Ring.IsFormallyReal",
+    "Mathlib.Analysis.Normed.Field.Lemmas",
+    "Mathlib",
+    "Mathlib.RingTheory.Int.Basic",
+    "Mathlib.RingTheory.Polynomial.GaussLemma"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2006_p3",
+  "slug": "compfiles-usa2006_p3",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Algebra.Ring.IsFormallyReal",
+    "Mathlib.Analysis.Normed.Field.Lemmas",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.Algebra.Order.Star.Rat",
+    "Mathlib.RingTheory.Int.Basic",
+    "Mathlib.RingTheory.Polynomial.GaussLemma"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2006P3.lean",
+  "statement_hash": "54b6e255269e1edfa566a5269b4d110a609f990302bb0e59bc4a666bb2aaf78e",
+  "title": "USA2006 P3"
+}

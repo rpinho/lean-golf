@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "difficulty": "2014 B4",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.putnambench.putnam_2014_b4",
+  "slug": "putnambench-putnam_2014_b4",
+  "source": "PutnamBench",
+  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2014_b4.lean",
+  "statement_hash": "06c7e2faeea018e335532a51d0354e526c532c6e4e2f6a709d2d58ed7ee2840b",
+  "title": "Putnam 2014 B4"
+}

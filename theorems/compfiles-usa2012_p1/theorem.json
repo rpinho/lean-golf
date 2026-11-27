@@ -1,0 +1,29 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Analysis.Real.Sqrt",
+    "Mathlib.Data.Fin.Tuple.Sort",
+    "Mathlib",
+    "Mathlib.Data.Nat.Fib.Basic",
+    "Mathlib.Tactic.IntervalCases"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2012_p1",
+  "slug": "compfiles-usa2012_p1",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Analysis.Real.Sqrt",
+    "Mathlib.Data.Fin.Tuple.Sort",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.Data.Nat.Fib.Basic",
+    "Mathlib.Tactic.IntervalCases"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2012P1.lean",
+  "statement_hash": "fde208c3b11850c9971ebcbfc9591cd26e99d28edeaa2a0fe3a0b96ffce4f477",
+  "title": "USA2012 P1"
+}

@@ -1,0 +1,21 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Analysis.Normed.Field.Basic",
+    "Mathlib.Analysis.Real.Sqrt",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.LinearCombination.Lemmas",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1980_p1",
+  "slug": "compfiles-usa1980_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1980P1.lean",
+  "statement_hash": "02ae70b6baf15d8b0bcbb229650318c9ed9bef88b29372f174e2fa49e16f0aac",
+  "title": "USA1980 P1"
+}

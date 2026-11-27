@@ -18,11 +18,12 @@ import time
 
 MAX_SOURCE_BYTES = 64 * 1024
 MAX_ELAPSED_SECONDS = 120
-LEAN_MEMORY_MIB = 2048
-MAX_ADDRESS_SPACE = 4 * 1024**3
+LEAN_MEMORY_MIB = 6144
+MAX_ADDRESS_SPACE = 12 * 1024**3
 MAX_DIAGNOSTIC_BYTES = 4096
 MAX_RESULT_BYTES = 1024**2
 CHAR_LITERAL = re.compile(r"'(?:[^'\\\n\r]|\\(?:x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|.))'")
+REFERENCE_IMPORT = re.compile(r"(?m)^import [^\s]+[ \t]*\n")
 
 
 class Rejected(Exception):
@@ -159,6 +160,51 @@ def read_policy(path):
     return metadata
 
 
+def reference_parts(reference, name):
+    declaration_name = re.escape(name)
+    command = re.search(r"(?m)^theorem[ \t]+(?:_root_\.)?" + declaration_name
+                        + r"(?=\.?\{|/-|--|[\s(\[:])",
+                        reference)
+    if not command:
+        raise Rejected("expected a reference theorem at the start of a line")
+    before = reference[:command.start()]
+    imports, pos = [], 0
+    while match := REFERENCE_IMPORT.match(before, pos):
+        imports.append(match[0])
+        pos = match.end()
+    return "".join(imports), before[pos:].strip(), reference[command.start():]
+
+
+def lint(executable, source, clean, policy, preamble, scratch, deadline, env):
+    source.write_bytes(clean)
+    trusted = scratch / "PacketContext.lean"
+    trusted.write_text(preamble, encoding="utf-8")
+    return json.loads(run(
+        "source lint", [executable, "--parse", str(source), policy["name"], str(trusted),
+                        *policy["imports"]], scratch, deadline, env,
+    ))
+
+
+def compile_lean(module, stage, scratch, deadline, env):
+    run(stage, [env.get("LEAN", "lean"), "-j", "1", "-t", "0", "-M", str(LEAN_MEMORY_MIB),
+                "-R", str(scratch), "-o", module.with_suffix(".olean").name, str(module)],
+        scratch, deadline, env)
+    return str(module.with_suffix(".olean"))
+
+
+def add_context(clean, header, preamble):
+    if not preamble:
+        return clean
+    return clean[:header] + b"\n\n" + preamble.encode("utf-8") + b"\n\n" + clean[header:].lstrip()
+
+
+def statement_hash(fingerprint, policy):
+    digest = hashlib.sha256(fingerprint.encode("utf-8")).hexdigest()
+    if policy["statement_hash"] and policy["statement_hash"] != digest:
+        raise Rejected("statement_hash does not match Statement.lean")
+    return digest
+
+
 def check(executable, packet, source, verdict):
     deadline = time.monotonic() + MAX_ELAPSED_SECONDS
     raw, text = read_source(source)
@@ -167,29 +213,24 @@ def check(executable, packet, source, verdict):
     digest = hashlib.sha256(raw).hexdigest()
     root = Path(__file__).resolve().parents[1]
     env = os.environ.copy()
-    lean = env.get("LEAN", "lean")
+    reference_text = (packet / "Statement.lean").read_text(encoding="utf-8")
+    _, preamble, _ = reference_parts(reference_text, policy["name"])
     with tempfile.TemporaryDirectory(prefix=f"golfcheck-{digest}-", dir=root / ".lake") as directory:
         scratch = Path(directory)
         submission = scratch / "GolfSubmission.lean"
         reference = scratch / "GolfReference.lean"
         policy_file = scratch / "policy.json"
-        submission.write_bytes(clean)
         policy_file.write_text(json.dumps(policy), encoding="utf-8")
-
-        offset = json.loads(run(
-            "source lint", [executable, "--parse", str(submission), policy["name"], *policy["imports"]],
-            scratch, deadline, env,
-        ))
-        reference.write_bytes((packet / "Statement.lean").read_bytes())
-        for stage, module in (("submission compilation", submission), ("reference compilation", reference)):
-            run(stage, [lean, "-j", "1", "-t", "0", "-M", str(LEAN_MEMORY_MIB),
-                        "-R", str(scratch), "-o", module.with_suffix(".olean").name, str(module)],
-                scratch, deadline, env)
+        header, offset = lint(executable, submission, clean, policy, preamble, scratch, deadline, env)
+        if preamble:
+            submission.write_bytes(add_context(clean, header, preamble))
+        reference.write_text(reference_text, encoding="utf-8")
+        submission_olean = compile_lean(submission, "submission compilation", scratch, deadline, env)
+        reference_olean = compile_lean(reference, "reference compilation", scratch, deadline, env)
 
         certificate = json.loads(run(
             "certificate verification",
-            [executable, "--verify", str(reference.with_suffix(".olean")),
-             str(submission.with_suffix(".olean")), policy["name"], str(policy_file)],
+            [executable, "--verify", reference_olean, submission_olean, policy["name"], str(policy_file)],
             scratch, deadline, env,
         ))
         verdict["statement_hash"] = hashlib.sha256(certificate["fingerprint"].encode("utf-8")).hexdigest()
@@ -201,6 +242,40 @@ def check(executable, packet, source, verdict):
         verdict.update(valid=True, score=SCORER(clean[offset:].decode("utf-8")))
 
 
+def statement_template(source, policy):
+    imports, preamble, declaration = reference_parts(source, policy["name"])
+    template, replaced = re.subn(r":=\s*by\s+sorry\s*\Z", ":= by trivial\n", declaration)
+    if replaced != 1:
+        raise Rejected("expected a reference theorem ending in := by sorry")
+    clean = strip_comments(imports + "\n" + template).encode("utf-8")
+    if len(clean) > MAX_SOURCE_BYTES:
+        raise Rejected("statement exceeds the submission size limit")
+    return preamble, clean
+
+
+def check_statement(executable, packet):
+    deadline = time.monotonic() + MAX_ELAPSED_SECONDS
+    policy = read_policy(packet / "theorem.json")
+    source = (packet / "Statement.lean").read_text(encoding="utf-8")
+    preamble, clean = statement_template(source, policy)
+    env = os.environ.copy()
+    root = Path(__file__).resolve().parents[1]
+    with tempfile.TemporaryDirectory(prefix="golfcheck-statement-", dir=root / ".lake") as directory:
+        scratch = Path(directory)
+        reference = scratch / "GolfReference.lean"
+        reference.write_text(source, encoding="utf-8")
+        compiled = compile_lean(reference, "reference compilation", scratch, deadline, env)
+        draft = scratch / "GolfSubmission.lean"
+        header, offset = lint(executable, draft, clean, policy, preamble, scratch, deadline, env)
+        draft.write_bytes(add_context(clean[:offset] + b" by sorry\n", header, preamble))
+        draft_olean = compile_lean(draft, "submission template compilation", scratch, deadline, env)
+        fingerprint = json.loads(run(
+            "statement verification", [executable, "--fingerprint", compiled, draft_olean, policy["name"],
+                                       *policy["imports"]], scratch, deadline, env,
+        ))
+        return statement_hash(fingerprint, policy)
+
+
 def interrupted(_signal, _frame):
     raise KeyboardInterrupt
 
@@ -210,7 +285,11 @@ def main():
     verdict = {"valid": False, "score": None, "statement_hash": "", "axioms": [], "reason": ""}
     try:
         executable, theorem_dir, submission = sys.argv[1:]
-        check(str(Path(executable).resolve()), Path(theorem_dir), Path(submission), verdict)
+        executable = str(Path(executable).resolve())
+        if theorem_dir == "--statement":
+            verdict.update(valid=True, statement_hash=check_statement(executable, Path(submission)))
+        else:
+            check(executable, Path(theorem_dir), Path(submission), verdict)
     except (Rejected, OSError, ValueError, KeyError, TypeError, subprocess.SubprocessError) as error:
         verdict["reason"] = str(error)
     except KeyboardInterrupt:

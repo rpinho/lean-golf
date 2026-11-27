@@ -1,0 +1,19 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Yury Kudryashov. All rights reserved. Authors: Yury Kudryashov",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1986_p5",
+  "slug": "compfiles-imo1986_p5",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Basic.NNReal.Basic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1986P5.lean",
+  "statement_hash": "7f6e9abc539e914832e90736dfbc133ebf1d502e09198b9c010e1cce6cf9ec98",
+  "title": "IMO1986 P5"
+}

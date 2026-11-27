@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw",
+  "difficulty": "Bulgaria",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Ring.Basic",
+    "Mathlib.Tactic.Ring"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.bulgaria1998_p8",
+  "slug": "compfiles-bulgaria1998_p8",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Bulgaria1998P8.lean",
+  "statement_hash": "0faefad98ca9961eaa8198b33e22e4f0b73616eea610bcb4468f65551a0c785b",
+  "title": "BULGARIA1998 P8"
+}

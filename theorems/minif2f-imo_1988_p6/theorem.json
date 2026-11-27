@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.imo_1988_p6",
+  "slug": "minif2f-imo_1988_p6",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/imo_1988_p6.lean",
+  "statement_hash": "d76ebdb52b6c02b2fe9a933dcf955ee3e4767b400c251f7b68036c5f600fb1b8",
+  "title": "imo_1988_p6"
+}

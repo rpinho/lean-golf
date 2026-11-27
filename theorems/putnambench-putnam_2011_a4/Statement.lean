@@ -1,0 +1,17 @@
+import Mathlib
+
+noncomputable section
+
+open Topology Filter Matrix
+
+abbrev putnam_2011_a4_solution : Set ℕ :=
+  {n : ℕ | Odd n}
+
+theorem LeanGolf.putnambench.putnam_2011_a4
+    (nmat : ℕ → Prop)
+    (hnmat : ∀ n, nmat n ↔
+      ∃ A : Matrix (Fin n) (Fin n) ℤ,
+        (∀ r, Even ((A r) ⬝ᵥ (A r))) ∧
+        Pairwise fun r1 r2 ↦ Odd ((A r1) ⬝ᵥ (A r2)))
+    (n : ℕ) (npos : 0 < n) :
+    nmat n ↔ n ∈ putnam_2011_a4_solution := by sorry

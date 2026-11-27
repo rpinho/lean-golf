@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 Kimi. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Finset.Max",
+    "Mathlib.Data.Fintype.Card"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2017_p4",
+  "slug": "compfiles-usa2017_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2017P4.lean",
+  "statement_hash": "1bae4c28e4e3ceb491afea7c547d4352538a2a1d89f54c54a55fcc9203fe313a",
+  "title": "USA2017 P4"
+}

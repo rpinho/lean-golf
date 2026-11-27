@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: Bolton Bailey, Benpigchu",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2023_p1_imo2023p2",
+  "slug": "compfiles-imo2023_p1-imo2023p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2023P2.lean",
+  "statement_hash": "aca4f9ee583a8f379afc4c351c615b5a867d93f4fb3f82a0c898621d8414d61a",
+  "title": "Imo2023P2"
+}

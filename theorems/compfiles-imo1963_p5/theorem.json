@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: Hongyu Ouyang",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic",
+    "Mathlib.Analysis.Real.Pi.Bounds"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1963_p5",
+  "slug": "compfiles-imo1963_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1963P5.lean",
+  "statement_hash": "83d0b3ca901848dcc37d660bd66aea19340de26fc06335b685ab7ca78ea1c983",
+  "title": "IMO1963 P5"
+}

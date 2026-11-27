@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2021 Mantas Bakšys. All rights reserved. Authors: Mantas Bakšys",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Order.Interval.Finset.Nat",
+    "Mathlib.Tactic.IntervalCases",
+    "Mathlib.Tactic.Linarith"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2021_p1",
+  "slug": "compfiles-imo2021_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2021P1.lean",
+  "statement_hash": "810fbe6e121ba3f86299d8aea62d9fadaf001b8c11cf83af6858ecc0e2aaa518",
+  "title": "IMO2021 P1"
+}

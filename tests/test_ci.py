@@ -1,6 +1,7 @@
 import base64
 from copy import deepcopy
 from hashlib import sha1, sha256
+import json
 from pathlib import Path
 import sys
 
@@ -8,6 +9,7 @@ import pytest
 
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+import ci  # noqa: E402
 from ci import GitHub, Rejected, check_result, publish_record, submission  # noqa: E402
 from test_records_site import FIXTURE, RESULT, SLUG, TIMESTAMP  # noqa: E402
 
@@ -146,6 +148,33 @@ def test_squash_is_pinned_and_record_commit_retries_without_merging_again():
     assert publish_record(api, "main", trusted)
     assert len(api.writes) == 1
     assert len(api.record_commits) == 2
+
+
+def test_open_theorem_verifies_and_publishes_first_record(tmp_path, monkeypatch):
+    api = FakeGitHub()
+    for name in ("record.json", "Record.lean"):
+        api.tree.pop(f"theorems/{SLUG}/{name}")
+    folder = tmp_path / "theorems" / SLUG
+    folder.mkdir(parents=True)
+    for name in ("Statement.lean", "theorem.json"):
+        (folder / name).write_bytes((FIXTURE / "theorems" / SLUG / name).read_bytes())
+    summary = tmp_path / "summary.md"
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(summary))
+    monkeypatch.setattr(ci, "run_checker", lambda root, item, expected: RESULT)
+    event = {"repository": {"default_branch": "main"}, "pull_request": api.pr}
+    result_path = tmp_path / "result.json"
+    assert ci.verify(api, event, tmp_path, result_path, trusted=False) == 0
+    assert "first valid proof sets the record" in summary.read_text()
+    assert json.loads(result_path.read_text()) == RESULT
+
+    trusted = receipt(api)
+    assert publish_record(api, "main", trusted)
+    assert [method for _, method, _ in api.writes] == ["PUT"]
+    assert api.blobs[api.tree[f"theorems/{SLUG}/Record.lean"]["sha"]] == PROOF
+    history = json.loads(api.blobs[api.tree["data/history.jsonl"]["sha"]])
+    assert history["previous"] is None and history["score"] == RESULT["score"]
+    assert publish_record(api, "main", trusted)
+    assert len(api.record_commits) == 1
 
 
 def test_tie_closes_with_its_score_without_record_writes():

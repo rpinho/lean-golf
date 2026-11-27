@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.AlgebraicTopology.SimplexCategory.Basic",
+    "Mathlib.Data.Fin.VecNotation"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1976_p1_first",
+  "slug": "compfiles-usa1976_p1_first",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1976P1.lean",
+  "statement_hash": "338de485c122d2f4fb66ad647b54b2cb69cbb6f5dcf1b7c02498aef72a692cb2",
+  "title": "USA1976 P1 FIRST"
+}

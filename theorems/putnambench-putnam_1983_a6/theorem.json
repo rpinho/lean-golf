@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "difficulty": "1983 A6",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.putnambench.putnam_1983_a6",
+  "slug": "putnambench-putnam_1983_a6",
+  "source": "PutnamBench",
+  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1983_a6.lean",
+  "statement_hash": "69acae26b722710c5984026fef3926bafe62416f6e962d4c0d74a6449585cae3",
+  "title": "Putnam 1983 A6"
+}

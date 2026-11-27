@@ -1,0 +1,30 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib",
+    "Mathlib.LinearAlgebra.Lagrange",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.LinearCombination.Lemmas",
+    "Mathlib.Tactic.Ring.Compare"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1995_p4",
+  "slug": "compfiles-usa1995_p4",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Order.Int.ConditionallyCompleteOrder",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.LinearAlgebra.Lagrange",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.LinearCombination.Lemmas",
+    "Mathlib.Tactic.Ring.Compare"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1995P4.lean",
+  "statement_hash": "28dd9add98579d99139feda22df624738713845376be27662b5122bec29fc1c6",
+  "title": "USA1995 P4"
+}

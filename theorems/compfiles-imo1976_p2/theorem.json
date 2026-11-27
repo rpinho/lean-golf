@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Constantin Seebach",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1976_p2",
+  "slug": "compfiles-imo1976_p2",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1976P2.lean",
+  "statement_hash": "20198ce6674a8361f367faf3aaa5ba8ca4412f1fb0029f03cb63b6b7193f1602",
+  "title": "IMO1976 P2"
+}

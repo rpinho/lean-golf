@@ -1,0 +1,23 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Authors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Group.Nat.Even",
+    "Mathlib.Algebra.Order.GroupWithZero.Basic",
+    "Mathlib.Algebra.Ring.Parity",
+    "Mathlib.Data.Nat.Choose.Basic",
+    "Mathlib.Data.Nat.Digits.Defs",
+    "Mathlib.Order.Interval.Finset.Nat",
+    "Mathlib.Order.Monotone.Basic",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1994_p3a",
+  "slug": "compfiles-imo1994_p3a",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1994P3.lean",
+  "statement_hash": "5c45c45513788e3d4176b1bac67f8eaf39b1fa4658cd1e7561acf043fbf9e90e",
+  "title": "IMO1994 P3A"
+}

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 David Renshaw. All rights reserved. Authors: David Renshaw, Kimi K3",
+  "difficulty": "Canada",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.canada1998_p5",
+  "slug": "compfiles-canada1998_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Canada1998P5.lean",
+  "statement_hash": "fe7e49725ae28a7251721e2d47119479abc6fa746d30a06c62c24540e6b84ee0",
+  "title": "CANADA1998 P5"
+}

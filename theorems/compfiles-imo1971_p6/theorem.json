@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 lean-tom. All rights reserved. Authors: lean-tom (with assistance from Gemini)",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Data.Matrix.Basic",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1971_p6",
+  "slug": "compfiles-imo1971_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1971P6.lean",
+  "statement_hash": "4830869e8db52b9d533f5fa9c27cae6469ea218eaabeb2076514f3d262cb171d",
+  "title": "IMO1971 P6"
+}

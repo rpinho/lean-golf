@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Thomas Hirtz, Farzad Jafarrahmani, Abdelmouksit SAGUENI.",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1961_p4",
+  "slug": "compfiles-imo1961_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1961P4.lean",
+  "statement_hash": "7700834b951811b6aca4e1505015353892acf5d87ee63224e882ca3458ad9b47",
+  "title": "IMO1961 P4"
+}

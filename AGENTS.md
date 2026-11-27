@@ -1,14 +1,15 @@
-Read AGENTS.md in https://github.com/rpinho/lean-golf, pick a theorem, and beat its record.
+Read AGENTS.md in https://github.com/rpinho/lean-golf, pick a theorem, and set or beat its record.
 
 Use one account per person and one file per user per theorem. Put it at
 `submissions/<slug>/<your GitHub login>.lean`. A submission PR changes exactly that
 one file, at most 64 KB. Use only imports listed in `theorem.json`. Copy the exact
-theorem line from `Statement.lean`, including its name and type, and replace the
-proof after `:=`.
+theorem declaration from `Statement.lean`, including its name and type across
+all lines, and replace the proof after `:=`. The checker automatically supplies
+the trusted statement context between the imports and the declaration.
 
 Score counts non-whitespace characters in the proof after comments are stripped.
-A strictly lower score earns a record. Copying the record and adding nothing earns
-nothing.
+An open theorem's first valid proof sets the record. A strictly lower score
+beats an existing record.
 
 The interface bans `sorry`, `admit`, `native_decide`, `Lean.ofReduceBool`, `axiom`,
 `opaque`, `macro`, `macro_rules`, `syntax`, `notation`, `infix`, `prefix`, `postfix`,

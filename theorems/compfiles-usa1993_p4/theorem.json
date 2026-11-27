@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Data.Nat.Factorization.Basic",
+    "Mathlib.Tactic.NormNum.Ineq"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1993_p4",
+  "slug": "compfiles-usa1993_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1993P4.lean",
+  "statement_hash": "74e46da18d99bb29a6d9269deedd9a3efd6a95a48cb9b0b8b635f6c4f3dd9408",
+  "title": "USA1993 P4"
+}

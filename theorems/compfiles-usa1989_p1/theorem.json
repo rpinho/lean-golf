@@ -1,0 +1,19 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 David Renshaw. All rights reserved. Authors: Shalev Wengrowsky",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Tactic.NthRewrite",
+    "Mathlib.Data.Rat.Defs",
+    "Mathlib.Data.Fin.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1989_p1",
+  "slug": "compfiles-usa1989_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1989P1.lean",
+  "statement_hash": "a2754bb16665f9bb8ae7b4cd19facab7cebf56f8aeab1ca17c19582e364183ac",
+  "title": "USA1989 P1"
+}

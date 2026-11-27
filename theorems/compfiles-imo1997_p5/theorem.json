@@ -1,0 +1,25 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2023 The Compfiles Contributors. All rights reserved. Authors: Roozbeh Yousefzadeh, Ilmārs Cīrulis",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Analysis.Normed.Ring.Lemmas",
+    "Mathlib",
+    "Mathlib.Tactic.IntervalCases"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1997_p5",
+  "slug": "compfiles-imo1997_p5",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Analysis.Normed.Ring.Lemmas",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.Tactic.IntervalCases"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1997P5.lean",
+  "statement_hash": "a83244a5ba3ceffad211f2d3b2c5ddf21add125ebd061651207162ee84d64f01",
+  "title": "IMO1997 P5"
+}

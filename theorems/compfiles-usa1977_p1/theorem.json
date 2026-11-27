@@ -1,0 +1,24 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Karl Mehltretter, Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.EuclideanDomain.Basic",
+    "Mathlib.Algebra.Field.GeomSum",
+    "Mathlib.Algebra.Polynomial.Div",
+    "Mathlib.Algebra.Polynomial.FieldDivision",
+    "Mathlib.Algebra.Polynomial.Roots",
+    "Mathlib.Data.PNat.Basic",
+    "Mathlib.Algebra.Polynomial.Basic",
+    "Mathlib.RingTheory.RootsOfUnity.Complex",
+    "Mathlib.RingTheory.RootsOfUnity.PrimitiveRoots"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1977_p1",
+  "slug": "compfiles-usa1977_p1",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1977P1.lean",
+  "statement_hash": "6039eb565437053e1cf02671f384a7b1aadee092d3ccfa2463ec430078f7a981",
+  "title": "USA1977 P1"
+}

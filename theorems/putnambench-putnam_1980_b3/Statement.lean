@@ -1,0 +1,12 @@
+import Mathlib
+
+noncomputable section
+
+abbrev putnam_1980_b3_solution : Set ℝ :=
+  {a : ℝ | a ≥ 3}
+
+theorem LeanGolf.putnambench.putnam_1980_b3
+(a : ℝ)
+(u : ℕ → ℝ)
+(hu : u 0 = a ∧ (∀ n : ℕ, u (n + 1) = 2 * u n - n ^ 2))
+: (∀ n : ℕ, u n > 0) ↔ a ∈ putnam_1980_b3_solution := by sorry

@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 lean-tom. All rights reserved. Authors: lean-tom (with assistance from Gemini)",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Analysis.SpecificLimits.Basic",
+    "Mathlib.Data.Nat.Log",
+    "Mathlib.Tactic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1968_p6",
+  "slug": "compfiles-imo1968_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1968P6.lean",
+  "statement_hash": "7c7c4b9e7b94ea977363d047b9ad20a10f57a50227daedaa9925a7a1a6a8bebe",
+  "title": "IMO1968 P6"
+}

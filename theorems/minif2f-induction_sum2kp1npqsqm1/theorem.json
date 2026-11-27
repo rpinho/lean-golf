@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "induction",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.induction_sum2kp1npqsqm1",
+  "slug": "minif2f-induction_sum2kp1npqsqm1",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/induction_sum2kp1npqsqm1.lean",
+  "statement_hash": "a1d0e2548d938cf98b97eccace8a78a7d041017fcfeee15c7b2498564baaee51",
+  "title": "induction_sum2kp1npqsqm1"
+}

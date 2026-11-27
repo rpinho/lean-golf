@@ -1,0 +1,17 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2024 Violeta Hernández Palacios. All rights reserved. Authors: Violeta Hernández Palacios, Alex Brodbelt",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Algebra.Order.Field.GeomSum"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo1982_p3a",
+  "slug": "compfiles-imo1982_p3a",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1982P3.lean",
+  "statement_hash": "2bd2f367856498a36858d187c73af5f1af9bedb0b1a6e3211aadb722bb68eb86",
+  "title": "IMO1982 P3A"
+}

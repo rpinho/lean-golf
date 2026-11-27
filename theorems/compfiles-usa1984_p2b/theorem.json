@@ -1,0 +1,31 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.Star.Basic",
+    "Mathlib",
+    "Mathlib.Data.Nat.Factorization.Defs",
+    "Mathlib.GroupTheory.GroupAction.Ring",
+    "Mathlib.Order.Interval.Finset.Nat",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.Ring.Basic"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa1984_p2b",
+  "slug": "compfiles-usa1984_p2b",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.Star.Basic",
+    "Mathlib.Order.Int.ConditionallyCompleteOrder",
+    "Mathlib.Data.Nat.Factorization.Defs",
+    "Mathlib.GroupTheory.GroupAction.Ring",
+    "Mathlib.Order.Interval.Finset.Nat",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.Ring.Basic"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa1984P2.lean",
+  "statement_hash": "8d48633492daeada5569bd736eb1fb41a71c743be5a9bdef471e67c079fea9c2",
+  "title": "USA1984 P2B"
+}

@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Authors. All rights reserved. Authors: Elan Roth",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2000_p5",
+  "slug": "compfiles-imo2000_p5",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2000P5.lean",
+  "statement_hash": "a61d7992f74bd1e3e1821591e75326ac46723724a0156583c9acf7f417566b37",
+  "title": "IMO2000 P5"
+}

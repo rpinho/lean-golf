@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "difficulty": "imosl",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "MIT",
+  "name": "LeanGolf.minif2f.imosl_2007_algebra_p6",
+  "slug": "minif2f-imosl_2007_algebra_p6",
+  "source": "miniF2F",
+  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/imosl_2007_algebra_p6.lean",
+  "statement_hash": "85998f2aa2d5b38ab4ac308bc7e29e95be3811507949b23b35b50c5d0dd5e86e",
+  "title": "imosl_2007_algebra_p6"
+}

@@ -1,0 +1,18 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026 The Compfiles Contributors. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Tactic",
+    "Mathlib.Data.Nat.Nth",
+    "Mathlib.NumberTheory.ArithmeticFunction.Misc"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2021_p4",
+  "slug": "compfiles-usa2021_p4",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2021P4.lean",
+  "statement_hash": "5910f2fff07da9ff58f058959ab15dbc83896165ce7e39cec06943645f9e6465",
+  "title": "USA2021 P4"
+}

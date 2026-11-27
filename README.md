@@ -1,16 +1,20 @@
 # Lean Golf
 
-A leaderboard for the shortest [Lean 4](https://lean-lang.org/) proofs. Each theorem has a record, a history, and a shareable SVG card. The leaderboard tracks records held, records ever set, and characters saved by each player.
+A leaderboard for the shortest [Lean 4](https://lean-lang.org/) proofs. An open theorem's first valid proof sets its record. Recorded theorems have a history and a shareable SVG card. The leaderboard tracks records held, records ever set, and characters saved by each player.
 
 ## Enter
 
-1. Pick a theorem from `theorems/` and copy its theorem line from `Statement.lean`.
+1. Pick a theorem from `theorems/` and copy its imports and theorem declaration from `Statement.lean`. The checker supplies any trusted statement context.
 2. Write the proof in `submissions/<slug>/<your GitHub login>.lean` and run the check in [AGENTS.md](AGENTS.md).
 3. Open a pull request containing that one file.
 
-The score is the number of non-whitespace characters in the proof after `:=`, with comments stripped. A new record requires a strictly lower score. Characters saved are the successive score decreases credited to their holders.
+The score is the number of non-whitespace characters in the proof after `:=`, with comments stripped. Beating an existing record requires a strictly lower score. Characters saved are the successive score decreases credited to their holders.
 
 Maintainers add theorems with a PR that adds a folder under `theorems/`. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Theorem sources
+
+The catalog includes 2,020 open theorems alongside the ten seeds. The imports include 488 statements from the MIT-licensed miniF2F Lean 4 port, 672 from the Apache-2.0-licensed Lean 4 portion of PutnamBench, 534 from the Apache-2.0-licensed Compfiles catalog, and 326 from Rahul Vishwakarma's MIT-licensed Lean 4 port of ProofNet. Each imported packet credits the source and links to its pinned file. [Source credits and licenses](NOTICES.md) · [Import verification](REPORT.md)
 
 ## Security model
 

@@ -1,0 +1,36 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2026. All rights reserved. Authors: Kimi K3",
+  "difficulty": "Usa",
+  "forbidden": [],
+  "imports": [
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib",
+    "Mathlib.Order.ConditionallyCompleteLattice.Basic",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Linarith.Lemmas",
+    "Mathlib.Tactic.NormNum.Ineq",
+    "Mathlib.Tactic.Ring.Basic",
+    "Mathlib.Tactic.Zify"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.usa2020_p2",
+  "slug": "compfiles-usa2020_p2",
+  "source": "Compfiles",
+  "source_imports": [
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Algebra.Order.Ring.Star",
+    "Mathlib.Order.Int.ConditionallyCompleteOrder",
+    "Mathlib.Algebra.Order.Star.Int",
+    "Mathlib.Order.ConditionallyCompleteLattice.Basic",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Linarith.Lemmas",
+    "Mathlib.Tactic.NormNum.Ineq",
+    "Mathlib.Tactic.Ring.Basic",
+    "Mathlib.Tactic.Zify"
+  ],
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Usa2020P2.lean",
+  "statement_hash": "bc9f8598a618d98fb54e265351d9c95219fb5523ca36603a815b9a59c3e058c7",
+  "title": "USA2020 P2"
+}

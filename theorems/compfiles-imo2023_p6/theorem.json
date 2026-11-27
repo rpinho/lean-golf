@@ -1,0 +1,16 @@
+{
+  "added_utc": "2026-11-27T00:00:00Z",
+  "credit": "Copyright (c) 2025 The Compfiles Contributors. All rights reserved. Authors: Joseph Myers",
+  "difficulty": "Imo",
+  "forbidden": [],
+  "imports": [
+    "Mathlib"
+  ],
+  "license": "Apache-2.0",
+  "name": "LeanGolf.compfiles.imo2023_p6",
+  "slug": "compfiles-imo2023_p6",
+  "source": "Compfiles",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo2023P6.lean",
+  "statement_hash": "4ccce2ef6bd9a86af00f68cc4c57e4bb47327db6626d5dfc18307a5d3a9e9093",
+  "title": "IMO2023 P6"
+}
