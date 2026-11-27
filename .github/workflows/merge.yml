@@ -1,0 +1,60 @@
+name: Verify and merge submission
+
+on:
+  workflow_run:
+    workflows: [Check submission]
+    types: [completed]
+
+permissions: {}
+
+jobs:
+  verify:
+    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success'
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    outputs:
+      receipt: ${{ steps.verify.outputs.receipt }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - name: Verify the exact submitted blob against the default branch
+        id: verify
+        run: python3 scripts/ci.py verify
+
+  merge:
+    needs: verify
+    if: needs.verify.outputs.receipt != ''
+    permissions:
+      contents: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    concurrency:
+      group: lean-golf-records
+      cancel-in-progress: false
+    outputs:
+      published: ${{ steps.publish.outputs.published }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - name: Publish or close the verified submission
+        id: publish
+        env:
+          GOLF_RECEIPT: ${{ needs.verify.outputs.receipt }}
+          GOLF_WRITE_TOKEN: ${{ github.token }}
+        run: python3 scripts/ci.py publish
+
+  pages:
+    needs: merge
+    if: needs.merge.outputs.published == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

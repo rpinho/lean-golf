@@ -1,0 +1,10 @@
+{
+  "slug": "inf-primes",
+  "title": "Infinitely many primes",
+  "name": "LeanGolf.inf_primes",
+  "imports": ["Mathlib"],
+  "forbidden": [],
+  "statement_hash": "c6f2d43965948a023bb8f42d58e21c1e8b5d39becb2945cdcae57494f2a5906f",
+  "source": "Fixture based on Mathlib's Nat.exists_infinite_primes",
+  "added_utc": "2026-11-27T00:00:00Z"
+}

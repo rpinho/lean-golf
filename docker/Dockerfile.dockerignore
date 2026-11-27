@@ -1,0 +1,8 @@
+.git
+.lake
+.runtime
+.pytest_cache
+**/__pycache__
+submissions
+data
+site/dist

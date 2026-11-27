@@ -1,0 +1,7 @@
+{
+  "valid": true,
+  "score": 19,
+  "statement_hash": "c6f2d43965948a023bb8f42d58e21c1e8b5d39becb2945cdcae57494f2a5906f",
+  "axioms": ["propext"],
+  "reason": ""
+}
