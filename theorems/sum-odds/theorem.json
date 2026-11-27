@@ -1,0 +1,13 @@
+{
+  "slug": "sum-odds",
+  "title": "Sum of the first n odd numbers",
+  "name": "LeanGolf.sum_odds",
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+    "Mathlib.Tactic.Ring"
+  ],
+  "forbidden": [],
+  "statement_hash": "4c4e033f37a07755a6da43ff67243233287e0dfa2d23e424cea602b5065ba19f",
+  "source": "https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/Algebra/BigOperators/Group/Finset/Basic.lean",
+  "added_utc": "2026-11-27T20:37:25Z"
+}

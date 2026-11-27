@@ -1,0 +1,17 @@
+{
+  "slug": "inf-primes",
+  "title": "Infinitude of primes",
+  "name": "LeanGolf.inf_primes",
+  "imports": [
+    "Mathlib.Data.Nat.Prime.Infinite"
+  ],
+  "forbidden": [
+    "Nat.exists_infinite_primes",
+    "Nat.not_bddAbove_setOfPred_prime",
+    "Nat.not_bddAbove_setOf_prime",
+    "Nat.infinite_setOfPred_prime"
+  ],
+  "statement_hash": "82761fb59bb92a03c7c3e2e2285fcc6e798bc4e7c9164623494893f096436088",
+  "source": "https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/Data/Nat/Prime/Infinite.lean",
+  "added_utc": "2026-11-27T20:37:25Z"
+}

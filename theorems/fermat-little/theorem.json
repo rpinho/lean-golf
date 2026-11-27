@@ -1,0 +1,16 @@
+{
+  "slug": "fermat-little",
+  "title": "Fermat's little theorem",
+  "name": "LeanGolf.fermat_little",
+  "imports": [
+    "Mathlib.FieldTheory.Finite.Basic"
+  ],
+  "forbidden": [
+    "ZMod.pow_card_sub_one_eq_one",
+    "ZMod.units_pow_card_sub_one_eq_one",
+    "FiniteField.pow_card_sub_one_eq_one"
+  ],
+  "statement_hash": "94d849f5e4b75622924f6092e3d18ed8954044da2f899207f5694a67883efb82",
+  "source": "https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/FieldTheory/Finite/Basic.lean",
+  "added_utc": "2026-11-27T20:37:25Z"
+}

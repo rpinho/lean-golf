@@ -1,0 +1,15 @@
+{
+  "slug": "euclid-lemma",
+  "title": "Euclid's lemma",
+  "name": "LeanGolf.euclid_lemma",
+  "imports": [
+    "Mathlib.Data.Nat.Prime.Basic"
+  ],
+  "forbidden": [
+    "Nat.Prime.dvd_mul",
+    "Prime.dvd_mul"
+  ],
+  "statement_hash": "372edce45d9da18ee11bb71f075165a73c4b16c861607a06b860baeb5d1c943e",
+  "source": "https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/Data/Nat/Prime/Defs.lean",
+  "added_utc": "2026-11-27T20:37:25Z"
+}

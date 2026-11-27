@@ -8,3 +8,8 @@ rev = "v4.33.1"
 
 [[lean_lib]]
 name = "LeanGolf"
+
+[[lean_exe]]
+name = "golfcheck"
+root = "Golfcheck.Main"
+supportInterpreter = true

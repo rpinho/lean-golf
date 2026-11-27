@@ -1,0 +1,14 @@
+{
+  "slug": "sum-cubes",
+  "title": "Sum of the first n cubes",
+  "name": "LeanGolf.sum_cubes",
+  "imports": [
+    "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "forbidden": [],
+  "statement_hash": "051f2baaaa36a52be350e3e46729bcee8ca02d17a7d785696988b21eca415ce8",
+  "source": "https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/Algebra/BigOperators/Group/Finset/Basic.lean",
+  "added_utc": "2026-11-27T20:37:25Z"
+}

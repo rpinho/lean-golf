@@ -1,0 +1,14 @@
+{
+  "slug": "cantor",
+  "title": "Cantor's theorem",
+  "name": "LeanGolf.cantor",
+  "imports": [
+    "Mathlib.Logic.Function.Basic"
+  ],
+  "forbidden": [
+    "Function.cantor_surjective"
+  ],
+  "statement_hash": "1374fa9eeaec6d155d013a23ea40177c8010d1936a73731c7b6a69e457300cd0",
+  "source": "https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/Logic/Function/Basic.lean",
+  "added_utc": "2026-11-27T20:37:25Z"
+}

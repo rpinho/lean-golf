@@ -1,0 +1,14 @@
+{
+  "slug": "imo-1959-p1",
+  "title": "IMO 1959 Problem 1",
+  "name": "LeanGolf.imo_1959_p1",
+  "imports": [
+    "Mathlib.Data.Nat.GCD.Basic"
+  ],
+  "forbidden": [
+    "imo1959_q1"
+  ],
+  "statement_hash": "fae9201551d2d4abb2334e68d2b35d187e02b3f3218d7d05bfeae6dba0b9ffe8",
+  "source": "https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Archive/Imo/Imo1959Q1.lean",
+  "added_utc": "2026-11-27T20:37:25Z"
+}

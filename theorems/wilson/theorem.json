@@ -1,0 +1,14 @@
+{
+  "slug": "wilson",
+  "title": "Wilson's theorem",
+  "name": "LeanGolf.wilson",
+  "imports": [
+    "Mathlib.NumberTheory.Wilson"
+  ],
+  "forbidden": [
+    "Nat.prime_iff_fac_equiv_neg_one"
+  ],
+  "statement_hash": "8358024dfce5c0b16be614111b8a2d28f831d4fe77fed209f616159d27e7cb69",
+  "source": "https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/NumberTheory/Wilson.lean",
+  "added_utc": "2026-11-27T20:37:25Z"
+}

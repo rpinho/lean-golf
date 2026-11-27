@@ -1,0 +1,15 @@
+{
+  "slug": "am-gm",
+  "title": "Two-variable AM\u2013GM",
+  "name": "LeanGolf.am_gm",
+  "imports": [
+    "Mathlib.Analysis.Real.Sqrt",
+    "Mathlib.Tactic.Linarith"
+  ],
+  "forbidden": [
+    "NNReal.sqrt_mul_le_half_add"
+  ],
+  "statement_hash": "fb62858a068aa3557130781e01491f6a7345408f4ef98ddc926e0755ba60524d",
+  "source": "https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/Analysis/SpecialFunctions/ArithmeticGeometricMean.lean",
+  "added_utc": "2026-11-27T20:37:25Z"
+}

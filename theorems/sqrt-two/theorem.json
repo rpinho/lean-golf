@@ -1,0 +1,14 @@
+{
+  "slug": "sqrt-two",
+  "title": "Irrationality of \u221a2",
+  "name": "LeanGolf.sqrt_two",
+  "imports": [
+    "Mathlib.NumberTheory.Real.Irrational"
+  ],
+  "forbidden": [
+    "irrational_sqrt_two"
+  ],
+  "statement_hash": "63e2d79ff0b66b1b0a4dfcf38b838a95b78ef323900096ffe9f1db6ce5732ac5",
+  "source": "https://github.com/leanprover-community/mathlib4/blob/0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/NumberTheory/Real/Irrational.lean",
+  "added_utc": "2026-11-27T20:37:25Z"
+}
