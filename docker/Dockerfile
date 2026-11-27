@@ -1,7 +1,7 @@
 FROM debian:bookworm-slim
 
 RUN --mount=type=tmpfs,target=/var/lib/apt/lists apt-get update \
-    && apt-get install -y --no-install-recommends build-essential ca-certificates curl git \
+    && apt-get install -y --no-install-recommends build-essential ca-certificates curl git python3 \
     && groupadd --gid 10001 golf \
     && useradd --uid 10001 --gid 10001 --create-home golf \
     && install -d -o golf -g golf /opt/elan /opt/lean-golf /work
