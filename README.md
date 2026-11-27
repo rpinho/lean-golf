@@ -14,7 +14,7 @@ Maintainers add theorems with a PR that adds a folder under `theorems/`. See [CO
 
 ## Theorem sources
 
-The catalog includes 2,020 open theorems alongside the ten seeds. The imports include 488 statements from the MIT-licensed miniF2F Lean 4 port, 672 from the Apache-2.0-licensed Lean 4 portion of PutnamBench, 534 from the Apache-2.0-licensed Compfiles catalog, and 326 from Rahul Vishwakarma's MIT-licensed Lean 4 port of ProofNet. Each imported packet credits the source and links to its pinned file. [Source credits and licenses](NOTICES.md) · [Import verification](REPORT.md)
+The catalog includes 2,020 open theorems alongside the ten seeds. The imports include 488 statements from the MIT-licensed miniF2F Lean 4 port, 672 from the Apache-2.0-licensed Lean 4 portion of PutnamBench, 534 from the Apache-2.0-licensed Compfiles catalog, and 326 from Rahul Vishwakarma's MIT-licensed Lean 4 port of ProofNet. Each imported packet credits the source and links to its pinned file. [Source credits and licenses](NOTICES.md) · [Import verification](docs/import-1127/REPORT.md)
 
 ## Security model
 

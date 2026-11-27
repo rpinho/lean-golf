@@ -29,7 +29,7 @@ Two full site builds produced 2,232 byte-identical files, 11,366 valid local lin
 - The first compiler probes exceeded the former 2 GiB Lean cap on Mathlib. The validated cap is 6 GiB, with one compiler thread, a 120-second checker deadline, and a 10 GiB container budget. The first long sweep also hit an executable replacement during a Lake rebuild. The importer now takes an immutable executable snapshot.
 - Lean emits partially compiled executable definitions for some safe recursive functions. The first release pass rejected those helpers. The final checker excludes the trusted reference's matching runtime definitions from replay and checks the safe definitions. The targeted run retried every generated-declaration rejection and the one proof-only `meta import` parsing case and recovered 22 packets.
 - The worktree checks ran offline on macOS. The local Docker socket was unavailable. A reviewer can run the packaged Linux checker before deployment and review the remaining source failures. PutnamBench documents its proof-sharing request in its upstream README. [Prior art and upstream guidance](PRIOR_ART.md)
-- The four pinned source credits, license texts, and extraction notices are in the packets and [NOTICES.md](NOTICES.md).
+- The four pinned source credits, license texts, and extraction notices are in the packets and [NOTICES.md](../../NOTICES.md).
 
 ## Reproduce
 
@@ -42,7 +42,7 @@ python3 site/build.py --out .lake/site-check
 pytest_dir=$(mktemp -d "$PWD/.lake/pytest-check.XXXXXX")
 set -o pipefail
 "${PYTEST_PYTHON:-python3}" -m pytest -q --basetemp "$pytest_dir" 2>&1 | tail -n 3
-test -f REPORT.md
+test -f docs/import-1127/REPORT.md
 ```
 
 A fresh-process recheck matched the hashes of one packet from each source. The full suite ran with the requested virtual environment's Python. Test output tail follows.
