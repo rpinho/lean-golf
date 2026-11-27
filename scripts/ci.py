@@ -440,8 +440,10 @@ def main():
     parser.add_argument("mode", choices=["check", "verify", "publish"])
     args = parser.parse_args()
     event = read_json(Path(os.environ["GITHUB_EVENT_PATH"]))
+    # check and verify read with the job's read-only token: unauthenticated API calls share a 60/hour limit per
+    # runner IP and failed the first real check (11-27). The untrusted proof never sees it (the container gets no env).
     api = GitHub(os.environ["GITHUB_REPOSITORY"],
-                 os.environ["GOLF_WRITE_TOKEN"] if args.mode == "publish" else None)
+                 os.environ["GOLF_WRITE_TOKEN"] if args.mode == "publish" else os.environ.get("GOLF_READ_TOKEN") or None)
     if args.mode == "publish":
         try:
             changed = publish_record(api, event["repository"]["default_branch"],

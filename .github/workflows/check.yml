@@ -21,6 +21,8 @@ jobs:
           docker system prune -af >/dev/null 2>&1 || true
           df -h / | tail -1
       - name: Check the proposed proof
+        env:
+          GOLF_READ_TOKEN: ${{ github.token }}
         run: python3 scripts/ci.py check
       - name: Upload checker result
         if: always()
