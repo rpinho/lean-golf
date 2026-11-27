@@ -6,7 +6,6 @@ import json
 import os
 from pathlib import Path
 import re
-import resource
 import select
 import signal
 import stat
@@ -18,8 +17,7 @@ import time
 
 MAX_SOURCE_BYTES = 64 * 1024
 MAX_ELAPSED_SECONDS = 120
-LEAN_MEMORY_MIB = 6144
-MAX_ADDRESS_SPACE = 12 * 1024**3
+LEAN_MEMORY_MIB = 16384
 MAX_DIAGNOSTIC_BYTES = 4096
 MAX_RESULT_BYTES = 1024**2
 CHAR_LITERAL = re.compile(r"'(?:[^'\\\n\r]|\\(?:x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|.))'")
@@ -98,10 +96,9 @@ SCORER = score_v1
 
 
 def limit_child():
-    if sys.platform.startswith("linux"):
-        _, hard = resource.getrlimit(resource.RLIMIT_AS)
-        cap = MAX_ADDRESS_SPACE if hard == resource.RLIM_INFINITY else min(hard, MAX_ADDRESS_SPACE)
-        resource.setrlimit(resource.RLIMIT_AS, (cap, cap))
+    # 11-27: no address-space cap. Lean reserves large virtual regions (thread stacks, olean maps), so a 12 GiB
+    # RLIMIT_AS failed thread creation on Linux at 1.2 GB of real memory. The container's cgroup limit bounds memory.
+    return None
 
 
 def remaining_time(stage, deadline):

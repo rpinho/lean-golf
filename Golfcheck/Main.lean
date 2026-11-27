@@ -8,7 +8,9 @@ open Lean Golfcheck
 @[extern "lean_internal_set_max_memory"]
 private opaque setMemoryLimit (bytes : USize) : BaseIO Unit
 
-private def memoryLimit : USize := 6 * 1024 * 1024 * 1024
+-- 11-27: Lean's own counter read over 6 GiB on Linux at 1.2 GB of real memory, so it sits above the container's
+-- 10 GB cgroup limit, which is what bounds a check.
+private def memoryLimit : USize := 16 * 1024 * 1024 * 1024
 
 private def reject (reason : String) : IO UInt32 := do
   IO.println <| (Json.mkObj [
