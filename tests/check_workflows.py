@@ -27,7 +27,7 @@ def check():
 
     check_job = field(field(check_workflow, "jobs"), "check")
     assert not re.search(r"^(?:permissions|environment|container):", check_job, re.MULTILINE)
-    assert field(check_job, "timeout-minutes") == "3"
+    assert field(check_job, "timeout-minutes") == "8"
     assert "python3 scripts/ci.py check" in check_job
     assert "path: result.json" in check_job
 
