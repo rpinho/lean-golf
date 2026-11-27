@@ -1,0 +1,45 @@
+name: Checker image
+
+on:
+  push:
+    paths:
+      - lean-toolchain
+      - lake-manifest.json
+      - lakefile.toml
+      - docker/**
+      - scripts/image-ref.sh
+      - .github/workflows/image.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  image:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Build the pinned checker image
+        id: image
+        run: |
+          set -euo pipefail
+          image=$(bash scripts/image-ref.sh)
+          echo "ref=$image" >> "$GITHUB_OUTPUT"
+          context=$(mktemp -d)
+          git archive HEAD | tar -x -C "$context"
+          docker build --file "$context/docker/Dockerfile" --tag "$image" "$context"
+          bytes=$(docker image inspect --format '{{.Size}}' "$image")
+          printf 'Uncompressed local image size: %s bytes\n' "$bytes" >> "$GITHUB_STEP_SUMMARY"
+      - name: Publish to GHCR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          IMAGE: ${{ steps.image.outputs.ref }}
+        run: |
+          set -euo pipefail
+          printf '%s' "$GH_TOKEN" | docker login ghcr.io --username "$GITHUB_ACTOR" --password-stdin
+          docker push "$IMAGE"
