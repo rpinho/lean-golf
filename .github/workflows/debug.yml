@@ -1,0 +1,26 @@
+name: Debug checker memory
+on:
+  push:
+    branches: [debug-check]
+permissions:
+  contents: read
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: |
+          image=$(GITHUB_REPOSITORY=rpinho/lean-golf bash scripts/image-ref.sh)
+          docker pull -q "$image"
+          mkdir -p /tmp/src && git archive HEAD | tar -x -C /tmp/src
+          printf 'import Mathlib\n\ntheorem LeanGolf.minif2f.mathd_numbertheory_101 : 17 * 18 %% 4 = 2 := by decide\n' > /tmp/Submission.lean
+          docker run --rm --network none --read-only --cap-drop ALL --security-opt no-new-privileges \
+            --memory 14g --cpus 2 --pids-limit 128 \
+            --tmpfs /work:rw,exec,nosuid,nodev,size=1g,uid=10001,gid=10001,mode=0700 \
+            --mount type=bind,src=/tmp/src,dst=/source,readonly \
+            --mount type=bind,src=/tmp/Submission.lean,dst=/Submission.lean,readonly \
+            "$image" sh -c 'sh /source/scripts/in-container.sh minif2f-mathd_numbertheory_101; echo "rc=$?"; echo "peak_bytes=$(cat /sys/fs/cgroup/memory.peak 2>/dev/null)"; grep -E "^(anon|file) " /sys/fs/cgroup/memory.stat'
+          free -g

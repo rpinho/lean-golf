@@ -8,7 +8,7 @@ open Lean Golfcheck
 @[extern "lean_internal_set_max_memory"]
 private opaque setMemoryLimit (bytes : USize) : BaseIO Unit
 
-private def memoryLimit : USize := 6 * 1024 * 1024 * 1024
+private def memoryLimit : USize := 9 * 1024 * 1024 * 1024
 
 private def reject (reason : String) : IO UInt32 := do
   IO.println <| (Json.mkObj [
