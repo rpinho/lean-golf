@@ -169,8 +169,9 @@ def submission(api, number, expected_head, branch, *, allow_merged=False):
         raise Rejected("Add or edit exactly one submission file.")
     file = files[0]
     parts = file["filename"].split("/")
+    stem, suffix = os.path.splitext(parts[-1])
     if (len(parts) != 3 or parts[0] != "submissions" or not SLUG.fullmatch(parts[1])
-            or parts[2].lower() != f"{login.lower()}.lean"):
+            or suffix != ".lean" or not LOGIN.fullmatch(stem) or stem.lower() != login.lower()):
         raise Rejected("Use submissions/<slug>/<your GitHub login>.lean.")
     # GitHub exposes the PR head in the base repository's fork network.
     # Read its immutable objects there so the base job's token stays in scope.
