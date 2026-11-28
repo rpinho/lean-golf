@@ -25,6 +25,8 @@ MAX_BYTES = 64 * 1024
 OID = re.compile(r"[0-9a-f]{40}")
 REPOSITORY = re.compile(r"[A-Za-z0-9-]+/[A-Za-z0-9_.-]+")
 STATEMENT_HASH = "statement_hash"
+VERIFIER_PATHS = ("Golfcheck", "LeanGolf", "LeanGolf.lean", "docker", "scripts",
+                  "lean-toolchain", "lakefile.toml", "lake-manifest.json", ".github/workflows/merge.yml")
 
 
 class Rejected(ValueError):
@@ -268,11 +270,30 @@ def theorem(root, slug):
     folder = root / "theorems" / slug
     if not (folder / "Statement.lean").is_file() or not (folder / "theorem.json").is_file():
         raise Rejected("The theorem has no statement packet on the default branch.")
-    meta = read_json(folder / "theorem.json")
+    policy = (folder / "theorem.json").read_bytes()
+    meta = json.loads(policy)
     if meta["slug"] != slug or not DIGEST.fullmatch(meta[STATEMENT_HASH]):
         raise RuntimeError("The default branch has invalid theorem metadata.")
     digest = sha256((folder / "Statement.lean").read_bytes()).hexdigest()
-    return meta[STATEMENT_HASH], digest
+    return meta[STATEMENT_HASH], digest, sha256(policy).hexdigest()
+
+
+def verifier_objects(root):
+    # run_checker builds the archived HEAD. Git tree IDs cover every file in
+    # the checker directories without invalidating a receipt for other records.
+    rows = subprocess.check_output(
+        ["git", "ls-tree", "-r", "-t", "--full-tree", "HEAD", "--", *VERIFIER_PATHS],
+        cwd=root, text=True,
+    )
+    objects = {}
+    for row in rows.splitlines():
+        metadata, path = row.split("\t", 1)
+        if path in VERIFIER_PATHS:
+            mode, _, oid = metadata.split()
+            objects[path] = [mode, oid]
+    if set(objects) != set(VERIFIER_PATHS):
+        raise RuntimeError("The verifier checkout is incomplete.")
+    return objects
 
 
 def summary(result, old_score=None):
@@ -307,7 +328,7 @@ def verify(api, event, root, result_path, *, trusted):
             raise Rejected("The pull request's source repository changed.")
         folder = root / "submissions" / item.slug
         reject_case_alias((p.relative_to(root).as_posix() for p in folder.glob("*")), item.path)
-        expected_hash, raw_hash = theorem(root, item.slug)
+        expected_hash, raw_hash, policy_hash = theorem(root, item.slug)
         result = run_checker(root, item, expected_hash)
         record_path = root / "theorems" / item.slug / "record.json"
         old_score = read_json(record_path)["score"] if record_path.is_file() else None
@@ -322,7 +343,8 @@ def verify(api, event, root, result_path, *, trusted):
     write_json(result_path, result)
     summary(result, old_score)
     if trusted and result["valid"]:
-        receipt = dict(**item.receipt(), result=result, raw_statement_sha256=raw_hash)
+        receipt = dict(**item.receipt(), result=result, raw_statement_sha256=raw_hash,
+                       policy_sha256=policy_hash, verifier_objects=verifier_objects(root))
         # Exclude checker-provided prose from the handoff to the writing job.
         receipt["result"] = dict(result, reason="")
         with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
@@ -348,7 +370,14 @@ def read_blob(api, tree, path, *, optional=False, checkout=None):
 
 def latest_record(api, tree, item, receipt):
     folder = f"theorems/{item.slug}"
-    meta = json.loads(read_blob(api, tree, f"{folder}/theorem.json"))
+    policy = read_blob(api, tree, f"{folder}/theorem.json")
+    if sha256(policy).hexdigest() != receipt.get("policy_sha256"):
+        raise Rejected("The theorem policy changed or needs fresh verification.")
+    if (any(path not in tree for path in VERIFIER_PATHS)
+            or {path: [tree[path]["mode"], tree[path]["sha"]] for path in VERIFIER_PATHS}
+            != receipt.get("verifier_objects")):
+        raise Rejected("The checker changed or needs fresh verification.")
+    meta = json.loads(policy)
     statement = read_blob(api, tree, f"{folder}/Statement.lean")
     expected = receipt["result"][STATEMENT_HASH]
     if (meta["slug"] != item.slug or meta[STATEMENT_HASH] != expected

@@ -43,6 +43,8 @@ class FakeGitHub(GitHub):
         self.record_commits = []
         self.conflicts = 0
         self.tree = {}
+        for path, (mode, sha) in ci.verifier_objects(Path(ci.__file__).resolve().parents[1]).items():
+            self.tree[path] = dict(mode=mode, sha=sha)
         for path in (FIXTURE / "theorems" / SLUG).iterdir():
             blob = path.read_bytes()
             self.blobs[oid(blob)] = blob
@@ -101,7 +103,28 @@ class FakeGitHub(GitHub):
 
 def receipt(api):
     item = submission(api, 11, HEAD, "main")
-    return dict(**item.receipt(), result=RESULT, raw_statement_sha256=RESULT["statement_hash"])
+    policy = (FIXTURE / "theorems" / SLUG / "theorem.json").read_bytes()
+    return dict(**item.receipt(), result=RESULT, raw_statement_sha256=RESULT["statement_hash"],
+                policy_sha256=sha256(policy).hexdigest(),
+                verifier_objects=ci.verifier_objects(Path(ci.__file__).resolve().parents[1]))
+
+
+@pytest.mark.parametrize("change", ["policy", "checker"])
+def test_publication_requires_the_verified_rules(change):
+    api = FakeGitHub()
+    trusted = receipt(api)
+    if change == "policy":
+        entry = api.tree[f"theorems/{SLUG}/theorem.json"]
+        policy = json.loads(api.blobs[entry["sha"]])
+        policy["forbidden"] = ["Nat.zero_le"]
+        content = json.dumps(policy).encode()
+        entry["sha"] = oid(content)
+        api.blobs[oid(content)] = content
+    else:
+        api.tree["LeanGolf"]["sha"] = "f" * 40
+    with pytest.raises(Rejected, match=f"{change} changed or needs fresh verification"):
+        publish_record(api, "main", trusted)
+    assert not api.writes and not api.record_commits
 
 
 def test_fork_run_and_single_immutable_blob():
