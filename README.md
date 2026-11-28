@@ -1,8 +1,6 @@
 # Lean Golf
 
-I built Lean Golf to collect short [Lean 4](https://lean-lang.org/) proofs.
-The first valid proof of an open theorem sets its record. To beat a record,
-submit a shorter proof. [Leaderboard and theorem catalog](https://rpinho.github.io/lean-golf/)
+I made Lean Golf, a leaderboard for the shortest [Lean 4](https://lean-lang.org/) proofs: 2,019 open theorems from miniF2F, PutnamBench, Compfiles and ProofNet. [Leaderboard and theorem catalog](https://rpinho.github.io/lean-golf/)
 
 ## 60-second start
 
@@ -50,8 +48,9 @@ git remote add fork "https://github.com/$login/lean-golf.git"
 git push -u fork HEAD
 ```
 
-The score counts non-whitespace characters after `:=` once comments are
-removed. The leaderboard tracks records held, records ever set, and
+The first valid proof of an open theorem sets its record, and a shorter proof
+beats it. The score counts non-whitespace characters after `:=` once comments
+are removed. The leaderboard tracks records held, records ever set, and
 characters saved. Each recorded theorem has a history and an SVG card.
 
 ## Theorem sources
