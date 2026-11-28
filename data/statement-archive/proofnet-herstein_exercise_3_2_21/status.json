@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "fb4ff6240668fbced96058c11d606fdf8c9d510b9a2b7da113411336cddb0730",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The supports must be disjoint. They need not be complementary, since both permutations can fix the same point.",
+  "replacement_statement_hash": "93fcf334ec05a2b73bd286650c40b50f9aa58f0662362056fdb4543722da304e",
+  "slug": "proofnet-herstein_exercise_3_2_21",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L268"
+}

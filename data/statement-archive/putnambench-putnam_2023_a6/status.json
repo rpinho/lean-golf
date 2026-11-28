@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d9a49864f8aa114a50020a1f1e26a0253d1fcc6f4e6332fdec276bd9731970f5",
+  "evidence": "https://github.com/trishullab/PutnamBench/pull/369",
+  "reason": "A legal unfinished history forces Bob to pick a fresh element of 1 through n. The old condition required reusing an element and made conformity vacuous.",
+  "replacement_statement_hash": "bd1f36b6997a3ee43e7b718825c66ddf3ce395047f71ecaaaed4e41483cdfcb2",
+  "slug": "putnambench-putnam_2023_a6",
+  "upstream": "https://github.com/AaronY77/PutnamBench/blob/5c48885d57ac6c834f786e28687ca5c255719dfe/lean4/src/putnam_2023_a6.lean"
+}

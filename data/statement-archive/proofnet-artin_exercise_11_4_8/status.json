@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "c78398ee78b3cc69828a482bdb6b512376e93cd528676a011f9f98a10ccc27d6",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require positive exponent n. At n = 0 the polynomial 1 − p is a nonzero constant and a unit in ℚ[X].",
+  "replacement_statement_hash": "45da24a63b6cf26f4e67dfeb199352de26b3f0b14413feac9a160a8f8fea7979",
+  "slug": "proofnet-artin_exercise_11_4_8",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L13"
+}

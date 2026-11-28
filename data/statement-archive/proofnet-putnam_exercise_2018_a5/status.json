@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1f4eae06a0abe0c80c782b53c49be3d4504cb3e7228c0917fb3ef2b6e660e17f",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require a positive derivative order and a strictly negative derivative value. Previously the zeroth derivative at zero solved the statement.",
+  "replacement_statement_hash": "5073a0f790a6e6797780de3ca7b5dc2863ebcd5d85ffcf002a870899560389af",
+  "slug": "proofnet-putnam_exercise_2018_a5",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L330"
+}

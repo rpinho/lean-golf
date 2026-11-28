@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "0fe59ec4babcbe76602d757c0a310d621e195e0156bc49982f660e84e18e8376",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the terms zⁿ/n and characterize the exception z = 1. The old summands used n·z/n.",
+  "replacement_statement_hash": "f1464f964fbed9dbd6ffd3661d1236e04546d1bca109092b7d957c09ebb255a7",
+  "slug": "proofnet-shakarchi_exercise_1_19c",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L362"
+}

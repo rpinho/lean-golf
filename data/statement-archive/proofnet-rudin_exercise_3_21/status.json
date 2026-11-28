@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "919fa7fd91428a3e559f1fb2bac8acef8a19ef113463d769b2c8e28f126824ee",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore closedness, nonemptiness, boundedness and non-strict nesting of the sets before taking the limit of diameters.",
+  "replacement_statement_hash": "f51a4f3c8251f61df66bc489ff011429c3e362df9340ca409067217a16c6f944",
+  "slug": "proofnet-rudin_exercise_3_21",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L346"
+}

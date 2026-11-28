@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "c7d884bd952c4f03746b5fcf3c2081bc858d9af842363d7071988509eebf2d82",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore the converse: order 1 or 2 implies x² = 1.",
+  "replacement_statement_hash": "2d1f39701ea33bc1e16ec8d60e064ccc71c33673b8966f59cc7ba2d3e442d1ef",
+  "slug": "proofnet-dummit_foote_exercise_1_1_16",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L30"
+}

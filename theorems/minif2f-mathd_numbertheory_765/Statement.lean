@@ -1,9 +1,10 @@
 import Mathlib
+import Aesop
+
 
 open BigOperators Real Nat Topology Rat
 
 theorem LeanGolf.minif2f.mathd_numbertheory_765
-  (x : ℤ)
-  (h₀ : x < 0)
-  (h₁ : (24 * x) % 1199 = 15) :
-  x ≤ -449 := by sorry
+  (S : Set ℤ)
+  (hS : S = {x | x < 0 ∧ (24 * x) ≡ 15 [ZMOD 1199]}) :
+  IsGreatest S (-449:ℤ) := by sorry

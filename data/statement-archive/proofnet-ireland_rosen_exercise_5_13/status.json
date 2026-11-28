@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "16b08b629aa58243621a45e4dbb6c74646a9d64963faebd75361ba1c4becb655",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require positive prime p. Ring-theoretic Prime over ℤ includes negatives, which need not be 1 modulo 12.",
+  "replacement_statement_hash": "484fc758fd1c66d7ae1a1d29cb46ace14344ea6a1a208c920aa1c9fb760282e4",
+  "slug": "proofnet-ireland_rosen_exercise_5_13",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L102"
+}

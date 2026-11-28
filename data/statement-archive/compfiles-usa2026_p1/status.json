@@ -1,0 +1,9 @@
+{
+  "action": "remove",
+  "archived_record": false,
+  "archived_statement_hash": "bfbaadc4b0d8ac1e9f1cf895c557c223199900ad32db25a57e04322f2f4ba843",
+  "evidence": "https://github.com/dwrensha/compfiles/issues/276",
+  "reason": "The contest requires every maximizer. The packet asserts an upper bound and existence of a maximizer only. The issue proposes an equality characterization without a pinned corrected statement.",
+  "replacement_statement_hash": null,
+  "slug": "compfiles-usa2026_p1"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1d4d8659b5162f67263d364f719dd3166b6a400594d906dbc9fe2ea9ee3b56a5",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the implication from a continuous section to quotient map. The converse added by the packet fails in general.",
+  "replacement_statement_hash": "6c79287a0c2e9043263854646cfd5cfeb7ae8357aae9135b82508701340cd5d5",
+  "slug": "proofnet-munkres_exercise_22_2a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L300"
+}

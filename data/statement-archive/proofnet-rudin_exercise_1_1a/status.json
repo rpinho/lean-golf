@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "4a103148185e0dfd802a929d23baf10cec757643000c95671d515f732929586d",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore the source's stated nonzero rational premise. It was absent in the packet even though addition by zero also preserves irrationality.",
+  "replacement_statement_hash": "5a25c759d72778667d0bd206e4b4d1e157859b5f8ee7cc305e091ff262ad4973",
+  "slug": "proofnet-rudin_exercise_1_1a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L148"
+}

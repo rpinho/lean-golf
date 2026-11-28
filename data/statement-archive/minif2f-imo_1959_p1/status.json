@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": true,
+  "archived_statement_hash": "6dde1e518352c375ba9fc68cc5e69f273eddf706840c1fcf9bc6416f2b5d5398",
+  "evidence": "https://www.imo-official.org/problems/1959/",
+  "reason": "Use the pinned Compfiles statement for the same IMO problem. It asks for coprimality for every Lean natural, including zero. The old packet restricted n to positive values.",
+  "replacement_statement_hash": "66c10054fe7917c4659304fed7232c96b72d087e5982bde1c5a8e4fb95610b2b",
+  "slug": "minif2f-imo_1959_p1",
+  "upstream": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1959P1.lean"
+}

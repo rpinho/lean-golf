@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "c210bf0475542ee66897e196ba50c8ded8d106d18212fc55be310575f78f25f4",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the uniform topology given by bounded continuous functions. The old hypothesis allowed an unrelated topology.",
+  "replacement_statement_hash": "22f3f85c990fafc00d9f457132aa43a76646028fbc6589cdd359c396fcb54fcb",
+  "slug": "proofnet-munkres_exercise_29_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L310"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "6653cec62a3058ca1afb97d4adacc06d5ae410a6f3ed42c0fd00729b2be0458c",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L159",
+  "reason": "Quantify the recurrence over all reals as in the source, and recover the integer remainder at 94. The prior correction quantified only over integers.",
+  "replacement_statement_hash": "c5f4861c14f3d5c768fc0dcf4cfb67c1b5ef5893718909a9ee52f8714dc9590d",
+  "slug": "minif2f-aime_1994_p3",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L159"
+}

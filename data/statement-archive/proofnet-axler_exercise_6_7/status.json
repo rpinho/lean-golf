@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "ec71661422e82328ae0efe48dfda4a548c68f0d2468ce0a1fd0d3e69a5712a92",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Adjust the imaginary terms for Mathlib's second-slot linearity, the opposite of Axler's convention.",
+  "replacement_statement_hash": "8099e0e2351dca64d772ebe22281eb1dc8ee847fb4cd07ade9161f2376f7bb36",
+  "slug": "proofnet-axler_exercise_6_7",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L23"
+}

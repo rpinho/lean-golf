@@ -1,6 +1,6 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "credit": "PutnamBench contributors (Tsoukalas et al.). Correction by GitHub contributor AaronY77.",
   "difficulty": "2023 A6",
   "forbidden": [],
   "imports": [
@@ -10,7 +10,7 @@
   "name": "LeanGolf.putnambench.putnam_2023_a6",
   "slug": "putnambench-putnam_2023_a6",
   "source": "PutnamBench",
-  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2023_a6.lean",
-  "statement_hash": "d9a49864f8aa114a50020a1f1e26a0253d1fcc6f4e6332fdec276bd9731970f5",
+  "source_url": "https://github.com/AaronY77/PutnamBench/blob/5c48885d57ac6c834f786e28687ca5c255719dfe/lean4/src/putnam_2023_a6.lean",
+  "statement_hash": "bd1f36b6997a3ee43e7b718825c66ddf3ce395047f71ecaaaed4e41483cdfcb2",
   "title": "Putnam 2023 A6"
 }

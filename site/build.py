@@ -223,6 +223,11 @@ def build(root, out):
     packets = {path.parent.name: read_json(path)
                for path in sorted(theorems.glob("*/theorem.json"))}
     titles = {slug: meta["title"] for slug, meta in packets.items()}
+    archive = root / "data" / "statement-archive"
+    archived_records = {path.parent.name: read_json(path)
+                        for path in sorted(archive.glob("*/record.json"))}
+    archived_titles = {slug: read_json(archive / slug / "theorem.json")["title"]
+                       for slug in archived_records}
     groups = defaultdict(list)
     seeds = []
     for slug, meta in packets.items():
@@ -233,6 +238,16 @@ def build(root, out):
     events_by_slug = defaultdict(list)
     for event in history:
         events_by_slug[event["slug"]].append(event)
+    archived_events = {(slug, record["utc"], record["pr"]) for slug, record in archived_records.items()}
+    for slug, record in archived_records.items():
+        entries = events_by_slug[slug]
+        for i, entry in enumerate(entries):
+            if all(entry.get(key) == value for key, value in record.items()):
+                archived_events.update((slug, event["utc"], event["pr"]) for event in entries[:i + 1])
+                previous = entries[0]["previous"]
+                if previous is not None:
+                    archived_events.add((slug, previous["utc"], previous["pr"]))
+                break
     users = totals(records, history)
     out.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(STYLESHEET, out / "style.css")
@@ -277,10 +292,13 @@ def build(root, out):
         credit = theorem_credit(meta)
         details = (f"<details><summary>Trusted statement context</summary>{code(context)}</details>"
                    if context else "")
+        archive_note = ('<p>A past record belongs to an archived statement.</p>'
+                        if slug in archived_records else "")
         if slug not in records:
             write_page(target / "index.html", f"{title} · Lean Golf", "../../", f"""
 <h1>{escape(title)}</h1>
 <p class="record">open: first valid proof sets the record</p>
+{archive_note}
 {credit}
 <section><h2>Statement</h2>{code(imports + statement)}{details}</section>
 """)
@@ -290,12 +308,15 @@ def build(root, out):
         events = events_by_slug[slug]
         event_rows = reversed([events[0]["previous"], *events] if events else [record])
         changes = table(("Holder", "Characters", "Date"), [
-            (user_link(event["holder"], "../../"), str(event["score"]), date(event["utc"]))
+            (user_link(event["holder"], "../../") +
+             (" (archived statement)" if (slug, event["utc"], event["pr"]) in archived_events else ""),
+             str(event["score"]), date(event["utc"]))
             for event in event_rows if event is not None
         ])
         write_page(target / "index.html", f"{title} · Lean Golf", "../../", f"""
 <h1>{escape(title)}</h1>
 <p class="record"><strong>{record["score"]}</strong> characters · {user_link(record["holder"], "../../")} · {date(record["utc"])}</p>
+{archive_note}
 {credit}
 <section><h2>Statement</h2>{code(imports + statement)}{details}</section>
 <section><h2>Record proof</h2>{code(full_record)}<p><a href="record.svg">Record card (SVG)</a></p></section>
@@ -306,10 +327,18 @@ def build(root, out):
     for user in users:
         login = user["login"]
         held = {slug: record for slug, record in records.items() if record["holder"].lower() == login}
-        rows = [(theorem_link(event["slug"], titles[event["slug"]], "../../"), str(event["score"]),
-                 str(characters_saved(event)), date(event["utc"]))
-                for event in reversed(history)
-                if event["holder"].lower() == login and event["slug"] in titles]
+        rows = []
+        for event in reversed(history):
+            if event["holder"].lower() != login:
+                continue
+            slug = event["slug"]
+            if (slug, event["utc"], event["pr"]) in archived_events:
+                theorem = escape(archived_titles[slug]) + " (archived statement)"
+            elif slug in titles:
+                theorem = theorem_link(slug, titles[slug], "../../")
+            else:
+                continue
+            rows.append((theorem, str(event["score"]), str(characters_saved(event)), date(event["utc"])))
         current = table(("Theorem", "Characters", "Holder", "Date"),
                         record_rows(held, titles, "../../")) if held else "<p>No current records.</p>"
         changes = (table(("Theorem", "Characters", "Saved", "Date"), rows)

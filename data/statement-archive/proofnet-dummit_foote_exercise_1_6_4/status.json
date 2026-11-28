@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "8a971b641c1c6a6da59886167b326f3668ac877e6d85975c5c53c1e370499208",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the groups of units ℝˣ and ℂˣ. Multiplicative applied to the additive groups changes notation while keeping addition as the operation.",
+  "replacement_statement_hash": "58e9abb5fc450f792d80d523ebcf7fb8e0ea028d18c3137f77126c91eb616a07",
+  "slug": "proofnet-dummit_foote_exercise_1_6_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L35"
+}

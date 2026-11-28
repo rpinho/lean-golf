@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "9c416f2cb980859c708834d39a954521e6047f12117babdf864e70735dc1d913",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Express perfectness with accumulation points. The old condition that a closed set equals its principal-filter cluster set held even for isolated points.",
+  "replacement_statement_hash": "6e95b58aa7aedd80a8256d946b3a8013339eeb75bd71a2dd473f515bb2a71e54",
+  "slug": "proofnet-rudin_exercise_2_28",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L157"
+}

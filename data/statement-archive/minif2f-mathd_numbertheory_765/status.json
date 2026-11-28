@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "30070456d0dd6e979a6adff39aff5430fae3a7e484651ab83f55048baf8d3c3c",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L53",
+  "reason": "Require that −449 itself satisfies the congruence. The old statement only bounded the negative solutions above.",
+  "replacement_statement_hash": "dc80db5251419211494ab009721a6f30fc7fb9b7165f18963ffa6a842073c88c",
+  "slug": "minif2f-mathd_numbertheory_765",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L53"
+}

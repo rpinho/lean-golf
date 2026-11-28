@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "0bfb75afd01779afa83d452df7348374c26fca5ec0efde8dd6c4359a447b0b2b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use 3 in ZMod p with order p − 1, with n ≥ 2 for the intended Fermat prime. 3 modulo 3 cannot be primitive.",
+  "replacement_statement_hash": "16df2df67df7a7aa66160347a7b59cc1cffdd193e180a22a9ecb22e22df9ec32",
+  "slug": "proofnet-ireland_rosen_exercise_4_6",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L285"
+}

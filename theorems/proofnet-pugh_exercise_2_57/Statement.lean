@@ -1,10 +1,7 @@
 import Mathlib
 
-open Filter Real Function
-
+open Filter Real Function Set Metric
 open scoped Topology
 
-noncomputable section
-
-theorem LeanGolf.proofnet.pugh_exercise_2_57 {X : Type*} [TopologicalSpace X]
-  : ∃ (S : Set X), IsConnected S ∧ ¬ IsConnected (interior S) := by sorry
+theorem LeanGolf.proofnet.pugh_exercise_2_57 :
+    ∃ S : Set (ℝ × ℝ), IsConnected S ∧ ¬ IsConnected (interior S) := by sorry

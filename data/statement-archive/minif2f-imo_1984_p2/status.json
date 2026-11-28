@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "08515d6a86597fbdd6384dd793f0d290bc35d04105775f654f4c623e6965231f",
+  "evidence": "https://www.imo-official.org/problems/1984/",
+  "reason": "The source asks for a positive witness. The old packet supplied a lower bound on possible witnesses. The pinned Compfiles declaration verifies the supplied pair 18 and 1 against both divisibility conditions.",
+  "replacement_statement_hash": "d21c847d5e38d0c00bd2c065b00b022c70eb733b9d86d7ec562ea7ad2e76bef6",
+  "slug": "minif2f-imo_1984_p2",
+  "upstream": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1984P2.lean"
+}

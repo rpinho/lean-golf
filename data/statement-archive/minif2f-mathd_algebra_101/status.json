@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "fea642e22b8f3a6daa1364df3bbc9dbd45c822a0d7758fc8d6519268fc0f1d6e",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L62",
+  "reason": "Assert both directions of membership in the interval of solutions. The previous packet showed only that solutions lie in the interval.",
+  "replacement_statement_hash": "7f6bedd898303e57b8ba086a483831b1b388d93b9947b1f3eb07c62c71b55cd1",
+  "slug": "minif2f-mathd_algebra_101",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L62"
+}

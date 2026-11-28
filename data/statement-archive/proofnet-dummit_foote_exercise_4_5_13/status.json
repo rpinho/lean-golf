@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "05979adea06204b5385b613d4fd5b0cb7f8e7136f60c3ee04f3a63bf63641973",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require p to be prime and divide 56. Previously a Sylow subgroup at a prime outside the group order could be trivial and normal.",
+  "replacement_statement_hash": "01483c75dd36d4b8e49a01501f58e282493a1e218a14d82e88682187cd22198f",
+  "slug": "proofnet-dummit_foote_exercise_4_5_13",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L235"
+}

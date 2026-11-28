@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "ee148d74e26d0619250f70c5680bc972958f4014af055f78401a40514addaf35",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L226",
+  "reason": "Assert the actual maximum of the distances. The prior statement established an upper bound without a pair attaining it.",
+  "replacement_statement_hash": "aafac10c328af9a3b215cf2b162a01b7aa1728bf2c9689196c697c29c489ea77",
+  "slug": "minif2f-amc12a_2020_p15",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L226"
+}

@@ -1,0 +1,11 @@
+import Mathlib
+
+open Fintype Set Real Ideal Polynomial
+
+open scoped BigOperators
+
+noncomputable section
+
+theorem LeanGolf.proofnet.herstein_exercise_2_7_7 {G : Type*} [Group G] {G' : Type*} [Group G']
+  (φ : G →* G') (N : Subgroup G) [N.Normal] :
+  (Subgroup.map φ N).Normal  := by sorry

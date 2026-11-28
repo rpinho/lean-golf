@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "07cee7042d97821b5c352b3372febf463d1008f82846651ce23f3c4eb87be055",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require a positive common exponent. The old conclusion used a⁰ = 1 for all elements.",
+  "replacement_statement_hash": "f40a87018d11e620eaff7d0fb9975e11a6aec5b30446b74a0296efb86063d897",
+  "slug": "proofnet-herstein_exercise_2_1_27",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L72"
+}

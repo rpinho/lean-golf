@@ -1,11 +1,6 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.mathd_numbertheory_435
-  (k : ℕ)
-  (h₀ : 0 < k)
-  (h₁ : ∀ n, Nat.gcd (6 * n + k) (6 * n + 3) = 1)
-  (h₂ : ∀ n, Nat.gcd (6 * n + k) (6 * n + 2) = 1)
-  (h₃ : ∀ n, Nat.gcd (6 * n + k) (6 * n + 1) = 1) :
-  5 ≤ k := by sorry
+theorem LeanGolf.minif2f.mathd_numbertheory_435 :
+  IsLeast {k : ℕ | 0 < k ∧ ∀ n > 0, Nat.Coprime (6 * n + k) (6 * n + 3) ∧ Nat.Coprime (6 * n + k) (6 * n + 2) ∧ Nat.Coprime (6 * n + k) (6 * n + 1)} 5 := by sorry

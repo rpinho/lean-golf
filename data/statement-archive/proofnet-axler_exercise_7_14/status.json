@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "ab739f67db1de1ffcdfed0963bfdbfb9cd4a280a20c47f37a74a1806acaf41dc",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Put the existence of a unit near-eigenvector entirely in the antecedent. The old conclusion improperly demanded existence of a unit vector.",
+  "replacement_statement_hash": "13ed23c7784eae96d3a5f6a68a8aeea61fcab6d7b52f7d44a73cd23ed045a54f",
+  "slug": "proofnet-axler_exercise_7_14",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L27"
+}

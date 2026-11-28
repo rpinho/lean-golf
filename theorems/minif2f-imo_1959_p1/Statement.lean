@@ -1,8 +1,7 @@
-import Mathlib
+import Mathlib.Algebra.Divisibility.Basic
+import Mathlib.Tactic.Ring
+import Mathlib.Data.Nat.Prime.Basic
 
-open BigOperators Real Nat Topology Rat
+namespace Imo1959P1
 
-theorem LeanGolf.minif2f.imo_1959_p1
-  (n : ℕ)
-  (h₀ : 0 < n) :
-  Nat.gcd (21*n + 4) (14*n + 3) = 1 := by sorry
+theorem _root_.LeanGolf.minif2f.imo_1959_p1 : ∀ n : ℕ, Nat.Coprime (21 * n + 4) (14 * n + 3) := by sorry

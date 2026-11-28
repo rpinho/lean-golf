@@ -1,16 +1,17 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "miniF2F-Lean v2 contributors (Azim Ospanov, Farzan Farnia and Roozbeh Yousefzadeh).",
   "difficulty": "imo",
   "forbidden": [],
   "imports": [
-    "Mathlib"
+    "Mathlib",
+    "Aesop"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.minif2f.imo_1962_p4",
   "slug": "minif2f-imo_1962_p4",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/imo_1962_p4.lean",
-  "statement_hash": "6fb83128d6da6d381069ea9f7cc0af55cf4f4666a6ed03777dffccc06e073f4b",
+  "source_url": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L288",
+  "statement_hash": "4eccabccb60a0223df20e87cd70a293bb0cd89fc4a54ca767796c8220f3beb8f",
   "title": "imo_1962_p4"
 }

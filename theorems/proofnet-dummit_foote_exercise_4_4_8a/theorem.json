@@ -1,16 +1,16 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "credit": "ProofNet-Verified contributors (One An, Marcus J. Min et al.).",
   "difficulty": "Dummit-Foote",
   "forbidden": [],
   "imports": [
     "Mathlib"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.proofnet.dummit_foote_exercise_4_4_8a",
   "slug": "proofnet-dummit_foote_exercise_4_4_8a",
   "source": "ProofNet",
-  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Dummit-Foote.lean",
-  "statement_hash": "636b181b123bfd6708d6e39d9767383b6516d9bf88aa1ba3decdbd519b668d3d",
+  "source_url": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L234",
+  "statement_hash": "c446b6c171b3a1570ad752542f52f1ce99d5e331aef75e9c4a52ece717484b32",
   "title": "Dummit-Foote · exercise 4 4 8a"
 }

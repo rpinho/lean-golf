@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "66d5c53c039035da4343b54aa4ac510b844437c76f72541a14a1503074181374",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the group multiplication throughout. An independent Mul instance permitted arbitrary multiplication in conjugation.",
+  "replacement_statement_hash": "2db1f0065ee51ddfd4c9b583670d93e867877065888a1dd0b4fd4ab3de9d92c2",
+  "slug": "proofnet-herstein_exercise_2_3_17",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L74"
+}

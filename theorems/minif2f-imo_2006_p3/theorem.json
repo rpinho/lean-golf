@@ -1,16 +1,16 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "Google DeepMind miniF2F fork contributors.",
   "difficulty": "imo",
   "forbidden": [],
   "imports": [
     "Mathlib"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.minif2f.imo_2006_p3",
   "slug": "minif2f-imo_2006_p3",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/imo_2006_p3.lean",
-  "statement_hash": "dd4da451eef12b4d67fb6593bf560c12b813db1be18cb86f6fc8a1f1dc379c87",
+  "source_url": "https://github.com/google-deepmind/miniF2F/blob/f0a20e14c1eeccd859d51bb4c2b3ee487889c303/MiniF2F/Valid.lean#L130",
+  "statement_hash": "94c1814d07393c36e308f8d988f0124d3f8d6028c3059312c204b304931049a2",
   "title": "imo_2006_p3"
 }

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "7b642ea6e8d9762ed4faac491f6422df47ef48f5d7db52807c78634505a7a210",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L133",
+  "reason": "Use a real quarter exponent. In the original Lean term the inner 1/4 is natural division, making the base 1 and the hypothesis impossible.",
+  "replacement_statement_hash": "1ab93d0201230bbdb96d2d2fb4b410621e7cfc63956fe7967eaa34b9d3aadfae",
+  "slug": "minif2f-mathd_algebra_275",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L133"
+}

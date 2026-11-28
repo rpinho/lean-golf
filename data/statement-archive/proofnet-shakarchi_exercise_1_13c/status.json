@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "56c8c7b64aa013eb5e2013949ad6cc0bba23831644906437c90ab3a4a44d4073",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Specify connectedness of the open domain. The two constant values 1 and −1 on disjoint disks disprove the old claim.",
+  "replacement_statement_hash": "1349c611d8409949d5ec3267fe5d85cb895992eb93f5d72e2ca62ae6c95cdc8a",
+  "slug": "proofnet-shakarchi_exercise_1_13c",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L177"
+}

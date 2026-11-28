@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "e6888c109a6fdae267a260ab91eb2189b286c0f15130ae959ac9fa42fafd3d1f",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore the source's positive exponent parameter n and nonzero characteristic.",
+  "replacement_statement_hash": "1981f421d1845c5086708c36796009cc03adaaab05db893f2100ffcf887ed0ca",
+  "slug": "proofnet-herstein_exercise_5_1_8",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L275"
+}

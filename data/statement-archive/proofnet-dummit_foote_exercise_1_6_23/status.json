@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "3baea2f1b9aecc34b408d17c8784fbf5c65c91d5479bc56a7a4ed4e8e877459d",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore finiteness and force the identity to be the only fixed point. The old condition asked only for injectivity at the identity.",
+  "replacement_statement_hash": "13fc3d986065a6c8aa7b37c53f5c3d437b8a678dc1a421ac16a500182860c89a",
+  "slug": "proofnet-dummit_foote_exercise_1_6_23",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L220"
+}

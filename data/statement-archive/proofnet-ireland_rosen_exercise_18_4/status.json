@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "87db1da4e536d3a63663273c3c7d1a1a7c534a2f78df9fbb576c2e5274f769e8",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The intended taxicab minimum uses positive cubes and requires attainment. With signed cubes, 91 = 3³ + 4³ = 6³ + (−5)³ contradicts the claim.",
+  "replacement_statement_hash": "d5570cdc52561f4728f84257028585754c8fbdecc07bf72ca9049ecb16b126f6",
+  "slug": "proofnet-ireland_rosen_exercise_18_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L104"
+}

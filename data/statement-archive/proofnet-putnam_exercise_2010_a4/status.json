@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "376f9ee0bfe627f94e19f981c84186af3c9e8d6efa11c202c26825fe483ee05d",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore the stated hypothesis that n is positive.",
+  "replacement_statement_hash": "6b07351fc826e9fd4503dbc6c42169412949776553480ef0861787779160f467",
+  "slug": "proofnet-putnam_exercise_2010_a4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L144"
+}

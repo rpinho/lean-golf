@@ -1,16 +1,16 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) 2024 The Compfiles Contributors. All rights reserved. Authors: David Renshaw",
+  "credit": "Contributors to cwang-brai/imo (Google).",
   "difficulty": "Imo",
   "forbidden": [],
   "imports": [
-    "Mathlib.Tactic"
+    "Mathlib"
   ],
   "license": "Apache-2.0",
   "name": "LeanGolf.compfiles.imo1972_p1",
   "slug": "compfiles-imo1972_p1",
   "source": "Compfiles",
-  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1972P1.lean",
-  "statement_hash": "06f9c8bff4ad460cf53129f9983c849dff6defcf5fd5a507f038802329dbbd59",
+  "source_url": "https://github.com/cwang-brai/imo/blob/0163864e92a4cdcfda3b6ad195a3b6ad31c73914/Imo/1972/P1.lean#L25",
+  "statement_hash": "f53d95ceb6213f984c97330ee5b305c6da007dfe03776cd64581e1a3aacbf95b",
   "title": "IMO1972 P1"
 }

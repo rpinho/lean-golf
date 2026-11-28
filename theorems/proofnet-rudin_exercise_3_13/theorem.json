@@ -1,16 +1,16 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "credit": "ProofNet-Verified contributors (One An, Marcus J. Min et al.).",
   "difficulty": "Rudin",
   "forbidden": [],
   "imports": [
     "Mathlib"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.proofnet.rudin_exercise_3_13",
   "slug": "proofnet-rudin_exercise_3_13",
   "source": "ProofNet",
-  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Rudin.lean",
-  "statement_hash": "1b6c11f1754427d71a0612ee7ac91b0e9af4dc1ab3512f225a472da24b55ba50",
+  "source_url": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L345",
+  "statement_hash": "993140316bd19ee5a7e471e2d0c4aab500f7533eabacc172a210b4588b5f624f",
   "title": "Rudin · exercise 3 13"
 }

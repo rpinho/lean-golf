@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "94c04adba8b72d01324e965fd45c7dce42c2021a978d99e57f3b1a81b623acf1",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L142",
+  "reason": "Require attainment of the least lcm. The pair (12,54) meets the digit and gcd conditions with lcm 108.",
+  "replacement_statement_hash": "328147583abed4200294ef49762c88c2d0cfe31caf000728f42a4757d88dba4a",
+  "slug": "minif2f-mathd_numbertheory_495",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L142"
+}

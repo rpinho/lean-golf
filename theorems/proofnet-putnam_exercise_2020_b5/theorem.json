@@ -1,16 +1,16 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "credit": "ProofNet-Verified contributors (One An, Marcus J. Min et al.).",
   "difficulty": "Putnam",
   "forbidden": [],
   "imports": [
     "Mathlib"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.proofnet.putnam_exercise_2020_b5",
   "slug": "proofnet-putnam_exercise_2020_b5",
   "source": "ProofNet",
-  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Putnam.lean",
-  "statement_hash": "76df2d60cb9b24ee04357a661511adcac4534c299ff80eb6174896c6859ce39d",
+  "source_url": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L147",
+  "statement_hash": "64532aa5cd39649382db729faff40ae9b5052415443c80603e4ecb247e17f114",
   "title": "Putnam · exercise 2020 b5"
 }

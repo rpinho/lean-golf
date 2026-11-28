@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "a14ef08b87141fa5c7aa75c1b3fd5aa20a2a7955ea8897b0523471c46f83943f",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use separability for distinct roots of the polynomial. Counting roots in the ground field incorrectly requires it to split there.",
+  "replacement_statement_hash": "79ce4bb7d42bfa9277f9aba32359013ab73701c3812f95cbfba411b30e73a169",
+  "slug": "proofnet-herstein_exercise_5_6_14",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L278"
+}

@@ -1,11 +1,15 @@
 import Mathlib
+import Aesop
+
 
 open BigOperators Real Nat Topology Rat
 
 theorem LeanGolf.minif2f.aime_1983_p2
-  (x p : ℝ)
+  (p : ℝ)
   (f : ℝ → ℝ)
-  (h₀ : 0 < p ∧ p < 15)
-  (h₁ : p ≤ x ∧ x ≤ 15)
-  (h₂ : f x = abs (x - p) + abs (x - 15) + abs (x - p - 15)) :
-  15 ≤ f x := by sorry
+  (h₀ : f = fun x => abs (x - p) + abs (x - 15) + abs (x - p - 15))
+  (h₁ : 0 < p ∧ p < 15)
+  (S R : Set ℝ)
+  (hS : S = Set.Icc p 15)
+  (hR : R = {y | ∃ x ∈ S, y = f x}) :
+  IsLeast R 15 := by sorry

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "c608e3b9b49edfe552e5c09678e0521c3ed62126760d3e211818139c09ce1acc",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "State uniqueness on the closure of A itself. The old claim could distinguish arbitrary extensions by values outside the closure.",
+  "replacement_statement_hash": "1399ca4d17f0af678cbca25115a925e95a622151cd7e2c40983b526ff2690e50",
+  "slug": "proofnet-munkres_exercise_43_2",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L318"
+}

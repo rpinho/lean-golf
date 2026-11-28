@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "4525078c63aaad9be0de21b25f4b0114c3ca473eb3a665da6706931345eaf908",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use an arbitrary family of spaces. The source product convergence theorem has no finite-index restriction.",
+  "replacement_statement_hash": "d2d83d3c483201d7f9a9c46cc8503950c56f3516ea1b85e43a0648877af5a13c",
+  "slug": "proofnet-munkres_exercise_19_6a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L114"
+}

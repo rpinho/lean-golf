@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "290877e288868a93203bd1e70984986dade67da761695acdc1b26eec4d80e591",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The smallest common containing topology must be contained in every competitor. Reverse the last inclusion.",
+  "replacement_statement_hash": "02538636347892396dc7af2eda4df8a864e035870b01166ee352d6495a21c332",
+  "slug": "proofnet-munkres_exercise_13_4b1",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L107"
+}

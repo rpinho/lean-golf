@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "01ab4b3b2c5ea4ed85ee957173b9ad5c5d6ea71a1acc08c272d4a70c9dfa8fb3",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Include both real and complex finite-dimensional spaces in the normal-operator range identity.",
+  "replacement_statement_hash": "1e4a03d563069137152d8fbd40766753f1935dfb157727482b4d30c4a28e3a8f",
+  "slug": "proofnet-axler_exercise_7_6",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L25"
+}

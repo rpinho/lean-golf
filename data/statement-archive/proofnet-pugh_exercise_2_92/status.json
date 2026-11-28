@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "664cc500fbef69bb706b072573bc9ddb54b9b02c667c02952b2c86eecdaed111",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use nested sets by non-strict inclusion and the Hausdorff condition of the source's metric-space setting.",
+  "replacement_statement_hash": "955409423c08d2865c295578974eca36c6cdac26df9e9d94cac648239b4014ec",
+  "slug": "proofnet-pugh_exercise_2_92",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L322"
+}

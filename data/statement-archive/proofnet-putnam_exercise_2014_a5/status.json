@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "21d74019ab8b7b80a0382864bbee337f0a3fd35e2af0490b0184466e012cc6b7",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The polynomial has coefficient i + 1 at degree i, with distinct positive polynomial indices. The packet repeated the same monomial. The PutnamBench contest text supplies the full source.",
+  "replacement_statement_hash": "68bf1a570be8dd42003db4b07f2bdf44ecbb45968b8fd900631dc280fb75c97c",
+  "slug": "proofnet-putnam_exercise_2014_a5",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L329"
+}

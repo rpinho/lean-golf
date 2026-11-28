@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1523f7d3a859e23b103d1a0f5e39f9c30adc2ca95022e1a2e129e15960b7b1ae",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L94",
+  "reason": "Require attainment of 4/5 under the real-root condition. The pair (−4/5,−2/5) has root x = 1 and attains the value.",
+  "replacement_statement_hash": "8333fce819a1dd360d1163eb44081c869cf04a7a60d370b2b7f6028dda173096",
+  "slug": "minif2f-imo_1973_p3",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L94"
+}

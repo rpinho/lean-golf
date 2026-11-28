@@ -1,9 +1,8 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
 theorem LeanGolf.minif2f.amc12_2000_p1
-  (i m o : ℕ)
-  (h₀ : i ≠ m ∧ m ≠ o ∧ o ≠ i)
-  (h₁ : i*m*o = 2001) :
-  i+m+o ≤ 671 := by sorry
+  (S : Set ℕ)
+  (h₁ : S = {x | ∃ (i m o : ℕ), i ≠ m ∧ m ≠ o ∧ o ≠ i ∧ i*m*o = 2001 ∧ x = i+m+o}) :
+  IsGreatest S 671 := by sorry

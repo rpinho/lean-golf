@@ -1,16 +1,16 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "Copyright (c) 2024 David Renshaw. All rights reserved. Authors: David Renshaw",
   "difficulty": "imo",
   "forbidden": [],
   "imports": [
-    "Mathlib"
+    "Mathlib.Tactic"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.minif2f.imo_1962_p2",
   "slug": "minif2f-imo_1962_p2",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/imo_1962_p2.lean",
-  "statement_hash": "473ba1b864906ca5c2186155bf30d2ba6101e3e37adef257b2bbbecb05ac35f0",
+  "source_url": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1962P2.lean",
+  "statement_hash": "052d9f04ed78c0c2ffa2c674c58f4021025583c89a7e0769ef8ebabea8e6c191",
   "title": "imo_1962_p2"
 }

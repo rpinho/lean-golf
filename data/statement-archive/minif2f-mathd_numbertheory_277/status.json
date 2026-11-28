@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "a02ae5a287679709fb84ff334fb0d38fa025557d384465065c08a35d8ec14c77",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L244",
+  "reason": "Check attainment of 60 with the positive pair (18,42) as well as minimality over all pairs.",
+  "replacement_statement_hash": "21b8e6cb6bee7f6730f646337dd4e74d92f76b2e685b95d318e6fcb3fbb3af50",
+  "slug": "minif2f-mathd_numbertheory_277",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L244"
+}

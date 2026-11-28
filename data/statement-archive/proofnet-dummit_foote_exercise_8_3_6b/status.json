@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d655d328bb979d29af91ff02030a0dbdb8d7739a8cc80bdae7e878710c0da096",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the quotient with its actual ring operations. The previous equality of carrier types allowed an unrelated Ring instance.",
+  "replacement_statement_hash": "7590bb04c51a3b41233333c1bdc00f75511580cdc0233cc42ac70d73700667ee",
+  "slug": "proofnet-dummit_foote_exercise_8_3_6b",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L249"
+}

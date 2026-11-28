@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "5d60a36ea7e0e386505420be0ea18652e785d01c573a308c4f63eecdf0af7d36",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L6",
+  "reason": "Use exactly the first nine positive integers. The prior range included 10², which happens not to affect the units digit.",
+  "replacement_statement_hash": "003c1c9d65f43fd1ca892dc3c4801ae39d40278a313b56b0498274b0ad3d7a0a",
+  "slug": "minif2f-mathd_numbertheory_3",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L6"
+}

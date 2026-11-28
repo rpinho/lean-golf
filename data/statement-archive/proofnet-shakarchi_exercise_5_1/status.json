@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1c45fcdfa9dbc2a2cd3573e258a4510f25a83416d08ff660fd949ceece66c94b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Sum real deficits 1 − |z| over zeros in the disc with multiplicity. The old complex sum omitted the norm and allowed arbitrary repetitions.",
+  "replacement_statement_hash": "3d37417b6b10e2a8f31a98e4a4f13f86e9e0fa5accffff273a8f8ffa5574cdd1",
+  "slug": "proofnet-shakarchi_exercise_5_1",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L367"
+}

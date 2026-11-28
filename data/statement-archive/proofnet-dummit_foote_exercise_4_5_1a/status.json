@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "72cb1c8221da2db146a2e8d83525a46ec495db9033bbe5980bcb25ab710a2efa",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Assume P is Sylow in G and prove that its restriction to H is a maximal p-subgroup. The old assertion incorrectly made H itself a p-group.",
+  "replacement_statement_hash": "4316ac7bb0c11220084d95bc7259800535dcd3a9d92b741c02a0282cb5eca20c",
+  "slug": "proofnet-dummit_foote_exercise_4_5_1a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L51"
+}

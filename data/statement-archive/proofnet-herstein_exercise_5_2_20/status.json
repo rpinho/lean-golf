@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "7011010afa14e91dba6c706354b00ba9a42215bfdba667267b5937cc2baf56c9",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The collection of subspaces must be finite. The union of all lines in a two-dimensional space otherwise covers the space.",
+  "replacement_statement_hash": "7fecd249afbfc9b110998328f0a5c341c18b71bef3803afcb5f9c1721e965aa3",
+  "slug": "proofnet-herstein_exercise_5_2_20",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L91"
+}

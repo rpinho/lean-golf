@@ -1,6 +1,6 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "Harmonic miniF2F contributors. Re-split by Justin Asher.",
   "difficulty": "amc12",
   "forbidden": [],
   "imports": [
@@ -10,7 +10,7 @@
   "name": "LeanGolf.minif2f.amc12_2000_p12",
   "slug": "minif2f-amc12_2000_p12",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/amc12_2000_p12.lean",
-  "statement_hash": "04775d1641e863d2dca4e1a724209047db3ffa1725a5f24d30e147a2ef0d9b4b",
+  "source_url": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L210",
+  "statement_hash": "bef59a4dfaa916c38093597ffcdbbed258dda58df25dde3b19e6b08c378ad929",
   "title": "amc12_2000_p12"
 }

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "4b27ba74913c04dc225342b503581bfd43377e4b94ba84ee3508c01f8228174d",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use a single function on the closed interval with the source's positivity, continuity, and monotonicity of the modulus. The old statement treated an arbitrary family of functions.",
+  "replacement_statement_hash": "7dd5e35d963cdf443cc1b44d29edda1952b1902547e5e8973674d69f2ecb2706",
+  "slug": "proofnet-pugh_exercise_4_15a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L325"
+}

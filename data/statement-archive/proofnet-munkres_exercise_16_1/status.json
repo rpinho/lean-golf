@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "00191e3cde6fb19bb87e2ac365b782166e9d39052ca45c86122c30789492cd8e",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the inducing map from A into X to express transitivity of the subspace topology. The old open-image condition fails for A = {0} in Y = X = ℝ.",
+  "replacement_statement_hash": "6f45280b66609891f7deb65d01c4882a9e3f4e0d9cb347d91508187ba26873f2",
+  "slug": "proofnet-munkres_exercise_16_1",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L294"
+}

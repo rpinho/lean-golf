@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "75e9078e79c528570e72e20a3d2ee13c2b6ade4ab480bcc9ddbdd74d9bb6e4ca",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L149",
+  "reason": "State the maximum on the range of the expression over real t. Put u = t/2ᵗ. The expression is u − 3u², with equality at u = 1/6, attained for t between 0 and 1.",
+  "replacement_statement_hash": "5b89b95ff8166e79f68bcaf96579e92ddd258105a9cc5e47833f1da745c3e0f0",
+  "slug": "minif2f-amc12b_2020_p22",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L149"
+}

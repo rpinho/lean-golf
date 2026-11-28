@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "ab288d82e17f479110fc839db378025ef4ca2799576a82eea7a9aaceb60e41e2",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L10",
+  "reason": "Restore when equality occurs, as explicitly requested after proving the inequality. The corrected statement gives equality exactly for equilateral triangles.",
+  "replacement_statement_hash": "9acc72e8924ed5e4ea08f38e50e3415ff6f205dd8ba682f4af9f4bbd49679cba",
+  "slug": "minif2f-imo_1983_p6",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L10"
+}

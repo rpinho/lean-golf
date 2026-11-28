@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "0183e867dad3d314b1992e94526ce82248d8f993927918ac252c78888f537409",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The largest common contained topology must contain every competitor. Reverse the last inclusion.",
+  "replacement_statement_hash": "0a1b03bdd8915136465efdbf4fd65f51b52307ec8b95848fe6ac9d52c3fe591f",
+  "slug": "proofnet-munkres_exercise_13_4b2",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L291"
+}

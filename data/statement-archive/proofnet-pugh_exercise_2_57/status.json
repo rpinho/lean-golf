@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d943b8d142ab4c78ee1f2e84a1ced3b6b9b6adf322020d9ee5f54264074a06ff",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Exhibit a counterexample in the plane. The prior statement demanded one in every topological space, including a singleton.",
+  "replacement_statement_hash": "92447444c8451faee9f4061a4e1f89888f5206a57628c7aa6406b8184419bd4e",
+  "slug": "proofnet-pugh_exercise_2_57",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L138"
+}

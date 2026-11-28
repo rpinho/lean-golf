@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "6ada7767c635e88889458c0c84db84d5cc3b700af92aa8bd65f4a806fc5865ca",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use extended-real limsups and exclude opposite infinities. A nonzero sum is a different condition.",
+  "replacement_statement_hash": "96d0d5a8817357f6e44a6ca4d1cb756f10988413e388b395acdc20893afd721d",
+  "slug": "proofnet-rudin_exercise_3_5",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L343"
+}

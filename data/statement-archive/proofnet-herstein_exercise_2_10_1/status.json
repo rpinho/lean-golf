@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1db178b6e50fa8547329fd308eab97adfb5d262745bf1a6a16c6b0641b9d3160",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore b ∉ A from the source. Taking A = G makes the old intersection conclusion false for b of prime order.",
+  "replacement_statement_hash": "46108eda5d8c67f371e266a6b1274ffde3c716c1e69c4f9e8160e0ce04413001",
+  "slug": "proofnet-herstein_exercise_2_10_1",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L266"
+}

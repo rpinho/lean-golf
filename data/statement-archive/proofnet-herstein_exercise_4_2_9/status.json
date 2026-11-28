@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "41f100e7d1cd56b1f617059105ab5069b6ce123dd64766ecfbeb64a2da64fc31",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Quantify universally over numerator and denominator, and end the sum at 1/(p − 1). The old existential antecedent could be chosen false.",
+  "replacement_statement_hash": "b837307d69f1d0eb8e9daf45d51715bcb811487c3c5a30bc93a9397d34f278ff",
+  "slug": "proofnet-herstein_exercise_4_2_9",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L86"
+}

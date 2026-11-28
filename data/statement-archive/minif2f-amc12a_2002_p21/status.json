@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "953efb592076dd72d6363ee20fa19d5e841a810d84b3d5184ed107c9b7781e59",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L321",
+  "reason": "Start the recurrence at the third term, rather than leaving the third and fourth free. Prove that 1999 attains the threshold as well as being least.",
+  "replacement_statement_hash": "d6787fe64b524e8a95ca8b9c140f59f7df762cc638c0aa8cb00c627b2710032d",
+  "slug": "minif2f-amc12a_2002_p21",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L321"
+}

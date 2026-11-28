@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "81bf8998be711831607a34fc1ea963dbc5a8f240c605b005aa9e6fe4a9efe48f",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require a positive exponent. With n = 0 every element in every group satisfies the old conclusion.",
+  "replacement_statement_hash": "82ea62d837591cd46b607969c330c2c158e24c0acf613caed28b39d2b92de4fd",
+  "slug": "proofnet-herstein_exercise_2_1_26",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L256"
+}

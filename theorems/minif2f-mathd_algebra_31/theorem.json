@@ -1,16 +1,17 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "miniF2F-Lean v2 contributors (Azim Ospanov, Farzan Farnia and Roozbeh Yousefzadeh).",
   "difficulty": "mathd",
   "forbidden": [],
   "imports": [
-    "Mathlib"
+    "Mathlib",
+    "Aesop"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.minif2f.mathd_algebra_31",
   "slug": "minif2f-mathd_algebra_31",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/mathd_algebra_31.lean",
-  "statement_hash": "92c26ccb2f93f8acf0b1d571043d639adf2eed21a80a226b6d9408ff787bef61",
+  "source_url": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L440",
+  "statement_hash": "d36bd681dc9e27256c9185e96cc70e6193d277178b605fa977c6e41797ba8681",
   "title": "mathd_algebra_31"
 }

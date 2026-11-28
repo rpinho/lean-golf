@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "2624684d7831594e6d959a0d048bf3ce1ce29b589387f83e4b4b7d6f5dcf4d57",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Apply the coefficient function to n before asserting it is integral. The old premise equated the coefficient function itself with a constant.",
+  "replacement_statement_hash": "b78d2e7e17cf05b7a28d1c0946024ef9574bb715f04f0e184cf128650c898f30",
+  "slug": "proofnet-dummit_foote_exercise_9_3_2",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L67"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "f58c461a5732bca04caef99ff397785330b6cea2d9aa4c15699fd86927c4a610",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use ax + xa on both sides of the commutation equation. The packet omitted the a in ax on the right.",
+  "replacement_statement_hash": "43616a4faad485bff898d3babd3851760fcb18fa5ed5185cf4a7cc707a067ffa",
+  "slug": "proofnet-herstein_exercise_4_2_6",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L270"
+}

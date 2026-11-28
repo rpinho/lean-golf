@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "9c4c0d5972840ccef61c3754c6b657570641fadc9bd5a6919bb36c71d6879fa4",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require positive n and distinguish n = 4 via an equivalence. Natural n = 0 was erroneously included.",
+  "replacement_statement_hash": "24ca74441f54671f5bbae6df9eb76dd6bebab04ea50fbed41ca332a1568912a3",
+  "slug": "proofnet-ireland_rosen_exercise_3_10",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L283"
+}

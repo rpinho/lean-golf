@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "fd0f8498a4781a41e4fd9b76676245a15f62e2b0532bcebcd61e3e7fa3489163",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Allow sequences in a general space. The packet's real-only sequence is a specialization.",
+  "replacement_statement_hash": "a883de09f8f80d35b2ebfbd37fcee2497f4ffb8333eaa846988324624050dc7f",
+  "slug": "proofnet-pugh_exercise_2_12a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L135"
+}

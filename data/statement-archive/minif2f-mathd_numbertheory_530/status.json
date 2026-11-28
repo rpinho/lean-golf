@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "5a69076084d879a4263f31716233817da1e8a958e2fa7fbf5053f30f17badc24",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L412",
+  "reason": "Prove 22 is attained as well as bounding the ratio below. Taking n = 11 and k = 2 gives the admissible ratio 11/2 and lcm/gcd = 22.",
+  "replacement_statement_hash": "e074e6da04dfc5307845f19475dcd980f42fdf7b7de7734c56a8b2a024857c58",
+  "slug": "minif2f-mathd_numbertheory_530",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L412"
+}

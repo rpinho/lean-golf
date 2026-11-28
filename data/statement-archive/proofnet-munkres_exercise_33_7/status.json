@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "b104c1289fd05e1884588b6598805205b3161b00fd2bb80c48342622c150f486",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use CompletelyRegularSpace, whose pointwise separation permits the closed set to be empty. The former singleton-image requirement failed on the empty set.",
+  "replacement_statement_hash": "1230a50bc170dd8ab980666e889cd4292cc37b04444b5385594725453b86edce",
+  "slug": "proofnet-munkres_exercise_33_7",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L316"
+}

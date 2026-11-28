@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "76df2d60cb9b24ee04357a661511adcac4534c299ff80eb6174896c6859ce39d",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The complex numbers lie on the unit circle. A strict norm bound changed the problem to the interior of the disk.",
+  "replacement_statement_hash": "64532aa5cd39649382db729faff40ae9b5052415443c80603e4ecb247e17f114",
+  "slug": "proofnet-putnam_exercise_2020_b5",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L147"
+}

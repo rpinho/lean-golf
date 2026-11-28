@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1e5a5a847208ece3faf27e0baafd3f28b5ee3a26f95599c16dc6422c57bcf635",
+  "evidence": "https://github.com/trishullab/PutnamBench/pull/362",
+  "reason": "Parenthesize the conditional on the final two parts inside the partition predicate. The old implication included every non-partition in the counted set.",
+  "replacement_statement_hash": "bbcd9b4c19c835013ae81e446750659925390ebbd52247c53cc8674ae78bc33b",
+  "slug": "putnambench-putnam_1991_a6",
+  "upstream": "https://github.com/ZZZamchi/PutnamBench/blob/57b032952c26ef50f5da0f7fa95a26d4f1843dc5/lean4/src/putnam_1991_a6.lean"
+}

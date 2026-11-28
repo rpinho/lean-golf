@@ -1,6 +1,6 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "credit": "PutnamBench contributors (Tsoukalas et al.). Correction by GitHub contributor AaronY77.",
   "difficulty": "1982 B5",
   "forbidden": [],
   "imports": [
@@ -10,7 +10,7 @@
   "name": "LeanGolf.putnambench.putnam_1982_b5",
   "slug": "putnambench-putnam_1982_b5",
   "source": "PutnamBench",
-  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1982_b5.lean",
-  "statement_hash": "4a6068fdc49f3ce835c2e710d7a93127489d178688f6603efc7b243430c97b70",
+  "source_url": "https://github.com/AaronY77/PutnamBench/blob/4e39f6de2d1abff20363fa678b7ca1bcfb2c70df/lean4/src/putnam_1982_b5.lean",
+  "statement_hash": "2d6546aadb90ee91074507dc31391f17164121a976dc07139b2d6a44ed4b07f1",
   "title": "Putnam 1982 B5"
 }

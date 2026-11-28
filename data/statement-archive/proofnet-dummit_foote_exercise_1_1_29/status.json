@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "a5989420355dfbf6608fbf98c95cc39aa687ac76cbd63ce65785971e8508789b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Quantify over all product elements inside the left side. The old statement equated individual pairs commuting with both factors being abelian.",
+  "replacement_statement_hash": "fa3f673498e24490ef4422a6ba6054242603925498053c184610ea9fc9963f5c",
+  "slug": "proofnet-dummit_foote_exercise_1_1_29",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L217"
+}

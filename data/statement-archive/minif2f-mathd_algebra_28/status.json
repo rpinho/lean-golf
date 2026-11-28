@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "6169ed9c4a177d80135851967a947b3dc8e899c1ccbde6a3885d12113ec754ce",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L147",
+  "reason": "Use the source condition that the quadratic has a real zero and assert the attained maximum. The discriminant is zero at c = 25/8.",
+  "replacement_statement_hash": "2dc1115610f57aa049842f0d8c643d86835d961cb3603ee27c1459e8923f9cb3",
+  "slug": "minif2f-mathd_algebra_28",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L147"
+}

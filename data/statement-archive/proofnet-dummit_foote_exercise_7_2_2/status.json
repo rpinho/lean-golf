@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "e81a2e3ad98b7a6a9a3ee83e131a495346ed9e5b8ad0bc517dde50caa97b7358",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Express zero-divisorship by a nonzero annihilating polynomial. The old p ∣ 0 condition holds for every polynomial.",
+  "replacement_statement_hash": "3502f1d1b98403518a92ebb0515252ba4674f20b16fef8777ddd8fc867f01e5d",
+  "slug": "proofnet-dummit_foote_exercise_7_2_2",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L244"
+}

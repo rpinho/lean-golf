@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "014fa9f83d645c8def46358ee83164d6a2c65c040d746e5ee4e2e4271ed845ed",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use residues 1 through p − 1 and conclude −1 when p − 1 divides k. Both branches of the old statement concluded 0.",
+  "replacement_statement_hash": "a46ca4167c145bcf8acf319f822f8f00f48e90144dea2d4ec87138ca989438ea",
+  "slug": "proofnet-ireland_rosen_exercise_4_11",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L286"
+}

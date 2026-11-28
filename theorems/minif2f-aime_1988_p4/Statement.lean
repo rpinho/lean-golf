@@ -1,6 +1,6 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.aime_1988_p4 (n : ℕ) (a : ℕ → ℝ) (h₀ : ∀ n, abs (a n) < 1)
-  (h₁ : (∑ k ∈ Finset.range n, abs (a k)) = 19 + abs (∑ k ∈ Finset.range n, a k)) : 20 ≤ n := by sorry
+theorem LeanGolf.minif2f.aime_1988_p4 :
+  IsLeast {n | ∃ x : Fin n → ℝ, (∀ i, abs (x i) < 1) ∧ (∑ i, abs (x i) = 19 + abs (∑ i, x i))} 20 := by sorry

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "a4cb2407ce601013f3fb0d738328954c58afc712ca7acb12a5c7a7efa891dd05",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore the source's explicit Hausdorff hypothesis on the compact space.",
+  "replacement_statement_hash": "7340d04748b8fe9dc34a0c861fe2259571727fc179006eb6d4a83819fe569b09",
+  "slug": "proofnet-munkres_exercise_34_9",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L317"
+}

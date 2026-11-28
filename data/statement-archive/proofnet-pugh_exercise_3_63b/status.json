@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "9d5a9559a75c9c788583ad622d7d32a4df52238ce6cc46563473ad8a86b96e84",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use nonsummability. The sequence of terms can converge to zero even when the series diverges.",
+  "replacement_statement_hash": "c703467e927f6aa90f1ef52d3a9e035501461eeda7dd2e906ccca04da802d5f0",
+  "slug": "proofnet-pugh_exercise_3_63b",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L141"
+}

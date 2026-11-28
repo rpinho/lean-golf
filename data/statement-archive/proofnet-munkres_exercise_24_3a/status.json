@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "c998009e06bc48ab743f1973b00b897359727c8c9c60f81f45b8f35666d1015b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the interval's subspace topology. The previous extra instance allowed arbitrary compact topologies on the interval.",
+  "replacement_statement_hash": "145c1f720153f691fbbbfec6a4ef7b410f345133c6e30d287451379461c7ddb2",
+  "slug": "proofnet-munkres_exercise_24_3a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L305"
+}

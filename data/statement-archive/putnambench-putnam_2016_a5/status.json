@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "a98c65cf9b63b8ad74270f1c1e1cc5eec6326f58629454f6935b943093be5037",
+  "evidence": "https://github.com/trishullab/PutnamBench/pull/372",
+  "reason": "Drop the conditions prohibiting either generator from generating the whole group alone. The contest asks only that the pair generate the group.",
+  "replacement_statement_hash": "4b40a58f8080bb67a9d35de922e90020a2e99772da26b9ff661fe94499257597",
+  "slug": "putnambench-putnam_2016_a5",
+  "upstream": "https://github.com/AaronY77/PutnamBench/blob/2ea79fe08a393287da96855c2568474fe7fae9d9/lean4/src/putnam_2016_a5.lean"
+}

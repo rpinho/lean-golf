@@ -1,5 +1,6 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.mathd_algebra_410 (x y : ℝ) (h₀ : y = x ^ 2 - 6 * x + 13) : 4 ≤ y := by sorry
+theorem LeanGolf.minif2f.mathd_algebra_410 :
+  IsLeast {y : ℝ | ∃ x : ℝ, y = x^2 - 6 * x + 13} 4 := by sorry

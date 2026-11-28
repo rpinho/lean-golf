@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "818a3aa92d78a49ac26f6d5e47147f0ab1b0affa6ef1371cd03f9b9f20ea77e6",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require the homomorphism to be onto. Normality of the image within the full target need not hold otherwise.",
+  "replacement_statement_hash": "18b20ff5fb4f76dbd76f276e06b2fcd7ccd9a7e34d8c2104b0f1f9ceb278dcd2",
+  "slug": "proofnet-herstein_exercise_2_7_7",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L264"
+}

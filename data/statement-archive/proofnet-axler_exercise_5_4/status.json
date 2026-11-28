@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d283c1332006c1176935c1a89ed6adc130643810f1ca2574bf3990b58745b748",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The eigenspace is preserved by S in the sense of containment. A commuting zero map disproves equality for a nonzero eigenspace.",
+  "replacement_statement_hash": "958c316b30a6b562442062a42d965eaa47f11ba3a8410acd88fa30fb0985f979",
+  "slug": "proofnet-axler_exercise_5_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L19"
+}

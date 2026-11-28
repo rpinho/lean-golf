@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "37c96c53933304dcc6d5d89a3d877247b620d97c89c0366784ebc96c7274e429",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use successive denominators 2 through n with n ≥ 2. The old sum repeated 1/(n + 2).",
+  "replacement_statement_hash": "063b335f447ca77b5a7bf0ed4a2c9678ba25ea57096086a2ad7f2d2e496f8f06",
+  "slug": "proofnet-ireland_rosen_exercise_1_30",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L279"
+}

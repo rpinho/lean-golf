@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d14653461191a83f651af78c7a6becae78c755f6df3759238a16ff9c53f1303a",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use Rudin's separated-sets definition, disjointness with the other's closure. Separated neighborhoods encode a different relation.",
+  "replacement_statement_hash": "586a51651130ae9a9329caa8f2a3d8279bfa4905c2dc04b8936808c524a7112f",
+  "slug": "proofnet-rudin_exercise_2_19a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L338"
+}

@@ -1,8 +1,6 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.amc12_2000_p12
-  (a m c : ℕ)
-  (h₀ : a + m + c = 12) :
-  a*m*c + a*m + m*c + a*c ≤ 112 := by sorry
+theorem LeanGolf.minif2f.amc12_2000_p12 :
+  IsGreatest {x | ∃ A M C : ℕ, A + M + C = 12 ∧ x = A * M * C + A * M + M * C + A * C} 112 := by sorry

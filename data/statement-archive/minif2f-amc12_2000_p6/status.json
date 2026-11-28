@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "00d7185182371525e1e4ebe1e3a0500512dc340513775575248d49b36d49b1eb",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L201",
+  "reason": "Exhibit distinct eligible primes with difference of product and sum equal to 119. The packet instead ruled out the unrelated value 194 and admitted equal primes.",
+  "replacement_statement_hash": "7123efe59061cf519b8431b0ebaf7d0eb4429b5cc32221edd3b59d27d0b0c686",
+  "slug": "minif2f-amc12_2000_p6",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L201"
+}

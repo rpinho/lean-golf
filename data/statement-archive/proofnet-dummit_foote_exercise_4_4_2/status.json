@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "6207fd37eca7aee1a7a3e68459b29c6d21de20482488db483a80653d6ab54cba",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The group of order pq must be abelian. S₃ has order 2·3 and disproves the old claim without commutativity.",
+  "replacement_statement_hash": "1de7d6c85139e8a66ed4fe5670a34e7df705b941902f4fcf7156ad2780a1c734",
+  "slug": "proofnet-dummit_foote_exercise_4_4_2",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L232"
+}

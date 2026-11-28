@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "acfbc49111c0bfc6f5f7722b60eb62642741bffe153dc5f18fe2e44b8da5ae23",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Order one is nonprime but is excluded from composite orders. Add the missing exclusion.",
+  "replacement_statement_hash": "1f2ee00a7fdcb156ffd40eafdc20c6ad081ca313025bcfb5c51174e69c0ca1bb",
+  "slug": "proofnet-dummit_foote_exercise_4_2_14",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L47"
+}

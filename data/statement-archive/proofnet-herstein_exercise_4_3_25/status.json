@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d43b279e3ee0b452cbcd79f300b79e01eb5cdd524ce57415523046ada5951add",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use two-sided ideals. Mathlib's left ideal type alone allows proper nonzero left ideals in a matrix ring.",
+  "replacement_statement_hash": "320d41c7bc127c85e2e56df7f06aed83caf58c165f67c2ea854835250e0d3098",
+  "slug": "proofnet-herstein_exercise_4_3_25",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L87"
+}

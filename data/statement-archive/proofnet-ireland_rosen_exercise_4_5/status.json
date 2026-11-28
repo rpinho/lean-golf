@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "db729a72069b7869cf10a20dc2f9e0045268a97dba15d443d546154917e5217a",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use multiplicative order p − 1 to express primitive root, and exact positive order (p − 1)/2 for −a. The previous test incorrectly prohibited k = 0.",
+  "replacement_statement_hash": "4eeb0e0ef8559dfc2a146ec58aef34ac44dc0cdbd109178e1391e3b859977272",
+  "slug": "proofnet-ireland_rosen_exercise_4_5",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L100"
+}

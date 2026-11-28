@@ -1,16 +1,17 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "miniF2F-Lean v2 contributors (Azim Ospanov, Farzan Farnia and Roozbeh Yousefzadeh).",
   "difficulty": "mathd",
   "forbidden": [],
   "imports": [
-    "Mathlib"
+    "Mathlib",
+    "Aesop"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.minif2f.mathd_numbertheory_3",
   "slug": "minif2f-mathd_numbertheory_3",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/mathd_numbertheory_3.lean",
-  "statement_hash": "5d60a36ea7e0e386505420be0ea18652e785d01c573a308c4f63eecdf0af7d36",
+  "source_url": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L6",
+  "statement_hash": "003c1c9d65f43fd1ca892dc3c4801ae39d40278a313b56b0498274b0ad3d7a0a",
   "title": "mathd_numbertheory_3"
 }

@@ -1,6 +1,11 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.amc12a_2020_p13 (a b c : ℕ) (n : NNReal) (h₀ : n ≠ 1) (h₁ : 1 < a ∧ 1 < b ∧ 1 < c)
-  (h₂ : (n * (n * n ^ (1 / c)) ^ (1 / b)) ^ (1 / a) = (n ^ 25) ^ (1 / 36)) : b = 3 := by sorry
+theorem LeanGolf.minif2f.amc12a_2020_p13
+  (a b c : ℕ)
+  (h₀ : 1 < a)
+  (h₁ : 1 < b)
+  (h₂ : 1 < c)
+  (h₃ : ∀ N : ℝ, 0 < N → N ≠ 1 → (N * (N * N ^ (1 / c : ℝ)) ^ (1 / b : ℝ)) ^ (1 / a : ℝ) = N^(25 / 36 : ℝ)) :
+  b = 3 := by sorry

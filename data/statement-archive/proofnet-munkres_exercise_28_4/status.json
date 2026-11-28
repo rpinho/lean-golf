@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "fdf3454134e6c6642c94c131cd8019b292cb527315ba4395352befe362a29a20",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use genuine accumulation points of infinite sets. Principal-filter cluster points allow choosing the set member itself.",
+  "replacement_statement_hash": "05ef1fca7aa5e09dea476cff6c1b0b530d83f03fe7f52854fef01e739238dabf",
+  "slug": "proofnet-munkres_exercise_28_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L308"
+}

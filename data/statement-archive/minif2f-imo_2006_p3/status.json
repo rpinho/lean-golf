@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "dd4da451eef12b4d67fb6593bf560c12b813db1be18cb86f6fc8a1f1dc379c87",
+  "evidence": "https://github.com/google-deepmind/miniF2F/blob/f0a20e14c1eeccd859d51bb4c2b3ee487889c303/MiniF2F/Valid.lean#L130",
+  "reason": "Restore the contest’s actual least bound, with the universal quantifier over triples inside the set of admissible constants. The existing packet proved the suggested bound but omitted optimality.",
+  "replacement_statement_hash": "94c1814d07393c36e308f8d988f0124d3f8d6028c3059312c204b304931049a2",
+  "slug": "minif2f-imo_2006_p3",
+  "upstream": "https://github.com/google-deepmind/miniF2F/blob/f0a20e14c1eeccd859d51bb4c2b3ee487889c303/MiniF2F/Valid.lean#L130"
+}

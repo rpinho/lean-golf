@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "b958d20753757ea8439e6e0ae13d9d9bd7a28f9f71e0ecf28c969a2d00c38cee",
+  "evidence": "https://github.com/google-deepmind/miniF2F/blob/f0a20e14c1eeccd859d51bb4c2b3ee487889c303/MiniF2F/Valid.lean#L1242",
+  "reason": "Use the nonnegative radicand to define the domain, and count the a values that admit a positive b. The old domain used nonnegativity of the already-totalized square root.",
+  "replacement_statement_hash": "6f49e0e01512c74622dc29252a7988a8c995fe1f41633c8253990fb560d1c9c4",
+  "slug": "minif2f-amc12a_2003_p25",
+  "upstream": "https://github.com/google-deepmind/miniF2F/blob/f0a20e14c1eeccd859d51bb4c2b3ee487889c303/MiniF2F/Valid.lean#L1242"
+}

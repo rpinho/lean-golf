@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "ee7ab2de96565d39c9612a124e1a4df167fe389ef121991f82477ad25ab493c9",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require p to be prime and divide 312. The old statement permitted a trivial Sylow subgroup at a prime absent from the order.",
+  "replacement_statement_hash": "09e9b271fcbd289977c052ea6f485d6814ac8dfafc31ca776048729afed00f7b",
+  "slug": "proofnet-dummit_foote_exercise_4_5_14",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L52"
+}

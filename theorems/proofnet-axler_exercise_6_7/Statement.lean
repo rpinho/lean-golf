@@ -1,8 +1,10 @@
 import Mathlib
 
-open Fintype Complex Polynomial LinearMap FiniteDimensional Module Module.End
+open InnerProductSpace ContinuousLinearMap Complex
+open scoped BigOperators
 
-open scoped BigOperators InnerProductSpace
-
-theorem LeanGolf.proofnet.axler_exercise_6_7 {V : Type*} [NormedAddCommGroup V] [InnerProductSpace ℂ V] (u v : V) :
-  ⟪u, v⟫_ℂ = (‖u + v‖^2 - ‖u - v‖^2 + I*‖u + I•v‖^2 - I*‖u-I•v‖^2) / 4 := by sorry
+theorem LeanGolf.proofnet.axler_exercise_6_7 {V : Type*} [NormedAddCommGroup V] [InnerProductSpace ℂ V]
+    (u v : V) :
+    ⟪u, v⟫_ℂ =
+      (‖u + v‖ ^ 2 - ‖u - v‖ ^ 2 +
+          (‖u - I • v‖ ^ 2 - ‖u + I • v‖ ^ 2) * I) / 4 := by sorry

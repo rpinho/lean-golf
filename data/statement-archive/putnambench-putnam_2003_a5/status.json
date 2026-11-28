@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "c35d8ee46b4cf0bec61f25b1e80beeaf7cfd69abb21af521e29efe479f353260",
+  "evidence": "https://github.com/trishullab/PutnamBench/pull/364",
+  "reason": "Require the map to land in the target Dyck paths. Unique preimages alone allowed surplus source paths to map outside the target.",
+  "replacement_statement_hash": "ce549f2a3262bd3c8d4a23d7a4e410b71961c4152e54a8c08d314a7ed456d12e",
+  "slug": "putnambench-putnam_2003_a5",
+  "upstream": "https://github.com/AaronY77/PutnamBench/blob/c3da65f49a0859735bd6211d454cb8b501143be6/lean4/src/putnam_2003_a5.lean"
+}

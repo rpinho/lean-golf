@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "fee11c8f568a94a2440d30a55ea8d624133882ae4d85de7fa4e215190f456b54",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Resolve π explicitly to Real.pi. Bare pi became an implicit parameter.",
+  "replacement_statement_hash": "4aa6323842c5ea0cb12b66978ce206cb909752aa3eec104df724b74775a3bfa2",
+  "slug": "proofnet-ireland_rosen_exercise_12_12",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L288"
+}

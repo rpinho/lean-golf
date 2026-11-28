@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "5038cfbc3e2aae7adb9a4aae8a9ac01a35a6555b2f7f45805ac82547ebb2158b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require both continuous extensions to agree with f on A. The old hypotheses did not use f to constrain either extension.",
+  "replacement_statement_hash": "a120b6434669b0194b101c3420fac192181a0451e04967cc5fa8b9e066e33a90",
+  "slug": "proofnet-munkres_exercise_18_13",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L297"
+}

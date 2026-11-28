@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "91989a1a22da2bd9b6914b5d09ae57bf369d02d06ba7559b31679d9cf5ee2748",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The source requires a normal Sylow subgroup at one of p, q or r. Mere nonemptiness follows from Sylow existence.",
+  "replacement_statement_hash": "1b01b75d3e464a6b0e1782ca3a9ee9d26c196afa306a40ea46567347cf7f8fd4",
+  "slug": "proofnet-dummit_foote_exercise_4_5_16",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L53"
+}

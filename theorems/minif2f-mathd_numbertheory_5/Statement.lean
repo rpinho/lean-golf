@@ -1,10 +1,6 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.mathd_numbertheory_5
-  (n : ℕ)
-  (h₀ : 10 ≤ n)
-  (h₁ : ∃ x, x^2 = n)
-  (h₂ : ∃ t, t^3 = n) :
-  64 ≤ n := by sorry
+theorem LeanGolf.minif2f.mathd_numbertheory_5 :
+  IsLeast {n | 10 < n ∧ (∃ k, k^2 = n) ∧ ∃ m, m^3 = n} 64 := by sorry

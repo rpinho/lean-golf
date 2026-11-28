@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "10966082aa947b81b3aa51c1e130792ec25a21f20306185215db75e1b02baa4c",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "State transitivity and existence of a derangement in the given subgroup of permutations. The old statement used the full symmetric group in both places.",
+  "replacement_statement_hash": "1478895179aaff0fe0f42790fb5ffa23b92b446c2711f9a58ebb383d138ae91b",
+  "slug": "proofnet-dummit_foote_exercise_4_3_26",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L48"
+}

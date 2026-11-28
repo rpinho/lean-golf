@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "ff039682a4f8b227467132fae49de0b483f5a54c855190c579f6475134b7ef0d",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require reciprocal closure for every nonzero x in the subgroup. The old premise only concerned a single implicit x.",
+  "replacement_statement_hash": "562f5aa7f0a46a7a08e79645c54776b0cebb841b6134689a63d1df9450d1d0bb",
+  "slug": "proofnet-dummit_foote_exercise_2_1_13",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L221"
+}

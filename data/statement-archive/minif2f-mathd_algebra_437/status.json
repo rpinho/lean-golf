@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "7fe950bdbcab430080892cf323e96b37d4d8666d2da45f2be418b3179babacb7",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L117",
+  "reason": "Allow the two cube roots in either endpoint order. The packet required the cube root of −45 to be smaller than that of −101, so its hypotheses were inconsistent.",
+  "replacement_statement_hash": "8d983db2408ebc7e93aadbf51b3be6887925e34f902ab45d782e097ae2f6829d",
+  "slug": "minif2f-mathd_algebra_437",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L117"
+}

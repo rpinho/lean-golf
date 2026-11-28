@@ -1,6 +1,6 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "Harmonic miniF2F contributors. Re-split by Justin Asher.",
   "difficulty": "aime",
   "forbidden": [],
   "imports": [
@@ -10,7 +10,7 @@
   "name": "LeanGolf.minif2f.aime_1994_p3",
   "slug": "minif2f-aime_1994_p3",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/aime_1994_p3.lean",
-  "statement_hash": "6653cec62a3058ca1afb97d4adacc06d5ae410a6f3ed42c0fd00729b2be0458c",
+  "source_url": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L159",
+  "statement_hash": "c5f4861c14f3d5c768fc0dcf4cfb67c1b5ef5893718909a9ee52f8714dc9590d",
   "title": "aime_1994_p3"
 }

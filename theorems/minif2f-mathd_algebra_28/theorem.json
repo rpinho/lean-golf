@@ -1,6 +1,6 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "Harmonic miniF2F contributors. Re-split by Justin Asher.",
   "difficulty": "mathd",
   "forbidden": [],
   "imports": [
@@ -10,7 +10,7 @@
   "name": "LeanGolf.minif2f.mathd_algebra_28",
   "slug": "minif2f-mathd_algebra_28",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/mathd_algebra_28.lean",
-  "statement_hash": "6169ed9c4a177d80135851967a947b3dc8e899c1ccbde6a3885d12113ec754ce",
+  "source_url": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L147",
+  "statement_hash": "2dc1115610f57aa049842f0d8c643d86835d961cb3603ee27c1459e8923f9cb3",
   "title": "mathd_algebra_28"
 }

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "44b5e59e151d461bc9875b10aff8c3d9b412a9230152a84a984692e3c7e4550e",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the terms zⁿ/n². Multiplication by n instead of exponentiation turns the old series into a scaled harmonic series.",
+  "replacement_statement_hash": "ece153405b07341b744d81c3a1ec41c93c018931b52fcbcfea9b5c93a5020fbb",
+  "slug": "proofnet-shakarchi_exercise_1_19b",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L178"
+}

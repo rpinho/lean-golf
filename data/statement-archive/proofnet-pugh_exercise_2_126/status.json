@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "4fc06fda2b63ebdf0f312a95a653e3593936cee0bb7b956add6fd5404a4d0f92",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use uncountable intersection with every neighborhood to define condensation. A cluster-point witness could be any point of E.",
+  "replacement_statement_hash": "d54b18bb5dc88ac97bd8adf09b7d076046b0f3632a2b685edcc8ca4bb7030709",
+  "slug": "proofnet-pugh_exercise_2_126",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L139"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "105b77b2dc09abab99e4ceefc8ca67311fabcb6ee3dff599ace13d720badd7a6",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Correct the parity branches. Odd a gives two even terms with gcd 2. Even a gives gcd 1.",
+  "replacement_statement_hash": "6d9d075fefe32abd10414c9051aa734030d972a560b3fefc9ea24c4865d80ba0",
+  "slug": "proofnet-ireland_rosen_exercise_2_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L280"
+}

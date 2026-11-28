@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d5dc2f4a1ceadcd9b296726305e2511fd99da4bc631502b8e1393d86f3f56a01",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L130",
+  "reason": "State equality with the interval (1, 2), which includes attaining every value in the interval. The old conclusion gave only containment.",
+  "replacement_statement_hash": "677e0a9d0d4507a6a7c8a1e5c80f231845e82045a903930c934273271938bee3",
+  "slug": "minif2f-imo_1974_p5",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L130"
+}

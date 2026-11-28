@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "44c0c6e5ff5412f5b9b1377ec2355a892f3840b8f36a6b1e0d74cb8a42797fa5",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Specify connectedness of the open domain. Different imaginary constants on disjoint disks give constant real part without constancy.",
+  "replacement_statement_hash": "e1a9510ef95d24d9b835747cf2a23df67e23f54456e2bc1550902ee8ee374995",
+  "slug": "proofnet-shakarchi_exercise_1_13a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L176"
+}

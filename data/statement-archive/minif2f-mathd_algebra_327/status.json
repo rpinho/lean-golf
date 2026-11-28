@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "42131305cfa3af1747f6bda856cc531d2ac6a6c0db0d5292aa4223a6f71780a6",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L318",
+  "reason": "Use an equivalence with membership in (−7, −2). The old conclusion only said that solutions lie in the interval.",
+  "replacement_statement_hash": "d5e1a3b07b7b58aba35db102cd6f89fb5fe221310a7b3fe2e2e0c51034217271",
+  "slug": "minif2f-mathd_algebra_327",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L318"
+}

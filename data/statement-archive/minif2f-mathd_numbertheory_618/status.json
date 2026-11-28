@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "410deb9ca6a27bc33f4894dee706a7ea5bf5782ff9bcc896ac3e0babd7cdbba2",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L103",
+  "reason": "Prove that 41 is a member of the positive witness set as well as its lower bound. The previous theorem omitted attainment.",
+  "replacement_statement_hash": "8017cef00a7439738d21de17d1848f7a1c89c4756afe8009604612bac20ad302",
+  "slug": "minif2f-mathd_numbertheory_618",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L103"
+}

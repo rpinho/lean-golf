@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d6fbc8608eb585af9eb586cc0cd8e5d3c84e651088e2d08bac19b843a53a798f",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L227",
+  "reason": "Give the base and answer the real type. In the old declaration both occurrences of 1/4 reduced to 0 by natural division.",
+  "replacement_statement_hash": "2c9ae5258f054d90f310ab09be422dfef8e98e872053ab8752c38835ed34c725",
+  "slug": "minif2f-mathd_algebra_314",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L227"
+}

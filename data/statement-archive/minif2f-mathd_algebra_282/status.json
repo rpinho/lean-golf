@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "2002dc0e8fb7af20f71dc3eaafee69da71f97401d1ea314d6c4fc6fa9f6250c2",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L84",
+  "reason": "Use the real cube root of negative eight. The prior formal term used positive eight and an untyped 1/3 exponent.",
+  "replacement_statement_hash": "5ba55b5792415a771c51f2b924ddeea224f825d01bf931bb0bd3daee90fd76cb",
+  "slug": "minif2f-mathd_algebra_282",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L84"
+}

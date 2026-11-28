@@ -1,11 +1,10 @@
 import Mathlib
 
 open Fintype Complex Polynomial LinearMap FiniteDimensional Module Module.End
+open scoped BigOperators
 
-open scoped BigOperators InnerProductSpace
-
-theorem LeanGolf.proofnet.axler_exercise_3_8 {F V W : Type*}  [AddCommGroup V]
-  [AddCommGroup W] [Field F] [Module F V] [Module F W]
+theorem LeanGolf.proofnet.axler_exercise_3_8 {F V W : Type*} [AddCommGroup V]
+  [AddCommGroup W] [Field F] [Module F V] [FiniteDimensional F V] [Module F W]
   (L : V →ₗ[F] W) :
   ∃ U : Submodule F V, U ⊓ (ker L) = ⊥ ∧
-  (range L = range (domRestrict L U)):= by sorry
+  (range L = range (domRestrict L U)) := by sorry

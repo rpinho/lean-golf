@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "04775d1641e863d2dca4e1a724209047db3ffa1725a5f24d30e147a2ef0d9b4b",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L210",
+  "reason": "Assert attainment of 112 as well as the upper bound. The witness is A = M = C = 4.",
+  "replacement_statement_hash": "bef59a4dfaa916c38093597ffcdbbed258dda58df25dde3b19e6b08c378ad929",
+  "slug": "minif2f-amc12_2000_p12",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L210"
+}

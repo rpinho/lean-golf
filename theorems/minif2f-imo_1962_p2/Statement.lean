@@ -1,10 +1,11 @@
-import Mathlib
+import Mathlib.Tactic
 
-open BigOperators Real Nat Topology Rat
+noncomputable section
 
-theorem LeanGolf.minif2f.imo_1962_p2
-  (x : ℝ)
-  (h₀ : 0 ≤ 3 - x)
-  (h₁ : 0 ≤ x + 1)
-  (h₂ : 1 / 2 < Real.sqrt (3 - x) - Real.sqrt (x + 1)) :
-  -1 ≤ x ∧ x < 1 - Real.sqrt 31 / 8 := by sorry
+namespace Imo1962P2
+
+noncomputable abbrev SolutionSet : Set ℝ := Set.Ico (-1) (1 - √31 / 8)
+
+theorem _root_.LeanGolf.minif2f.imo_1962_p2 (x : ℝ) :
+    x ∈ SolutionSet ↔
+    x ≤ 3 ∧ -1 ≤ x ∧ 1/2 < √(3 - x) - √(x + 1) := by sorry

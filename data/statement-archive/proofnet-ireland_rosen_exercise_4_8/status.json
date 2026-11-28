@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "dc1bbeae1b874c94edb93455901123c1576c622238631ddad1e85eaeaa491940",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore primality and use ZMod p units. The modular test uses exponent (p − 1)/q for each prime divisor q, which was missing.",
+  "replacement_statement_hash": "9b283997acdf995a2d1abc3b122ac38a378acdccc1e813e914d17cd4b8058d97",
+  "slug": "proofnet-ireland_rosen_exercise_4_8",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L101"
+}

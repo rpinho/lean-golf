@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "0b80215075a3cf13ad28b7cc86ec02385f66afe91d293ae1335a8b115d672e64",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore the textbook's finite-dimensional ambient space. In infinite dimensions a left/right shift pair can make one product the identity while the other has kernel.",
+  "replacement_statement_hash": "c66c7d854cab293fe3a2439f6c34706115e7fcc17930e4e3d716cbf8866d1cd2",
+  "slug": "proofnet-axler_exercise_5_11",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L203"
+}

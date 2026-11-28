@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "44c706c33423e5279fea24e7a5a183dd09054bf8583f10db50772d733e66f3c9",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the source's forward implication from av = 0 to a = 0 or v = 0. The packet added the converse.",
+  "replacement_statement_hash": "7666f954190506044648b96ec81d3ab6dbcfe6f29794474db378f51ee7ccd3b0",
+  "slug": "proofnet-axler_exercise_1_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L199"
+}

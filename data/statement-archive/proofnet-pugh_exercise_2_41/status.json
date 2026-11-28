@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "144ec0186fe4b3a9105465d0079d1f2ec23cc0afc9124c051ea8d2de2b7378a8",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Assert compactness of the closed unit ball in an arbitrary m-dimensional real normed space. The old statement left the ball's ambient type detached from that space.",
+  "replacement_statement_hash": "fcf9839173dec7bf8fd4ee9e7bfe808af34311b837d5fb80bfefeee6ab82e642",
+  "slug": "proofnet-pugh_exercise_2_41",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L137"
+}

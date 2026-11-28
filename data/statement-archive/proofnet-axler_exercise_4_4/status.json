@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "25fea4474f03a8e0d4ec385162cd98fb36e32712742a1b4eaa27e3f94665a557",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require disjoint root sets of the polynomial and its derivative. The old declaration applied Disjoint to their cardinalities.",
+  "replacement_statement_hash": "c8db32fff23f6cfb6a4d790f29aaf881e002270ab9b885cf3fb05c2d13da180f",
+  "slug": "proofnet-axler_exercise_4_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L18"
+}

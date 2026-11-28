@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "4a6068fdc49f3ce835c2e710d7a93127489d178688f6603efc7b243430c97b70",
+  "evidence": "https://github.com/trishullab/PutnamBench/pull/370",
+  "reason": "Assert convergence for every x in the domain as a separate conjunct, then continuity of the pointwise limit. The original Lean precedence made convergence part of an antecedent.",
+  "replacement_statement_hash": "2d6546aadb90ee91074507dc31391f17164121a976dc07139b2d6a44ed4b07f1",
+  "slug": "putnambench-putnam_1982_b5",
+  "upstream": "https://github.com/AaronY77/PutnamBench/blob/4e39f6de2d1abff20363fa678b7ca1bcfb2c70df/lean4/src/putnam_1982_b5.lean"
+}

@@ -1,6 +1,6 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "credit": "PutnamBench contributors (Tsoukalas et al.). Correction by GitHub contributor AaronY77.",
   "difficulty": "2016 A5",
   "forbidden": [],
   "imports": [
@@ -10,7 +10,7 @@
   "name": "LeanGolf.putnambench.putnam_2016_a5",
   "slug": "putnambench-putnam_2016_a5",
   "source": "PutnamBench",
-  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2016_a5.lean",
-  "statement_hash": "a98c65cf9b63b8ad74270f1c1e1cc5eec6326f58629454f6935b943093be5037",
+  "source_url": "https://github.com/AaronY77/PutnamBench/blob/2ea79fe08a393287da96855c2568474fe7fae9d9/lean4/src/putnam_2016_a5.lean",
+  "statement_hash": "4b40a58f8080bb67a9d35de922e90020a2e99772da26b9ff661fe94499257597",
   "title": "Putnam 2016 A5"
 }

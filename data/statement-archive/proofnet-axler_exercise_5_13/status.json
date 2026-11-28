@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "9c788d6c645b5b394901356017742fefdd9b90b46b6c907b8ec45a433c8d705b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Invariance of each hyperplane means T(U) ⊆ U. Surjectivity onto U was an extra condition.",
+  "replacement_statement_hash": "d3d7e7b1fa66206181237d0f2b78a97358b4d57e492e333169eeb083f72662b6",
+  "slug": "proofnet-axler_exercise_5_13",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L204"
+}

@@ -1,6 +1,8 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.mathd_algebra_144 (a b c d : ℕ) (h₀ : 0 < a ∧ 0 < b ∧ 0 < c ∧ 0 < d) (h₀ : (c : ℤ) - b = d)
-    (h₁ : (b : ℤ) - a = d) (h₂ : a + b + c = 60) (h₃ : a + b > c) : d < 10 := by sorry
+theorem LeanGolf.minif2f.mathd_algebra_144
+  (S : Finset (ℕ × ℕ × ℕ))
+  (h₀ : ∀ a b c : ℕ, (a, b, c) ∈ S ↔ a + b > c ∧ a + b + c = 60 ∧ ∃ d ≠ 0, b = a + d ∧ c = b + d) :
+  S.card = 9 := by sorry

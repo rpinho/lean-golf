@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "85946d2ae87b69478b5739d869d0e01af675c9b4616cb32136c1dc7398b205fa",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L225",
+  "reason": "State the minimum of the positive witness set. With N = 6 the candidate value 187 is composite.",
+  "replacement_statement_hash": "8fcf2de835e7d3250b6050a6fa2aee1897aa4ed3fe1bba1dc1a9de96e1f846ef",
+  "slug": "minif2f-mathd_numbertheory_150",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L225"
+}

@@ -1,9 +1,6 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.mathd_numbertheory_277
-  (m n : ℕ)
-  (h₀ : Nat.gcd m n = 6)
-  (h₁ : Nat.lcm m n = 126) :
-  60 ≤ m + n := by sorry
+theorem LeanGolf.minif2f.mathd_numbertheory_277 :
+  IsLeast {k | ∃ m n : ℕ+, k = m + n ∧ Nat.gcd m n = 6 ∧ Nat.lcm m n = 126} 60 := by sorry

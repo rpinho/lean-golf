@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "91192199af8020965e9d364e20da3b7f5c4fc06de856cd56ed2ca55754d1f814",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require distinct exponents. The old statement asserted inequality even when n = m.",
+  "replacement_statement_hash": "4db988b8caeb04328e164c43a1d871824bc41fa8352b6f6eb2f71c3059e68993",
+  "slug": "proofnet-dummit_foote_exercise_1_1_34",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L34"
+}

@@ -1,16 +1,16 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "credit": "ProofNet-Verified contributors (One An, Marcus J. Min et al.).",
   "difficulty": "Munkres",
   "forbidden": [],
   "imports": [
     "Mathlib"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.proofnet.munkres_exercise_18_13",
   "slug": "proofnet-munkres_exercise_18_13",
   "source": "ProofNet",
-  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Munkres.lean",
-  "statement_hash": "5038cfbc3e2aae7adb9a4aae8a9ac01a35a6555b2f7f45805ac82547ebb2158b",
+  "source_url": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L297",
+  "statement_hash": "a120b6434669b0194b101c3420fac192181a0451e04967cc5fa8b9e066e33a90",
   "title": "Munkres · exercise 18 13"
 }

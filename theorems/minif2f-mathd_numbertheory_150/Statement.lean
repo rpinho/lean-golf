@@ -1,8 +1,6 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.mathd_numbertheory_150
-  (n : ℕ)
-  (h₀ : ¬ Nat.Prime (7 + 30 * n)) :
-  6 ≤ n := by sorry
+theorem LeanGolf.minif2f.mathd_numbertheory_150 :
+  IsLeast {N : ℕ | 0 < N ∧ ¬ Nat.Prime (7 + 30 * N)} 6 := by sorry

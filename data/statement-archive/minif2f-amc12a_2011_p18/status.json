@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "974ab76879a0c893be2e13fec1ecc84b1c0cc8f1b58018db1c7c33197e425b16",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L105",
+  "reason": "Require that the bound 8 is attained. The pair (−1,1) satisfies the absolute-value constraint and gives 8.",
+  "replacement_statement_hash": "9148a3bcb4f515076e1f965aff859aa3fa184e0eab7aa888f83f96a424aee967",
+  "slug": "minif2f-amc12a_2011_p18",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L105"
+}

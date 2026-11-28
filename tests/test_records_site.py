@@ -64,6 +64,28 @@ def test_mismatched_statement_never_writes(tmp_path):
     assert files(root) == before
 
 
+def test_archived_record_is_marked_in_history(tmp_path):
+    root = shutil.copytree(FIXTURE, tmp_path / "fixture")
+    packet = root / "theorems" / SLUG
+    proof = b"theorem prior : True := by trivial\n"
+    apply(root, SLUG, "prior-player", 11, TIMESTAMP, proof, RESULT)
+    archive = root / "data" / "statement-archive" / SLUG
+    archive.mkdir(parents=True)
+    shutil.copy2(packet / "theorem.json", archive / "theorem.json")
+    for filename in ("record.json", "Record.lean"):
+        (packet / filename).rename(archive / filename)
+    original = (root / "data" / "history.jsonl").read_bytes()
+
+    out = tmp_path / "site"
+    run_build(root, out)
+    theorem = (out / "theorems" / SLUG / "index.html").read_text()
+    user = (out / "users" / "prior-player" / "index.html").read_text()
+    assert "first valid proof sets the record" in theorem
+    assert "A past record belongs to an archived statement" in theorem
+    assert "Infinitely many primes (archived statement)" in user
+    assert (root / "data" / "history.jsonl").read_bytes() == original
+
+
 def run_build(root, out):
     subprocess.run([sys.executable, ROOT / "site" / "build.py", "--root", root,
                     "--out", out], check=True)

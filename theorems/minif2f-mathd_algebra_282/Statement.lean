@@ -1,7 +1,12 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.mathd_algebra_282 (f : ℝ → ℝ) (h₀ : ∀ x : ℝ, ¬ (Irrational x) → f x = abs (Int.floor x))
-  (h₁ : ∀ x, Irrational x → f x = (Int.ceil x) ^ 2) :
-  f (8 ^ (1 / 3)) + f (-Real.pi) + f (Real.sqrt 50) + f (9 / 2) = 79 := by sorry
+attribute [local instance] Classical.propDecidable
+
+theorem LeanGolf.minif2f.mathd_algebra_282
+  (f : ℝ → ℝ)
+  (h₀ : ∀ x, f x = if Irrational x then ⌈x⌉^2 else abs (⌊x⌋))
+  (a : ℝ)
+  (ha : a ^ 3 = -8) :
+  f a + f (-Real.pi) + f (Real.sqrt 50) + f (9 / 2) = 79 := by sorry

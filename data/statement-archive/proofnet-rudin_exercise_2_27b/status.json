@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "b50b32b0e8d40842381ab06852dd617eab665b936c08ea7d7c737f220f51a444",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Each neighborhood U must meet E in an uncountable set. The packet used P ∩ E in place of U ∩ E.",
+  "replacement_statement_hash": "177fc951a53748e7cac17bee578aaf9a84f8499948155a5abe6257d5db656a07",
+  "slug": "proofnet-rudin_exercise_2_27b",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L340"
+}

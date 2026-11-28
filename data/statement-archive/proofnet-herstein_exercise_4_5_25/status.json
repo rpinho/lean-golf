@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1962e1a7407d93f7a1ebc52b14dc6d01f95c41ffed91fb9f82945aee8367d69b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Sum Xⁱ over i from 0 to p − 1. The packet repeated the term Xᵖ.",
+  "replacement_statement_hash": "250e133c81954567c8073628957e1e70484813df363ec139f907b62ddfc044b1",
+  "slug": "proofnet-herstein_exercise_4_5_25",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L89"
+}

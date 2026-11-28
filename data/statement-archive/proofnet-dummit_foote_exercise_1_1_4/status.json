@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "041dc36d4936a4f2d7235e5c810887c26c6cd4a774c690152b01e8c76b08ceda",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Assert associativity of multiplication on actual residue classes in ZMod n. The previous statement reduced to associativity before passing to a congruence.",
+  "replacement_statement_hash": "59bf7c53b8c9e5824f25a985cb8a96d22c9c996eb9571b6f0cbbef8852380991",
+  "slug": "proofnet-dummit_foote_exercise_1_1_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L212"
+}

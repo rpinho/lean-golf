@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "45f74ce2fb9f573ba7193836ea6492c8243774ad076abe28e5a9f4dbd5dbc3d9",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the entire collection of rational open boxes. The old premise held for any subcollection, even the empty family.",
+  "replacement_statement_hash": "a0ff6b73d4cfb30e6347d96385f8bec48622f41d9040027bf7505656c43d8145",
+  "slug": "proofnet-munkres_exercise_16_6",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L295"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "b975065bda24a6b53e2cd45e3cf74939ce8f4aaefa09079522c82b052c160636",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Equip the infinite set with the cofinite topology and assert that the whole space is connected. The old type combined an independent topology instance with a cofinite-topology notation.",
+  "replacement_statement_hash": "f6f8ae246cfb9c21c7c637efdc7dcfbe8c4083e8d11d9fb4953648537386cf30",
+  "slug": "proofnet-munkres_exercise_23_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L119"
+}

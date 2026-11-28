@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "afbedf20f0bace90b6db4ae3d19378c4d839244b906472560405d49cea923ba4",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use a single compatible scalar action and allow real or complex scalars. The old separate Module instance could supply a different action from the inner product.",
+  "replacement_statement_hash": "0ade50298e899840470a2d3afe3a0a90409808a43d48ffb1a6a447c8ff19c6e2",
+  "slug": "proofnet-axler_exercise_6_2",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L22"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "e2d10d64ac63a2b8e998f8006e4c7b391611ac7acad2a22533ad6c3d14e48843",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use an arbitrary indexing type for the connected subspaces rather than restricting the family to a sequence.",
+  "replacement_statement_hash": "2717b54221c386326db4f7a12d33e970117f79c89af762cf369de3c7339f2e64",
+  "slug": "proofnet-munkres_exercise_23_3",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L302"
+}

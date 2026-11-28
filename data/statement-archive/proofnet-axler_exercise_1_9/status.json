@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "7432132c2e31df67aeb2b8140c5ee452714eb0e3dc410d43bb77301b30055425",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the union instead of intersection and place the existential inside the left side of the biconditional. The old statement could select a subspace to make either truth value hold.",
+  "replacement_statement_hash": "ee6688346ce28a214edf65929f160de4b041a1f41454a2f8046aa6094271e8a3",
+  "slug": "proofnet-axler_exercise_1_9",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L200"
+}

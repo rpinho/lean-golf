@@ -1,16 +1,16 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "Google DeepMind miniF2F fork contributors.",
   "difficulty": "amc12a",
   "forbidden": [],
   "imports": [
     "Mathlib"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.minif2f.amc12a_2003_p25",
   "slug": "minif2f-amc12a_2003_p25",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/amc12a_2003_p25.lean",
-  "statement_hash": "b958d20753757ea8439e6e0ae13d9d9bd7a28f9f71e0ecf28c969a2d00c38cee",
+  "source_url": "https://github.com/google-deepmind/miniF2F/blob/f0a20e14c1eeccd859d51bb4c2b3ee487889c303/MiniF2F/Valid.lean#L1242",
+  "statement_hash": "6f49e0e01512c74622dc29252a7988a8c995fe1f41633c8253990fb560d1c9c4",
   "title": "amc12a_2003_p25"
 }

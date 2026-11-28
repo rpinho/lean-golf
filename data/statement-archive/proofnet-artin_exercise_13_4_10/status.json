@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "9f73f16a456e87569d935bc9a3ea6970e09f25b57031566696a8a4d0178b0be9",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require the positive exponent implicit in the Fermat-prime case. With r = 0 one obtains p = 2, outside the asserted conclusion.",
+  "replacement_statement_hash": "d74e3740c89dc3e8c8244d3563806214cf877166fcdc7a0a2f98b0004f1dcb9b",
+  "slug": "proofnet-artin_exercise_13_4_10",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L14"
+}

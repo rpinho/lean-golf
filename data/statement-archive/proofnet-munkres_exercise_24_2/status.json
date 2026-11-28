@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "49d40b3b4edeebdaffaf58a543b4a50cf12795c40479fd4519102e00518bd06b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the unit circle in ℂ. The real unit sphere has only two points.",
+  "replacement_statement_hash": "10451ff8c7cd4e8ddd3d77833b950d99f581bd349c1e95897b9b7e28e40a4f79",
+  "slug": "proofnet-munkres_exercise_24_2",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L121"
+}

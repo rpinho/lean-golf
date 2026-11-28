@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1c5389523bd9011e3c5fa6f3469139b8e08ed4689c883e5d59e4adadf68d4162",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L129",
+  "reason": "Require that 4096 is both a cube and a fourth power. It is 2¹². The previous bound alone omitted the witness.",
+  "replacement_statement_hash": "c0833fe4b5a8c83ca04156b673db1c395915cf3bf18e95ca68a19732d2ca7ec3",
+  "slug": "minif2f-mathd_numbertheory_296",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L129"
+}

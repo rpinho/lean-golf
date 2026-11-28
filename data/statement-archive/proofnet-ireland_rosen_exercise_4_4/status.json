@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": true,
+  "archived_statement_hash": "1569a80a10e8b7261531c4a6456cd1e010933492cc7eecc3e9301fa146a70c32",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "A primitive root modulo a prime p has multiplicative order p − 1. The old order p makes both sides false, since p-power Frobenius is the identity on ZMod p.",
+  "replacement_statement_hash": "6ba4e745c4b9d62f33dfd9961f287310c58e4a19fb17ce4751f491b3f6f40b04",
+  "slug": "proofnet-ireland_rosen_exercise_4_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L284"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": true,
+  "archived_statement_hash": "64b68a8788215832eb744d7b91c608623207e8e8702eddfaeb9ee6fb73b05a79",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L403",
+  "reason": "Assert that 13 is attained as well as being an upper bound. The original maximization question requires both, and n = 6 attains gcd(13,13) = 13.",
+  "replacement_statement_hash": "fea537dfbaa12b407c634dd52a810e41366452a6fc63b6af138e5352344f36e5",
+  "slug": "minif2f-mathd_numbertheory_156",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L403"
+}

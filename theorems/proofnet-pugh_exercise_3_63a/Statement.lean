@@ -1,11 +1,7 @@
 import Mathlib
 
 open Filter Real Function
-
 open scoped Topology
 
-noncomputable section
-
-theorem LeanGolf.proofnet.pugh_exercise_3_63a (p : ℝ) (f : ℕ → ℝ) (hp : p > 1)
-  (h : f = λ (k : ℕ) => (1 : ℝ) / (k * (log k) ^ p)) :
-  ∃ l, Tendsto f atTop (𝓝 l) := by sorry
+theorem LeanGolf.proofnet.pugh_exercise_3_63a (p : ℝ) (hp : p > 1) :
+  Summable (fun (k : ℕ) => (1 : ℝ) / ((k + 2) * (Real.log (k + 2)) ^ p)) := by sorry

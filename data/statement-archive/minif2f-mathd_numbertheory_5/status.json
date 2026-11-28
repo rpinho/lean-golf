@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "c5e43eb58915725b8f338de9c39607ef4b989c2ddc480079e5b973031f86b9fa",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L92",
+  "reason": "Require the strict threshold above 10 and attest that 64 itself is both a square and a cube.",
+  "replacement_statement_hash": "d0ed7fd079df016b6186f203fcfe971544caf681192d76809c0f6cdf02c5de91",
+  "slug": "minif2f-mathd_numbertheory_5",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L92"
+}

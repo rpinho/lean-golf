@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "6b476a00d9671551bb11fd659ad9e60aff69da686b4443b8b4dc1d6148fe7924",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use weights i + 1 because Fin n starts at zero. With n = 1 and a₁ = b₁ = 1 the old right side is zero.",
+  "replacement_statement_hash": "cc3adb23b1e6627f398f7a10143cfa736a1d8139657b71d8a4aaf084d9b49326",
+  "slug": "proofnet-axler_exercise_6_3",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L206"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "26e9c2bf8f3ffad0bb1e16411cd0fb99f35cdb910a64c9fa0b372db3b8d89162",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Invariance means T(U) is contained in U. Replace equality by containment both in the premises and for the sum.",
+  "replacement_statement_hash": "91acdfa55b175aec45650757d5e4fd6d72b4ee6d7172f828da3be0d6643e515a",
+  "slug": "proofnet-axler_exercise_5_1",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L202"
+}

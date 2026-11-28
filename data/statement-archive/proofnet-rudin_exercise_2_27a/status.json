@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "cd6192910ae2bab8f34ba9b610c9638382eccca3ed031d199a41cc60130dd438",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Define condensation using U ∩ E for each neighborhood U. The old self-reference P ∩ E ignored U. Use Perfect to include accumulation points.",
+  "replacement_statement_hash": "34a47fea97b8f874f89f7c4032dc9cccba66a0ea1a7eed171c4f8b465b8e7590",
+  "slug": "proofnet-rudin_exercise_2_27a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L156"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "424ba232b0aef2d5ae75a319b9fabcf61f2e6b43232f217dd294945b29843972",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use containment for invariance and evaluate finrank over ℝ. The old finrank did not specify the scalar argument correctly.",
+  "replacement_statement_hash": "e82a696f99e4f497545ac62cd7b442ca20b7f021e1891b67d113ce3ad64e32dd",
+  "slug": "proofnet-axler_exercise_5_24",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L205"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "291306b81aa250a51e81a849a1db9284d4ce92d694d185c66695e4847365eda6",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L158",
+  "reason": "Use complex roots and both root multisets. The cubic is strictly increasing over ℝ, so the old requirement of three distinct real roots is impossible.",
+  "replacement_statement_hash": "a2bd2712bc1c1c175014711021d53557f416679d1b5d4d0387527a0819a9b050",
+  "slug": "minif2f-aime_1996_p5",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L158"
+}

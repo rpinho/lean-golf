@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "a5b4905ad8a77eb60d17f265b2ca530dff59c8be35da4d05ba78638c441572bf",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Place the universal multiplication law inside the left side of the biconditional to express that inversion is a homomorphism.",
+  "replacement_statement_hash": "8d068dac1cc34040e3a2a32c6d6a0581634c9e9270f6408c7ca8946879048ace",
+  "slug": "proofnet-dummit_foote_exercise_1_6_17",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L36"
+}

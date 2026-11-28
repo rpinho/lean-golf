@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "737d3ac8d4e2ad2d2dfe93d2c1e1389998a21520a299c0f4f1e7d1e99786b1c3",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The generated subgroup must equal H. The old conclusion erroneously required it to equal the ambient group.",
+  "replacement_statement_hash": "1b7b935fae2f01836cf61ce4cf3828f456ee7105eae33e4195db6ae3d539a998",
+  "slug": "proofnet-dummit_foote_exercise_2_4_4",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L38"
+}

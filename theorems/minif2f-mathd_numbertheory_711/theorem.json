@@ -1,6 +1,6 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "Harmonic miniF2F contributors. Re-split by Justin Asher.",
   "difficulty": "mathd",
   "forbidden": [],
   "imports": [
@@ -10,7 +10,7 @@
   "name": "LeanGolf.minif2f.mathd_numbertheory_711",
   "slug": "minif2f-mathd_numbertheory_711",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Test/mathd_numbertheory_711.lean",
-  "statement_hash": "e5197aae394c11eadd488dcee71af80a98c7fb58de68ead37dff4d4e1c710872",
+  "source_url": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L169",
+  "statement_hash": "3c1131c5d5b8a35d5ea2a8aad78833130a500491ed4bc674bf08aa45f1469bb3",
   "title": "mathd_numbertheory_711"
 }

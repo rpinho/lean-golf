@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d0d3c99823b8c5bc42c876fea1e8bf1deb8022e15c79101b9b74e308083b3943",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use complete regularity and nonempty A and B for the two singleton-image equalities. The previous custom premise and claimed images mishandled empty sets.",
+  "replacement_statement_hash": "8332e789852dc829a86283de54dd215636fd208c4d1a9326f36f16c02d6795ea",
+  "slug": "proofnet-munkres_exercise_33_8",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L133"
+}

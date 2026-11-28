@@ -1,11 +1,10 @@
 import Mathlib
 
-open Fintype Set Real Ideal Polynomial
-
+open Fintype Set Real Ideal Polynomial Subgroup
 open scoped BigOperators
 
-noncomputable section
-
-theorem LeanGolf.proofnet.herstein_exercise_2_3_16 {G : Type*} [Group G]
-  (hG : ∀ H : Subgroup G, H = ⊤ ∨ H = ⊥) :
-  IsCyclic G ∧ ∃ (p : ℕ) (Fin : Fintype G), Nat.Prime p ∧ @card G Fin = p := by sorry
+theorem LeanGolf.proofnet.herstein_exercise_2_3_16
+    {G : Type*} [Group G]
+    (hG : ∀ H : Subgroup G, H = ⊤ ∨ H = ⊥)
+    (h_nontrivial : ∃ g : G, g ≠ (1 : G)) :
+    IsCyclic G ∧ ∃ p : ℕ, Nat.Prime p ∧ Nat.card G = p := by sorry

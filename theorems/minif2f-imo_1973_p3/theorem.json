@@ -1,6 +1,6 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+  "credit": "Harmonic miniF2F contributors. Re-split by Justin Asher.",
   "difficulty": "imo",
   "forbidden": [],
   "imports": [
@@ -10,7 +10,7 @@
   "name": "LeanGolf.minif2f.imo_1973_p3",
   "slug": "minif2f-imo_1973_p3",
   "source": "miniF2F",
-  "source_url": "https://github.com/yangky11/miniF2F-lean4/blob/5746b7d6c47855ce1294bed87329618ff7f1bc31/MiniF2F/Valid/imo_1973_p3.lean",
-  "statement_hash": "1523f7d3a859e23b103d1a0f5e39f9c30adc2ca95022e1a2e129e15960b7b1ae",
+  "source_url": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L94",
+  "statement_hash": "8333fce819a1dd360d1163eb44081c869cf04a7a60d370b2b7f6028dda173096",
   "title": "imo_1973_p3"
 }

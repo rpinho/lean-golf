@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "2a85ce054ca197032d2af51e32c8b2280193080bf6737508a72752bbc4c3b250",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use summability from k ≥ 2 to encode convergence of the series. The old statement only asked whether the summands converge.",
+  "replacement_statement_hash": "b6a5666d235e6b9e7faf75059ab9750daa3c7d7e414e168d0e2d093a755db9c1",
+  "slug": "proofnet-pugh_exercise_3_63a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L324"
+}

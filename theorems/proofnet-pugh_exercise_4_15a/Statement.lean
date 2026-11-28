@@ -1,15 +1,9 @@
 import Mathlib
 
-open Filter Real Function
-
+open Filter Real Function Set
 open scoped Topology
 
-noncomputable section
-
-theorem LeanGolf.proofnet.pugh_exercise_4_15a {α : Type*}
-  (a b : ℝ) (F : Set (ℝ → ℝ)) :
-  (∀ x : ℝ, ∀ ε > 0, ∃ U ∈ (𝓝 x),
-  (∀ y z : U, ∀ f : ℝ → ℝ, f ∈ F → (dist (f y) (f z) < ε)))
-  ↔
-  ∃ (μ : ℝ → ℝ), ∀ (x : ℝ), (0 : ℝ) ≤ μ x ∧ Tendsto μ (𝓝 0) (𝓝 0) ∧
-  (∀ (s t : ℝ) (f : ℝ → ℝ), f ∈ F → |(f s) - (f t)| ≤ μ (|s - t|)) := by sorry
+theorem LeanGolf.proofnet.pugh_exercise_4_15a (a b : ℝ) (hab : a ≤ b) (f : Icc a b → ℝ) :
+  UniformContinuous f ↔ ∃ (μ : ℝ → ℝ), (∀ x : ℝ, x > 0 → μ x > 0) ∧
+  ContinuousOn μ (Ioi 0) ∧ StrictMonoOn μ (Ioi 0) ∧ Tendsto μ (𝓝[>] 0) (𝓝 0) ∧
+  (∀ s t : Icc a b, |f s - f t| ≤ μ (|s - t|)) := by sorry

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "833c6b6ace4d2e65636cc4d1cb341d1c7119bdc4da723b1744048b42d4934159",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L18",
+  "reason": "Minimize over the varying admissible x along with the other positive integer. The old minimality fixed x and let a = 1480 pass at x = 37.",
+  "replacement_statement_hash": "ba171bcab86c4b7bd7af63cac71bf67dcb4f44e9ae11e719ebe5f5f78af0e7d2",
+  "slug": "minif2f-mathd_numbertheory_126",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L18"
+}

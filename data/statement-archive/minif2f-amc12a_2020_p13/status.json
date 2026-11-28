@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "79622281dd043f3de549bbcf9d66c6c98d53e8602342ce263ce34ad011c5da2c",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L34",
+  "reason": "Use real reciprocal exponents and impose the radical identity for all positive N other than 1. The previous untyped exponents could become zero and the single N could be zero.",
+  "replacement_statement_hash": "11018765e2389252e13284d6f370a5f2c5ce424ccd29d04df29d35092a0d5c24",
+  "slug": "minif2f-amc12a_2020_p13",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L34"
+}

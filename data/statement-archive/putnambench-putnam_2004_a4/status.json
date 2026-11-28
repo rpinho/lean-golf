@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "73287ccb911b69d687d44ef98344ab48aca0ae1cf70ebe98c040d201a44bfe8a",
+  "evidence": "https://github.com/trishullab/PutnamBench/pull/372",
+  "reason": "Choose the rational coefficients and sign vectors before quantifying over x, as required for a polynomial identity.",
+  "replacement_statement_hash": "2d63b2cb613a78f149874ffd9adf3a39da3bf854313f203cda2e44b9dc23ae7a",
+  "slug": "putnambench-putnam_2004_a4",
+  "upstream": "https://github.com/AaronY77/PutnamBench/blob/2ea79fe08a393287da96855c2568474fe7fae9d9/lean4/src/putnam_2004_a4.lean"
+}

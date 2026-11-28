@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d495144a00981223b0b172607ed80947b4ec935f2222fd9d0cfc1a5755432e1f",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Include nonincreasing as well as nondecreasing sequences. The source's bounded monotonic sequence can have either direction.",
+  "replacement_statement_hash": "792ce8739d0a9aadad6bb681a9c14a5d8d84635068e21b43105ae348af6a40e8",
+  "slug": "proofnet-rudin_exercise_3_8",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L161"
+}

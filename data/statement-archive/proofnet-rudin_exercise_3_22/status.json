@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "b4679914ee9be38328fe3803a0bc67131cf570382a2ff82498b5635ed5e099f5",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require the metric space to be nonempty. The open and dense conditions hold vacuously on the empty space.",
+  "replacement_statement_hash": "d909943818c2bfe604e61a05237bc2497c14cd1c3244debec99ec38a7aa63614",
+  "slug": "proofnet-rudin_exercise_3_22",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L163"
+}

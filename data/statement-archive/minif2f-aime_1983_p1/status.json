@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "4f8484e30a375e63c5e7fab5138088e4256af7849dfbb80694b24b07f9c10c83",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L82",
+  "reason": "Restore the real domain of x, y, z, w and w > 0 in the logarithm problem. The prior declarations restricted all four values to naturals.",
+  "replacement_statement_hash": "30fd7287c72fba8f40ace2a76762791a2b1b57716c26161708133ab8a0423a6e",
+  "slug": "minif2f-aime_1983_p1",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L82"
+}

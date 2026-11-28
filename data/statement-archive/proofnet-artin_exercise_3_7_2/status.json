@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "3d6c0de6ec89ffb3daf55f3b4ca9ff6caa61ebf9a21835b85ee6efdb71f706f9",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use union and assume an infinite ground field. The packet used intersection and omitted the field-size premise.",
+  "replacement_statement_hash": "b0ea10242c03741ffb80ae3c817eb420222a53ef05c0228c83449837bc083c97",
+  "slug": "proofnet-artin_exercise_3_7_2",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L187"
+}

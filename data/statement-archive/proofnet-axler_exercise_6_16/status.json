@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "b9e5419a7a0c256988e138cdaff7cf9db35442b3807b2ae32c2c51823fd992a2",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Assume a closed subspace in a complete inner-product space as a valid setting for the textbook's orthogonal-complement criterion. A proper dense subspace can have zero orthogonal complement.",
+  "replacement_statement_hash": "29864df2e4bd9d09b3d4b91a09c71c293bc7581a0ed2b78f3b5bbd09885e30a1",
+  "slug": "proofnet-axler_exercise_6_16",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L24"
+}

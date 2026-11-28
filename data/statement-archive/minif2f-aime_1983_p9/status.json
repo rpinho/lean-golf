@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1b38bf4aea89e07f05948c87988df5fb0e8b20bdb6c59a7abe11c260c49e58f4",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L239",
+  "reason": "Assert the attained minimum of 12. With u = x sin x the expression is 9u + 4/u, and continuity on (0, π/2] supplies u = 2/3.",
+  "replacement_statement_hash": "c80b3f66e400b0bc0e398bb7f9ef43e9c0d63a3da4045ab6ab1f72ba4794d9a7",
+  "slug": "minif2f-aime_1983_p9",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L239"
+}

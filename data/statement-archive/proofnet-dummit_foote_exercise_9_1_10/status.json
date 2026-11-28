@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "34424394ecf48c9e1201c42beec1c931fef580145e6a7fde84946655aa3f1eb7",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use disjoint variable pairs (2i, 2i + 1) as the ideal generators. Adjacent pairs overlap and define a different ring.",
+  "replacement_statement_hash": "5304e84f5894ec5784fcedf51df98ea68dfee12588d0c7e4373e513a9edab0b6",
+  "slug": "proofnet-dummit_foote_exercise_9_1_10",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L250"
+}

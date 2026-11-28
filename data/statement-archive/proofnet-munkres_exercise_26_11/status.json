@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "976b8ead152a1a5dd6cd1b6d316f8a42573746a186376a6a01af53a60f7acba9",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Assume the chain is nonempty. For the empty family the intersection is the whole compact Hausdorff space, which need not be connected.",
+  "replacement_statement_hash": "02163bf839e3e42ff6fdec269f1f025f17bed672885aba1f39957b50c2a4958f",
+  "slug": "proofnet-munkres_exercise_26_11",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L123"
+}

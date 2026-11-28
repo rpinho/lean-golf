@@ -1,6 +1,6 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "PutnamBench contributors (Tsoukalas et al.).",
+  "credit": "PutnamBench contributors (Tsoukalas et al.). Correction by GitHub contributor AaronY77.",
   "difficulty": "2004 A4",
   "forbidden": [],
   "imports": [
@@ -10,7 +10,7 @@
   "name": "LeanGolf.putnambench.putnam_2004_a4",
   "slug": "putnambench-putnam_2004_a4",
   "source": "PutnamBench",
-  "source_url": "https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2004_a4.lean",
-  "statement_hash": "73287ccb911b69d687d44ef98344ab48aca0ae1cf70ebe98c040d201a44bfe8a",
+  "source_url": "https://github.com/AaronY77/PutnamBench/blob/2ea79fe08a393287da96855c2568474fe7fae9d9/lean4/src/putnam_2004_a4.lean",
+  "statement_hash": "2d63b2cb613a78f149874ffd9adf3a39da3bf854313f203cda2e44b9dc23ae7a",
   "title": "Putnam 2004 A4"
 }

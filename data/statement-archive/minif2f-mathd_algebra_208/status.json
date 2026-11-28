@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "5aaf8738b4b04766b4d2eeb4e2f9e5e1474e957fb5e2881621aa6533973f08e3",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L38",
+  "reason": "Use a real third exponent for the cube root. The previous natural third exponent evaluated to zero and made the difference 999.",
+  "replacement_statement_hash": "2f8568aa3543e73294db2f9e2397a0a158b942ce309efc42dfaf4d92ff94a61a",
+  "slug": "minif2f-mathd_algebra_208",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L38"
+}

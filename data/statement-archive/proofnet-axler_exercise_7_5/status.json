@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "8f6ee4d43f51e46c2bdf4349d97c0de14fa6355a680e75bea23b99da2a49e1fb",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Quantify over the real-or-complex scalar field and explicitly compute the dimension over that field.",
+  "replacement_statement_hash": "e7aadb66bcecb23020655eb04186764e9460151222af1a01ae724f5877b49534",
+  "slug": "proofnet-axler_exercise_7_5",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L208"
+}

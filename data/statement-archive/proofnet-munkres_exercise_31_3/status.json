@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "363959b06d300125ea7be768ce83d6667bde1f244dfd895ba8d3cd5decce73f4",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use the textbook's linear order for the order topology. The previous statement permitted arbitrary partial orders.",
+  "replacement_statement_hash": "202e01b23ca1180a33bd5abf612d0b6cb43a124d0869bb3b6efcb493ee6e171d",
+  "slug": "proofnet-munkres_exercise_31_3",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L313"
+}

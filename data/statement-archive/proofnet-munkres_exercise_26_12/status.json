@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "4e93caa361a295e275c55aca5ab90ea84120a9b64e4c2c1fa23ca84125387345",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore the explicit closed map hypothesis in the definition of a perfect map.",
+  "replacement_statement_hash": "f95af4ddf0e3e691b16ddd3e7197baab03c0a7f2ff1a1666699f0c3f0e28b727",
+  "slug": "proofnet-munkres_exercise_26_12",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L307"
+}

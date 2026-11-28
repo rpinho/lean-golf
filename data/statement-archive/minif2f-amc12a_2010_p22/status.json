@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "536096c007c5bc20c0e0b2dd891655faf2bb03f00fa9de6a8ae6313431185d0c",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L217",
+  "reason": "Verify that the absolute-value sum attains 49, as the problem asks. At x = 1/84 its exact value is 49.",
+  "replacement_statement_hash": "5a31c680f7170564c4402f175c42da16986575521d85a7d7ba320b84e51e1519",
+  "slug": "minif2f-amc12a_2010_p22",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L217"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "0e2f5b75afe7efff3fedb6fe2f39e46d62b564ef232f767bb556df4e1f25e39c",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Drop the zero-divisor restriction. The source requires comaximal ideals of a commutative ring, with zero divisors allowed.",
+  "replacement_statement_hash": "0fbf6913b5962c1fe87110613c1921d4c9e3d0d3c76aed4424e011305e0650f0",
+  "slug": "proofnet-artin_exercise_10_4_7a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L191"
+}

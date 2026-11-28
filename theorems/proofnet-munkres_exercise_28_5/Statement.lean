@@ -1,14 +1,7 @@
 import Mathlib
 
-noncomputable section
-
 open Filter Set TopologicalSpace
-
-open Topology
-
-noncomputable section
-
-set_option checkBinderAnnotations false
+open scoped Topology
 
 def countably_compact (X : Type*) [TopologicalSpace X] :=
   ∀ U : ℕ → Set X,
@@ -18,4 +11,4 @@ def countably_compact (X : Type*) [TopologicalSpace X] :=
 theorem LeanGolf.proofnet.munkres_exercise_28_5
   (X : Type*) [TopologicalSpace X] :
   countably_compact X ↔ ∀ (C : ℕ → Set X), (∀ n, IsClosed (C n)) ∧
-  (∀ n, C n ≠ ∅) ∧ (∀ n, C n ⊆ C (n + 1)) → ∃ x, ∀ n, x ∈ C n := by sorry
+  (∀ n, C n ≠ ∅) ∧ (∀ n, C (n + 1) ⊆ C n) → ∃ x, ∀ n, x ∈ C n := by sorry

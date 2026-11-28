@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "349c0333e767d9e92a2633728d3f9a2ca700871f0f36202e586aeed9d60dbeee",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore that the holomorphic map sends the region into itself and specify a connected domain.",
+  "replacement_statement_hash": "e14f9468d07ae25b939458eed66ee8f03a375178a3c1c70c536ec832039c0446",
+  "slug": "proofnet-shakarchi_exercise_2_9",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L180"
+}

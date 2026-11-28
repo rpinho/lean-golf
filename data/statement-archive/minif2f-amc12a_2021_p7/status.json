@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "732dfefa25bb2499b9ffb6eeb29d92dc54a861dd15dd358d65eadfdbae7bf2b2",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L317",
+  "reason": "Prove attainment of the minimum 1 in addition to the bound. It occurs at x = y = 0.",
+  "replacement_statement_hash": "99f1db26ada157b7f4205822314cd9ba23a4da5648823133c7c7a4db3b368965",
+  "slug": "minif2f-amc12a_2021_p7",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L317"
+}

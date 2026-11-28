@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "5e5481e23a85e321423788a796f523450f592050b21e25eb4721e25a43e01dc0",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Fermat's congruence is for every integer a. Remove the coprimality antecedent and allow negative a.",
+  "replacement_statement_hash": "d2786a8047f194036560b69125dd284b27a8e016fc0895737e643987372a4e53",
+  "slug": "proofnet-dummit_foote_exercise_3_2_16",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L226"
+}

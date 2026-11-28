@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": true,
+  "archived_statement_hash": "b2a8730d0856f80f4ade10e02b0dec5798cd47ec63378c0cc2847d4b06955dc1",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L109",
+  "reason": "Restore the source's positive-natural hypothesis with the weak inequality. A different corrected edition used a strict inequality that fails at n = 1.",
+  "replacement_statement_hash": "de0b1664fcb6f5a22e7b0b5dbdf0db7ed63eda0e5db509ebcf6f5b21b48388ac",
+  "slug": "minif2f-algebra_ineq_nto1onlt2m1on",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L109"
+}

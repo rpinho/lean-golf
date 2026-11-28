@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "2b9e88bc0fba3869c0c03c441413fb4d93494fac36cf2e525bf9707a39dcfa17",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use infimum and the negative of the supremum of the reflected set. The previous declaration used Min and Max instance types.",
+  "replacement_statement_hash": "2709a6effd8a107d70e5e1df2b21965f1681983c498e8b9a72feb319e2e91fed",
+  "slug": "proofnet-rudin_exercise_1_5",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L150"
+}

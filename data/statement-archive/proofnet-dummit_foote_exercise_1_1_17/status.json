@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "27002aeb81e7c444d2b60643b33dc6db6d585a92aef761369b6137f51e08d496",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The source requires positive order n. Use positive naturals for n and a natural exponent n − 1.",
+  "replacement_statement_hash": "847d2865a73c495176d0ac4cf894075a60755275479d7912ae12e619937df23c",
+  "slug": "proofnet-dummit_foote_exercise_1_1_17",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L214"
+}

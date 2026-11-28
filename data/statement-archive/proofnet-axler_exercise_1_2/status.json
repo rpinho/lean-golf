@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "218cdd2f71744dffb888d0b301a26f3353f560c03019c971c8a939a89514d9db",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The specified complex number has cube 1. The packet had right-hand side −1.",
+  "replacement_statement_hash": "e2c8f88ef13d0d25ecdd7c16daba06b134230bdc868b0e86b03743d6cb4c32e2",
+  "slug": "proofnet-axler_exercise_1_2",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L198"
+}

@@ -1,16 +1,16 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "credit": "ProofNet-Verified contributors (One An, Marcus J. Min et al.).",
   "difficulty": "Herstein",
   "forbidden": [],
   "imports": [
     "Mathlib"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.proofnet.herstein_exercise_3_2_21",
   "slug": "proofnet-herstein_exercise_3_2_21",
   "source": "ProofNet",
-  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Herstein.lean",
-  "statement_hash": "fb4ff6240668fbced96058c11d606fdf8c9d510b9a2b7da113411336cddb0730",
+  "source_url": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L268",
+  "statement_hash": "93fcf334ec05a2b73bd286650c40b50f9aa58f0662362056fdb4543722da304e",
   "title": "Herstein · exercise 3 2 21"
 }

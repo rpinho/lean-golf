@@ -1,11 +1,8 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
 theorem LeanGolf.minif2f.mathd_numbertheory_618
-  (n : ℕ)
-  (hn : n > 0)
-  (p : ℕ → ℕ)
-  (h₀ : ∀ x, p x = x^2 - x + 41)
-  (h₁ : 1 < Nat.gcd (p n) (p (n+1))) :
-  41 ≤ n := by sorry
+  (p : ℤ → ℤ)
+  (h₀ : ∀ n, p n = n^2 - n + 41) :
+  IsLeast {n | 0 < n ∧ 1 < Int.gcd (p n) (p (n + 1))} 41 := by sorry

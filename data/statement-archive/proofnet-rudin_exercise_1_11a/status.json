@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "41f20c1549e2d4550c12e680f7b45c9ef4e1499e30a2339621b1a6e513eb8077",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require the radial coordinate r to be nonnegative, as stated by the source.",
+  "replacement_statement_hash": "c2890fab7b983a0b84ffd20b29bd79d560a56e7b27e5d4cebae87c3af92901e9",
+  "slug": "proofnet-rudin_exercise_1_11a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L151"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "c375518d5098fd2626f2ef15faaf274a95a142d94afdae0b991095cb6908c57c",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use ordinary inclusion of the image of the center. The old strict inclusion is false for the identity map.",
+  "replacement_statement_hash": "240818fa1841e0faeaf4591f23b017da04cbb0fcc9b7b505591191f87d2405ed",
+  "slug": "proofnet-dummit_foote_exercise_7_3_16",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L245"
+}

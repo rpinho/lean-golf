@@ -1,7 +1,8 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.mathd_numbertheory_126 (x a : ℕ) (h₀ : 0 < x ∧ 0 < a) (h₁ : Nat.gcd a 40 = x + 3)
-  (h₂ : Nat.lcm a 40 = x * (x + 3))
-  (h₃ : ∀ b : ℕ, 0 < b → Nat.gcd b 40 = x + 3 ∧ Nat.lcm b 40 = x * (x + 3) → a ≤ b) : a = 8 := by sorry
+theorem LeanGolf.minif2f.mathd_numbertheory_126
+  (y : ℕ)
+  (hy : y = 40) :
+  IsLeast {z : ℕ | ∃ x > 0, Nat.gcd y z = x + 3 ∧ Nat.lcm y z = x * (x + 3)} 8 := by sorry

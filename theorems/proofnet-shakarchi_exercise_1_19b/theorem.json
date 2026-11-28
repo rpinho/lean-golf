@@ -1,16 +1,16 @@
 {
   "added_utc": "2026-11-27T00:00:00Z",
-  "credit": "Copyright (c) 2024 Rahul Vishwakarma. Original dataset: ProofNet.",
+  "credit": "ProofNet-Verified contributors (One An, Marcus J. Min et al.).",
   "difficulty": "Shakarchi",
   "forbidden": [],
   "imports": [
     "Mathlib"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "name": "LeanGolf.proofnet.shakarchi_exercise_1_19b",
   "slug": "proofnet-shakarchi_exercise_1_19b",
   "source": "ProofNet",
-  "source_url": "https://github.com/rahul3613/ProofNet-lean4/blob/6deae98b38954dadf732746d023e8be65c56f246/formal/Shakarchi.lean",
-  "statement_hash": "44b5e59e151d461bc9875b10aff8c3d9b412a9230152a84a984692e3c7e4550e",
+  "source_url": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L178",
+  "statement_hash": "ece153405b07341b744d81c3a1ec41c93c018931b52fcbcfea9b5c93a5020fbb",
   "title": "Shakarchi · exercise 1 19b"
 }

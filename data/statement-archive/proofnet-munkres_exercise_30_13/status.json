@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "e47ae77c149d80d0c5758ade7b4617d1cdbd3b16f94a4ce8fa915a7497383e94",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore openness of every set in the pairwise disjoint collection. Uncountably many singleton sets can be disjoint in a separable metric space.",
+  "replacement_statement_hash": "2cffc0b0128e7f39a277f3106e7905806ff9a95099ece49b6dbd5d2066168bb0",
+  "slug": "proofnet-munkres_exercise_30_13",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L128"
+}

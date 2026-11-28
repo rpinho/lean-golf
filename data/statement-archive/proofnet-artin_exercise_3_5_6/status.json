@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "df1c273e3ea6651e792318a7366ff4547a7d3317af5cb094fe860816e7d554eb",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The spanning set is countably infinite in the source. Add infinitude to the packet's countability hypothesis.",
+  "replacement_statement_hash": "fdba18d8b49c27d287b526fa4574b8be1481c98018f7b35f11f3cf5d791d4a29",
+  "slug": "proofnet-artin_exercise_3_5_6",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L4"
+}

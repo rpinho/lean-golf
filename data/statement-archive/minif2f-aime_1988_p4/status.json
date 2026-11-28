@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "33ee9ff8c687d6e605474e9fa22daec1e4f6543a990fcbec811a53eafb8da47d",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L162",
+  "reason": "Prove that 20 is attainable as well as a lower bound. The source asks for the least realizable length of the sequence.",
+  "replacement_statement_hash": "4742e5693527847906e922964e30b673511c185488afcae3dcc1857ec5a151be",
+  "slug": "minif2f-aime_1988_p4",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/valid.jsonl#L162"
+}

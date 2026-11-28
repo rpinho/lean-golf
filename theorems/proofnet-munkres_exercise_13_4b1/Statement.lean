@@ -1,12 +1,7 @@
 import Mathlib
 
-noncomputable section
-
 open Filter Set TopologicalSpace
-
-open Topology
-
-noncomputable section
+open scoped Topology
 
 def is_topology (X : Type*) (T : Set (Set X)) :=
   univ ∈ T ∧
@@ -15,4 +10,4 @@ def is_topology (X : Type*) (T : Set (Set X)) :=
 
 theorem LeanGolf.proofnet.munkres_exercise_13_4b1 (X I : Type*) (T : I → Set (Set X)) (h : ∀ i, is_topology X (T i)) :
   ∃! T', is_topology X T' ∧ (∀ i, T i ⊆ T') ∧
-  ∀ T'', is_topology X T'' → (∀ i, T i ⊆ T'') → T'' ⊆ T' := by sorry
+  ∀ T'', is_topology X T'' → (∀ i, T i ⊆ T'') → T' ⊆ T'' := by sorry

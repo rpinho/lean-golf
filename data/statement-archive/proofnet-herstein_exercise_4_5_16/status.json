@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "43b9de939b40afd02ca8721f05451b1433bf99c68c5c4f8a0ae0869fb7b53932",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Assert fieldness for the quotient by q. The packet asserted it for the polynomial ring.",
+  "replacement_statement_hash": "05b2034116f5e0e148afda438879a2e7a36907975bfb0c2468e1e2f7bed43fea",
+  "slug": "proofnet-herstein_exercise_4_5_16",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L88"
+}

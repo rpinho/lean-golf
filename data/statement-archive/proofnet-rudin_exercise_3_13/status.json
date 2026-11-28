@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1b6c11f1754427d71a0612ee7ac91b0e9af4dc1ab3512f225a472da24b55ba50",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Take the absolute value of each Cauchy-product coefficient and sum over i. The old inner lambda shadowed that index and omitted absolute values.",
+  "replacement_statement_hash": "993140316bd19ee5a7e471e2d0c4aab500f7533eabacc172a210b4588b5f624f",
+  "slug": "proofnet-rudin_exercise_3_13",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L345"
+}

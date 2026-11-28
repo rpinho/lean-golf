@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "636b181b123bfd6708d6e39d9767383b6516d9bf88aa1ba3decdbd519b668d3d",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require that H be characteristic in K. Normality in K alone does not pass through normality of K in G.",
+  "replacement_statement_hash": "c446b6c171b3a1570ad752542f52f1ce99d5e331aef75e9c4a52ece717484b32",
+  "slug": "proofnet-dummit_foote_exercise_4_4_8a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L234"
+}

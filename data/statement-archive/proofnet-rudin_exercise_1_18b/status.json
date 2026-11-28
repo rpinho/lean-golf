@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "4d5b3a3716e23fa8f59683e40a62ea1e378c7ec28b4f262bc686c9df56117f6a",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Prove nonexistence of an orthogonal nonzero y for every nonzero x. The source transcript omits the nonzero x restriction, which is needed at x = 0. The old quantifier order only required a single exceptional x.",
+  "replacement_statement_hash": "d494fde1aef65aea1f4d8716f11eea85a77bc2ce24d735e2603b849719b1a7b5",
+  "slug": "proofnet-rudin_exercise_1_18b",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L337"
+}

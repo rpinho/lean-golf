@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "ef044954b0be2d9d3c926a36867186510d4b4d7602f12b717245edb685757b08",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use Taylor coefficients at each center and evaluation of a polynomial at its argument. The old statement took limits at f(z₀) and used the wrong exponent.",
+  "replacement_statement_hash": "562aece2e65c48b7c01e73f7ce4450a2749cfe9946851b42166902c74de2c006",
+  "slug": "proofnet-shakarchi_exercise_2_13",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L364"
+}

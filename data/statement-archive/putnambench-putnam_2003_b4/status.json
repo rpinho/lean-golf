@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "75c662a4bc9c9e1689438a9ff07dcf1b00fd09eb378dd5bf04562356e16a40b7",
+  "evidence": "https://github.com/trishullab/PutnamBench/pull/372",
+  "reason": "Quantify all four polynomial roots over the complex numbers and express rationality by a rational witness. The prior real-only roots omitted possible conjugate pairs.",
+  "replacement_statement_hash": "79f33ac15dc55a0ca6ad21e84721ae28c276234971e27b7ab893fd9799404b34",
+  "slug": "putnambench-putnam_2003_b4",
+  "upstream": "https://github.com/AaronY77/PutnamBench/blob/2ea79fe08a393287da96855c2568474fe7fae9d9/lean4/src/putnam_2003_b4.lean"
+}

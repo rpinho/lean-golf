@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "a6cdaa8a2130ef74b5f5b5de7a80fbe3ad0029b713bb598cd0de333e96eb42aa",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore the explicit nonempty index set for the collection of normal subgroups.",
+  "replacement_statement_hash": "3c742ec13cb040b72dfeea3b1ba8a3d85adf7b745f5d8e38cfda85dfef4f416f",
+  "slug": "proofnet-dummit_foote_exercise_3_1_22b",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L41"
+}

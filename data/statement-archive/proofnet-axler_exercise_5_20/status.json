@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "b0f10ecfd609658a197878b9e96726581dd1c16d92051125b1b450ff01ce62e1",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Place each existential inside its own side of the biconditional to express equality of the sets of eigenvectors.",
+  "replacement_statement_hash": "c8e382cc937ae1fd04640f98a060c6270ad78110060b7963b90064d4e42087d6",
+  "slug": "proofnet-axler_exercise_5_20",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L21"
+}

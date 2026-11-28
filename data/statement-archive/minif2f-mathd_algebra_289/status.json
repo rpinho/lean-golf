@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "61a3c1fa20813178cc4743a4f02fca9643fe93c959b47bb2899d1c26009a8c89",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L200",
+  "reason": "Use signed integer evaluation of both quadratic equations. Natural subtraction in the old declaration made the left side positive because n is prime.",
+  "replacement_statement_hash": "f375f40e9f5ab241f49f7e40966b485e024693d8fc35a6ef4dd54021e9d65768",
+  "slug": "minif2f-mathd_algebra_289",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L200"
+}

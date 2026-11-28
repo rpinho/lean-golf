@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "92c26ccb2f93f8acf0b1d571043d639adf2eed21a80a226b6d9408ff787bef61",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L440",
+  "reason": "State the requested numerical answer x = 72. The imported conclusion stopped at the fixed-point identity 9 = sqrt(x + 9).",
+  "replacement_statement_hash": "d36bd681dc9e27256c9185e96cc70e6193d277178b605fa977c6e41797ba8681",
+  "slug": "minif2f-mathd_algebra_31",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L440"
+}

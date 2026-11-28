@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "0248377b8bbab43ae323f4648d616e288bbb401d8bcde667aaaad29d82a2df3b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "A chain of three equivalences means both adjacent biconditionals. The old nesting reduced to requiring the commutator to be identity for all pairs.",
+  "replacement_statement_hash": "c07905d02f633ac6fcbcc393d2502ec292931452ec18beb60b24c9b9419bbdc5",
+  "slug": "proofnet-dummit_foote_exercise_1_1_18",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L31"
+}

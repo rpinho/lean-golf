@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "06f9c8bff4ad460cf53129f9983c849dff6defcf5fd5a507f038802329dbbd59",
+  "evidence": "https://www.imo-official.org/problems/1972/",
+  "reason": "Require two nonempty disjoint subsets. The old declaration accepted two empty subsets and did not use the ten distinct two-digit values.",
+  "replacement_statement_hash": "f53d95ceb6213f984c97330ee5b305c6da007dfe03776cd64581e1a3aacbf95b",
+  "slug": "compfiles-imo1972_p1",
+  "upstream": "https://github.com/cwang-brai/imo/blob/0163864e92a4cdcfda3b6ad195a3b6ad31c73914/Imo/1972/P1.lean#L25"
+}

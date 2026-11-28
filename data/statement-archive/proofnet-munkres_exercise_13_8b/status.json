@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "2f052071833166f3ebdaae009c87124f5996654e7884a2fa9dcef77998eecb08",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use open intervals with rational endpoints and prove the basis conditions. The old statement used half-open intervals and omitted the basis claim.",
+  "replacement_statement_hash": "81923d4cace1aef8aff4d9e34de7956f5f613ab24b7fd75fc156a60aa8e0077f",
+  "slug": "proofnet-munkres_exercise_13_8b",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L110"
+}

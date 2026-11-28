@@ -1,10 +1,7 @@
 import Mathlib
 
 open Fintype Set Real Ideal Polynomial
-
 open scoped BigOperators
 
-noncomputable section
-
 theorem LeanGolf.proofnet.herstein_exercise_2_1_26 {G : Type*} [Group G]
-  [Fintype G] (a : G) : ∃ (n : ℕ), a ^ n = 1 := by sorry
+  [Fintype G] (a : G) : ∃ (n : ℕ), n > 0 ∧ a ^ n = 1 := by sorry

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "7fc483ce9e0a49941381c3386a681a9c89a79a1d62e73fd1a7909f7c12619ae1",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Allow unbounded segments by using extended-real endpoints. Bounded segments cannot be pairwise disjoint and cover all ℝ.",
+  "replacement_statement_hash": "1eddbaff909eb2fef81cac799e933b74333f9672e426bfe012c40abdf1518b38",
+  "slug": "proofnet-rudin_exercise_2_29",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L341"
+}

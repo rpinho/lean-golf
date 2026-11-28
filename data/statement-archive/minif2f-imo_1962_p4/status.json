@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "6fb83128d6da6d381069ea9f7cc0af55cf4f4666a6ed03777dffccc06e073f4b",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L288",
+  "reason": "Correct the step size in the branches for cos(3x) = 0. The old answer included π/3, where the sum is 3/2.",
+  "replacement_statement_hash": "4eccabccb60a0223df20e87cd70a293bb0cd89fc4a54ca767796c8220f3beb8f",
+  "slug": "minif2f-imo_1962_p4",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L288"
+}

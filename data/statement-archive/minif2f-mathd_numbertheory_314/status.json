@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "49b051480cdc09f291e02f5bbc138e8b880ae7d1d14091073e8f8d26eaa99d4d",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L90",
+  "reason": "Prove 6710 belongs to the witness set in addition to proving the lower bound. It is the fifth multiple of 1342 and leaves residue 2 < 3.",
+  "replacement_statement_hash": "bf05bc6dcde99d63f567897f6c3642c4cfd60b1322ac6fd6b539ca56bd05e7c7",
+  "slug": "minif2f-mathd_numbertheory_314",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L90"
+}

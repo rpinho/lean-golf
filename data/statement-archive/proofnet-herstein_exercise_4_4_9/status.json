@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "3e9772867e68a5d9cc7197846e209ce1f2f5ec2926d9cb8964f4e9b1405e4186",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Classify each nonzero element of the two counted sets as a square or nonsquare. The old predicates instead tested whether p itself was a square modulo p.",
+  "replacement_statement_hash": "1b82d17280efd14066f7667bf145477fb5544587018d771cb808af6a0416ac0d",
+  "slug": "proofnet-herstein_exercise_4_4_9",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L272"
+}

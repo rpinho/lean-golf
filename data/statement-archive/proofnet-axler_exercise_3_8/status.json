@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "7385d7757daa335df7541439595fec183182c80c1f4361d0a9af5723501409f7",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore the explicit finite-dimensional hypothesis on V. The previous packet generalized to vector spaces of any dimension.",
+  "replacement_statement_hash": "39a6ab9f2b6b1d5c30413feef67a828501bc70755a2a5199eedbe5b600a11cc0",
+  "slug": "proofnet-axler_exercise_3_8",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L201"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "44c07182021d507011900972ab7a43b8695665d84a680b12a56018aad4270381",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use a commutative domain, the integral-domain setting of the source.",
+  "replacement_statement_hash": "0b10a0477e3de058b5ac0ba922af1b1b2a8024926c217658112a0c00bbce3d0d",
+  "slug": "proofnet-dummit_foote_exercise_7_1_11",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L59"
+}

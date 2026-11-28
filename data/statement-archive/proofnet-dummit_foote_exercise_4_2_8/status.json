@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "a30bfad6302c9aa996ca784492c8e9d782397fe6601b265321774747caf5b58c",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require the normal subgroup to have finite index. Subgroup.index = 0 denotes infinite index and previously satisfied the bound.",
+  "replacement_statement_hash": "25eae81a5cd93fed177775c5e131c3a5a40785afeee0a2a41422457bbe41b0ea",
+  "slug": "proofnet-dummit_foote_exercise_4_2_8",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L230"
+}

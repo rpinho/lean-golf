@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "3fe0d1a1a9e9562207bee5ab71658d37b1fd70c5b57d589ae37e6a758078ec60",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Assert that the primitives differ by a constant on their common region. The old conclusion constrained their unspecified values outside it.",
+  "replacement_statement_hash": "c7c989429e868cc06c4f6419b16bf37a57906db0ad6f6594bc4070afa490a341",
+  "slug": "proofnet-shakarchi_exercise_1_26",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L179"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "384a1d9ee720d709b4171665734565444a75ed423faa2554153b23c7f0c7ba69",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Take distinct points and include the textbook's T₁ condition for regularity. A point cannot have two neighborhoods with disjoint closures.",
+  "replacement_statement_hash": "ebdf8cdb8b49ed2b71db3542dc952da526990c4b630ec676e833482674aa6552",
+  "slug": "proofnet-munkres_exercise_31_1",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L312"
+}

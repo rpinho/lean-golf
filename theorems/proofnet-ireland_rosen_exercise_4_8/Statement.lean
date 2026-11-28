@@ -1,10 +1,9 @@
 import Mathlib
 
 open Real
-
 open scoped BigOperators
 
-noncomputable section
-
-theorem LeanGolf.proofnet.ireland_rosen_exercise_4_8 {p a : ℕ} (hp : Odd p) :
-  IsPrimitiveRoot a p ↔ (∀ q : ℕ, q ∣ (p-1) → q.Prime → ¬ a^(p-1) ≡ 1 [MOD p]) := by sorry
+theorem LeanGolf.proofnet.ireland_rosen_exercise_4_8 {p : ℕ} (hp : Odd p) (hp' : p.Prime) (a : (ZMod p)ˣ) :
+  IsPrimitiveRoot (a : ZMod p) (p - 1) ↔
+    ∀ q : ℕ, q ∣ (p - 1) → q.Prime →
+      ¬ ((a : ZMod p) ^ ((p - 1) / q) = 1) := by sorry

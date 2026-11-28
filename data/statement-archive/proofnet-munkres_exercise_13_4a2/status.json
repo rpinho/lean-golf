@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "9cc7db577a45512133ffeaa24d70a3884bb27d072b5f52ab5ff7a373fde3bccd",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use union of topologies in the counterexample. Arbitrary intersections of topologies remain topologies.",
+  "replacement_statement_hash": "1a3d412b129b1dcc0a1177c2dce6a0a689c8071fa07010c62da3198c60adcd7f",
+  "slug": "proofnet-munkres_exercise_13_4a2",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L290"
+}

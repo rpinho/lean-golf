@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "75a94badc000c2b418cd66ebfbb0925e8fe8d4ed53425bd7eaa41510c22f80e5",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require a normal subgroup that is not characteristic. The previous statement reversed these properties.",
+  "replacement_statement_hash": "afc1670336e49acef55478ca2fc26c5dd28575e31014d50da2b0d8d930507032",
+  "slug": "proofnet-dummit_foote_exercise_4_4_6b",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L233"
+}

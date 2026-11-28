@@ -1,7 +1,14 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.aime_1983_p1 (x y z w : ℕ) (ht : 1 < x ∧ 1 < y ∧ 1 < z) (hw : 0 ≤ w)
-    (h0 : Real.log w / Real.log x = 24) (h1 : Real.log w / Real.log y = 40)
-    (h2 : Real.log w / Real.log (x * y * z) = 12) : Real.log w / Real.log z = 60 := by sorry
+theorem LeanGolf.minif2f.aime_1983_p1
+  (x y z w : ℝ)
+  (hx : 1 < x)
+  (hy : 1 < y)
+  (hz : 1 < z)
+  (hw : 0 < w)
+  (h₁ : Real.logb x w = 24)
+  (h₂ : Real.logb y w = 40)
+  (h₃ : Real.logb (x * y * z) w = 12) :
+  Real.logb z w = 60 := by sorry

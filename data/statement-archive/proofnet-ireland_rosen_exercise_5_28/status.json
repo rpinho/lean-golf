@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "b7c000d5965d9a751e36c41a2de801dd825b4896357b909ea722c4d3b399a9ae",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Scope the existential witness for the congruence inside the left side of the biconditional. Previously one could select an x that makes the congruence false.",
+  "replacement_statement_hash": "c341c07d583329347f3e3f9fe05d2223539e4c08e26f49a56dd0671f461c6a75",
+  "slug": "proofnet-ireland_rosen_exercise_5_28",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L287"
+}

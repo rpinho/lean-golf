@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "f31df1cf4683e170c96f7f8825b57f4bee27c2fbf8fd8f30fb168b1fc1d2afb2",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require normality for both Sylow subgroups. Their mere existence follows from Sylow's theorem for all finite groups.",
+  "replacement_statement_hash": "f2ea17379438dac0e4e00df91b82bd7031b94c082aeaaf581c302acb4614b98f",
+  "slug": "proofnet-dummit_foote_exercise_4_5_17",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L237"
+}

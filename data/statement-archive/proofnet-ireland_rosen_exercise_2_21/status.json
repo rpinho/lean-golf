@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "df12f0255cc53c8fc3f221805abff08ed794fa5a923b07c319b3389cd386372b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Apply the prime-power condition only to positive exponents. Exponent zero formerly forced l(1) to equal log p for every prime.",
+  "replacement_statement_hash": "8e83a18e92ccb85b3db8d7218f032887a97ea138687de72a5bcf154729536c28",
+  "slug": "proofnet-ireland_rosen_exercise_2_21",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L96"
+}

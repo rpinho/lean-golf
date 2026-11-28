@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "6ac805a0c48eabffd88eb895b3f28c8805e432c8c602363f3e4755b0ede3fbeb",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L230",
+  "reason": "Assert that 15 is the minimum value of the function on [p,15]. The old theorem proved a lower bound at a single x. The endpoint x = 15 attains it.",
+  "replacement_statement_hash": "31208043bd6d2bfa51d97a7abde6f58bcd4ec7d9f27616c343dad4fbc86a1c32",
+  "slug": "minif2f-aime_1983_p2",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L230"
+}

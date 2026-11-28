@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "8595d201d5ea6f4cec0e1061ed7136e220e1fb119ecd4c2ba048a83b3b0d315b",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Test existence of inverses for residue multiplication. The old claim ruled out every possible group structure on the carrier, including the additive group.",
+  "replacement_statement_hash": "6d0d3f16b1dc0f37f04c627ccb6f25329499dff7af3e17b27d53dd9ae5314806",
+  "slug": "proofnet-dummit_foote_exercise_1_1_5",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L29"
+}

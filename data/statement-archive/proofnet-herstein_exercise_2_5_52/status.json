@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "1f70c72f7b1a86c516654b496e2e1918a73609fa971652e7f3c0cc9c9bf67224",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use strictly more than three quarters, as stated. Exactly three quarters does not suffice.",
+  "replacement_statement_hash": "0fedc6eb1c7e4d7b31e024a46efb381ed1f8ef82550a87d7b0d390eeda21cfb4",
+  "slug": "proofnet-herstein_exercise_2_5_52",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L263"
+}

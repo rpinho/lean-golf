@@ -1,10 +1,7 @@
 import Mathlib
 
 open Fintype Subgroup Set Polynomial Ideal
-
 open scoped BigOperators
 
-noncomputable section
-
 theorem LeanGolf.proofnet.dummit_foote_exercise_1_1_5 (n : ℕ) (hn : 1 < n) :
-  IsEmpty (Group (ZMod n)) := by sorry
+  ¬ (∀ x : ZMod n, ∃ y : ZMod n, x * y = (1 : ZMod n) ∧ y * x = 1) := by sorry

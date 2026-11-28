@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "d5a797da0d8bfe746a346df305db9b4c64e9ce4d2f697db521b868318dab617e",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The source polynomial is over ℚ. The packet used the two-element field, where it reduces to X³.",
+  "replacement_statement_hash": "f02ded8198b405d96677cd2e92bb8293cf7d8ec6f1c37ac99ad25b9c764a67f8",
+  "slug": "proofnet-artin_exercise_11_4_1b",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L11"
+}

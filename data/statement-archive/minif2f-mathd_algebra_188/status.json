@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": true,
+  "archived_statement_hash": "fc3341e73b4cbdfff4b5770ad4eeec7e86a365644392becff4b4d48339c9ad87",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L52",
+  "reason": "Restore the explicitly given value f(2) = 4, which the previous statement omitted. Bijectivity and f(2) = f⁻¹(2) retain the inversion needed to compute the iterated value.",
+  "replacement_statement_hash": "eacf74a772f040cb1498a3effa53fadceffee7c1cdfd74a880c0a62372a145d8",
+  "slug": "minif2f-mathd_algebra_188",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L52"
+}

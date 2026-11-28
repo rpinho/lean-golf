@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "55f6a9c08a0c76741630541106c1def56e0e565b10f8f08623c859ac86756f21",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Quantify over any countable indexing type, including a finite one. The old packet restricted the family to indexing by ℕ.",
+  "replacement_statement_hash": "5183ab3564f2b806c2c3292293067d334ab43ee898952587ba56a8776c01816a",
+  "slug": "proofnet-munkres_exercise_30_10",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L311"
+}

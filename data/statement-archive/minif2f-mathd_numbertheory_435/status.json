@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "4b24c3e1031967c7eb004f193d4b28609ed574dc3fcf7516ddefcc1fca4587f8",
+  "evidence": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L207",
+  "reason": "Assert that k = 5 is itself admissible under the stated positive-n domain. The previous proposition only bounded possible k and added n = 0 to the hypotheses.",
+  "replacement_statement_hash": "37a2ddc51259a0a837bfdc7997f17157ef9b70d3a6979a7992ddd38af635f32b",
+  "slug": "minif2f-mathd_numbertheory_435",
+  "upstream": "https://github.com/justincasher/miniF2F/blob/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d/test.jsonl#L207"
+}

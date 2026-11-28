@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "5da79987a616ce5042a0d766c643a6915dcfec2ee2fddc4617ee5369f2058ba5",
+  "evidence": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L121",
+  "reason": "Apply the stated piecewise function five times. The previous goal stopped after one application.",
+  "replacement_statement_hash": "6f5fb61d653dc2aa0b974b5f8c582fc87b92ec6e39c2f1630220a9c1b900ff62",
+  "slug": "minif2f-mathd_algebra_76",
+  "upstream": "https://github.com/roozbeh-yz/miniF2F_v2/blob/905eca84f37cf38a49ec54f0f03e7bf99b510168/datasets/miniF2F_v2s.jsonl#L121"
+}

@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "dd199a57ca749b7f4fcd05c5c5db7fc6a5042a93ba96a9d2e7b9c601d64dc035",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore the finite group premise and require the maximal subgroup to contain H independently of the disjunction used for maximality.",
+  "replacement_statement_hash": "e3cabb320b997b4eacac8e66a7d35d2586d5b2f64194ceb66122e8ed6dc67711",
+  "slug": "proofnet-dummit_foote_exercise_2_4_16a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L222"
+}

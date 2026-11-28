@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "ee6876f0baa43a74b74a09ba7b95d21844833a073d957f3da01b7c3da356447d",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "The generator 1 + i is ⟨1,1⟩. The element ⟨0,1⟩ is a unit and gives the zero ring. Use the quotient's canonical ring operations.",
+  "replacement_statement_hash": "91a92584c712701fb302ec4466a4666c04e516fef90335e6dd9c7b8a2a91bada",
+  "slug": "proofnet-dummit_foote_exercise_8_3_6a",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L65"
+}

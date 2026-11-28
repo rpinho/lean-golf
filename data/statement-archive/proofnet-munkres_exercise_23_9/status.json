@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "6559fc8fe694c1c82fac374c9498d6188f5caa14ff7059d40fb2fe1d49a981c7",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Remove the product of proper subsets from the whole product of the two connected spaces. The old packet quantified over connected subregions instead.",
+  "replacement_statement_hash": "ab79f2249d91a560523c279f26080856a0f2d8c544eafe01ca01c2974125e207",
+  "slug": "proofnet-munkres_exercise_23_9",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L120"
+}

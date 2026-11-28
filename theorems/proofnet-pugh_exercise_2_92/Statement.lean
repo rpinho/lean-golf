@@ -1,14 +1,11 @@
 import Mathlib
 
-open Filter Real Function
-
+open Filter Real Function Set
 open scoped Topology
 
-noncomputable section
-
-theorem LeanGolf.proofnet.pugh_exercise_2_92 {α : Type*} [TopologicalSpace α]
-  {s : ℕ → Set α}
-  (hs : ∀ i, IsCompact (s i))
-  (hs : ∀ i, (s i).Nonempty)
-  (hs : ∀ i, (s i) ⊃ (s (i + 1))) :
-  (⋂ i, s i).Nonempty := by sorry
+theorem LeanGolf.proofnet.pugh_exercise_2_92 {α : Type*} [TopologicalSpace α] [T2Space α]
+    {s : ℕ → Set α}
+    (hcomp : ∀ i, IsCompact (s i))
+    (hne : ∀ i, (s i).Nonempty)
+    (hmono : ∀ i, s i ⊇ s (i + 1)) :
+    (⋂ i, s i).Nonempty := by sorry

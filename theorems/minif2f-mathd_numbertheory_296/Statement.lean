@@ -1,10 +1,6 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.mathd_numbertheory_296
-  (n : ℕ)
-  (h₀ : 2 ≤ n)
-  (h₁ : ∃ x, x^3 = n)
-  (h₂ : ∃ t, t^4 = n) :
-  4096 ≤ n := by sorry
+theorem LeanGolf.minif2f.mathd_numbertheory_296 :
+  IsLeast {n | 0 < n ∧ n ≠ 1 ∧ ∃ k, n = k^3 ∧ ∃ m, n = m^4} 4096 := by sorry

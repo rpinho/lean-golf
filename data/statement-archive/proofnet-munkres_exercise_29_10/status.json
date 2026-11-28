@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "4e5d56733f5944591829fff19820562256db37c5830b21d080841242b6ddc730",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Local compactness allows an open neighborhood to equal its compact container. Strict inclusion wrongly excluded isolated compact points with no strictly larger compact neighborhood.",
+  "replacement_statement_hash": "704f8bc9e149eb9d75c28eec78d2d85b8b71c7077fc95a9c26eb6822ae24de64",
+  "slug": "proofnet-munkres_exercise_29_10",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L127"
+}

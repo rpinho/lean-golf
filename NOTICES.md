@@ -24,3 +24,17 @@ definition, the packet includes that data as trusted statement context.
 
 These notices cover the imported Lean formalizations. Separate informal corpora
 and benchmark proof submissions are outside this import.
+
+## Statement fidelity corrections
+
+Catalog replacements retain the upstream attribution and exact source revision
+in each packet's metadata. The archived statement and any old record retain
+the packet's previous attribution.
+
+- The Apache-2.0 repairs include the ProofNet-Verified archive and sources
+  for miniF2F from Ospanov, Farnia and Yousefzadeh and Google DeepMind, the
+  Google-origin IMO formalizations, and specific PutnamBench contributor
+  changes. The packet declarations are adapted to Lean Golf and their proofs
+  are replaced with placeholders. [Apache-2.0 license](LICENSES/Statement-corrections-Apache-2.0.txt)
+- Several miniF2F repairs use Harmonic's cleaned statements as re-split by
+  Justin Asher. [Pinned re-split](https://github.com/justincasher/miniF2F/tree/6f7fc796f134cfb3d698750c1bd03cc1bbe8546d) · [MIT license](LICENSES/Harmonic-resplit-MIT.txt)

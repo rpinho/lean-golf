@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "45207a7fdf5ce3edfe80f75ec8be3245a60b5dc879b29bbd7aa070efb59cc8b7",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Restore √11 and a nonzero rational polynomial of degree at most 80. The old coefficient and strict degree bound were different.",
+  "replacement_statement_hash": "a953f5a6b0366ae4178c1fc4e8af0cc1cf24a81b7e09cea4b4ee525ac2eac460",
+  "slug": "proofnet-herstein_exercise_5_4_3",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L277"
+}

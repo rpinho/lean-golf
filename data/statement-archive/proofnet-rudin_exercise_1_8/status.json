@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "77b457bbc826d05bd9edfd231f6170f4a8b0ca8ca7053146d6f41e3724baa10f",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Require the ordering to be compatible with field arithmetic. A linear order on the complex carrier exists.",
+  "replacement_statement_hash": "fc51f6c62b461503365cf741915a844097077dcc9cad81ae9d3590ba1897fbbc",
+  "slug": "proofnet-rudin_exercise_1_8",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L334"
+}

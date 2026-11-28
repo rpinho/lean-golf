@@ -1,11 +1,11 @@
 import Mathlib
 
-open Complex Filter Function Metric Finset
-
+open Complex Filter Function Metric Finset Set
 open scoped BigOperators Topology
 
-theorem LeanGolf.proofnet.shakarchi_exercise_1_26
-  (f F₁ F₂ : ℂ → ℂ) (Ω : Set ℂ) (h1 : IsOpen Ω) (h2 : IsConnected Ω)
-  (hF₁ : DifferentiableOn ℂ F₁ Ω) (hF₂ : DifferentiableOn ℂ F₂ Ω)
-  (hdF₁ : ∀ x ∈ Ω, deriv F₁ x = f x) (hdF₂ : ∀ x ∈ Ω, deriv F₂ x = f x)
-  : ∃ c : ℂ, ∀ x, F₁ x = F₂ x + c := by sorry
+theorem LeanGolf.proofnet.shakarchi_exercise_1_26 :
+    ∀ (f F₁ F₂ : ℂ → ℂ) (Ω : Set ℂ),
+      Nonempty Ω → IsOpen Ω → IsConnected Ω →
+      ContinuousOn f Ω → DifferentiableOn ℂ F₁ Ω → DifferentiableOn ℂ F₂ Ω →
+      (∀ x ∈ Ω, deriv F₁ x = f x) → (∀ x ∈ Ω, deriv F₂ x = f x) →
+      ∃ c : ℂ, ∀ x ∈ Ω, F₁ x = F₂ x + c := by sorry

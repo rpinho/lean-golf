@@ -1,9 +1,6 @@
 import Mathlib
 
-open BigOperators Real Nat Topology Rat
+open BigOperators Real Nat Topology Rat Finset Set
 
-theorem LeanGolf.minif2f.mathd_numbertheory_457
-  (n : ℕ)
-  (h₀ : 0 < n)
-  (h₁ : 80325∣(n !)) :
-  17 ≤ n := by sorry
+theorem LeanGolf.minif2f.mathd_numbertheory_457 :
+  IsLeast {n | 0 < n ∧ 80325 ∣ n !} 17 := by sorry

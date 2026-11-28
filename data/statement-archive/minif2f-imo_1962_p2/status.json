@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "473ba1b864906ca5c2186155bf30d2ba6101e3e37adef257b2bbbecb05ac35f0",
+  "evidence": "https://www.imo-official.org/problems/1962/",
+  "reason": "Use the pinned Compfiles biconditional for the complete solution set. The official contest has the difference of two square roots. The Meta text adds an erroneous outer root.",
+  "replacement_statement_hash": "052d9f04ed78c0c2ffa2c674c58f4021025583c89a7e0769ef8ebabea8e6c191",
+  "slug": "minif2f-imo_1962_p2",
+  "upstream": "https://github.com/dwrensha/compfiles/blob/a2b17da334d7dd125cc63d5fe557ab4c9dcc786a/Compfiles/Imo1962P2.lean"
+}

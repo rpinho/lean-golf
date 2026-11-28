@@ -1,0 +1,10 @@
+{
+  "action": "fix",
+  "archived_record": false,
+  "archived_statement_hash": "f5471d0814fa02a908af0401a7322245320aaeb08d7559d1fc95898da609a924",
+  "evidence": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/error_taxonomy/proofnet/results.jsonl",
+  "reason": "Use accumulation points for every infinite subset. Any member of a nonempty set belongs to its closure.",
+  "replacement_statement_hash": "a20e7e6364df61a935d306f33239500ece804d7d7402f127b88e374074d20846",
+  "slug": "proofnet-rudin_exercise_2_24",
+  "upstream": "https://github.com/marcusm117/ProofNet-Verified/blob/57c4e00534b242138713909050dcaf2162e34c4b/data/proofnet-verified-latest.jsonl#L155"
+}
