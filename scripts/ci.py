@@ -170,16 +170,17 @@ def submission(api, number, expected_head, branch, *, allow_merged=False):
     if (len(parts) != 3 or parts[0] != "submissions" or not SLUG.fullmatch(parts[1])
             or parts[2].lower() != f"{login.lower()}.lean"):
         raise Rejected("Use submissions/<slug>/<your GitHub login>.lean.")
-    # Walk only the three named entries in the immutable tree and fetch only this blob.
-    tree = api.get(f"git/commits/{expected_head}", source)["tree"]["sha"]
+    # GitHub exposes the PR head in the base repository's fork network.
+    # Read its immutable objects there so the base job's token stays in scope.
+    tree = api.get(f"git/commits/{expected_head}")["tree"]["sha"]
     for part in parts[:-1]:
-        tree = entry(api, source, tree, part, "040000")["sha"]
-    proof = entry(api, source, tree, parts[-1], "100644")
+        tree = entry(api, api.repo, tree, part, "040000")["sha"]
+    proof = entry(api, api.repo, tree, parts[-1], "100644")
     if proof["size"] > MAX_BYTES:
         raise Rejected("The submission exceeds 64 KB.")
     if proof["sha"] != file["sha"]:
         raise Rejected("The changed-file list disagrees with the recorded commit.")
-    content = api.blob(source, proof["sha"], limit=MAX_BYTES)
+    content = api.blob(api.repo, proof["sha"], limit=MAX_BYTES)
     if api.pull(number)["head"]["sha"] != expected_head:
         raise Rejected("The pull request head changed during verification.")
     return Submission(number, expected_head, repo["id"], parts[1], login.lower(), file["filename"],

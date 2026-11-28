@@ -51,6 +51,7 @@ class FakeGitHub(GitHub):
 
     def get(self, suffix, repo=None):
         self.requests.append((repo or self.repo, suffix))
+        assert repo in (None, self.repo)
         if suffix == "pulls/11":
             return deepcopy(self.pr)
         if suffix.startswith("pulls?"):
@@ -60,7 +61,7 @@ class FakeGitHub(GitHub):
         if suffix.startswith("git/blobs/"):
             blob = self.blobs[suffix.split("/")[-1]]
             return dict(encoding="base64", size=len(blob), content=base64.b64encode(blob).decode())
-        if repo == FORK and suffix == f"git/commits/{HEAD}":
+        if suffix == f"git/commits/{HEAD}":
             return {"tree": {"sha": "root"}}
         nodes = {
             "git/trees/root": dict(path="submissions", mode="040000", sha="submissions"),
@@ -112,7 +113,7 @@ def test_fork_run_and_single_immutable_blob():
     assert data["login"] == "player"
     assert data["proof_sha256"] == sha256(PROOF).hexdigest()
     requests = [pair for pair in api.requests if pair[1].startswith("git/blobs/")]
-    assert requests == [(FORK, f"git/blobs/{oid(PROOF)}")]
+    assert requests == [(REPO, f"git/blobs/{oid(PROOF)}")]
 
 
 @pytest.mark.parametrize("alter", ["head", "second-file", "login", "symlink", "too-large",
