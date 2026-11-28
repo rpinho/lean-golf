@@ -26,11 +26,27 @@ Run the check from the repository root.
 lake exe golfcheck theorems/SLUG submissions/SLUG/LOGIN.lean
 ```
 
-With Docker, set `GITHUB_REPOSITORY=rpinho/lean-golf` and export it. Pull the published
-image before going offline.
+### Docker
+
+The published image is Linux amd64. Allow about 20 GiB of free space for
+a cold pull with Docker's containerd image store. On a small Ubuntu runner,
+the [classic Docker image store](https://docs.docker.com/engine/storage/containerd/)
+can fit the same image in less space.
+
+Pull the image before going offline. The checker builds from your checkout
+using the image's pinned dependencies.
 
 ```sh
-docker run --rm --network none --cap-drop ALL --security-opt no-new-privileges --mount "type=bind,src=$PWD/theorems,dst=/opt/lean-golf/theorems,readonly" --mount "type=bind,src=$PWD/submissions/SLUG/LOGIN.lean,dst=/Submission.lean,readonly" "$(bash scripts/image-ref.sh)" lake exe golfcheck theorems/SLUG /Submission.lean
+export GITHUB_REPOSITORY=rpinho/lean-golf
+docker pull "$(bash scripts/image-ref.sh)"
+docker run --rm --network none --cap-drop ALL --security-opt no-new-privileges \
+  --mount "type=bind,src=$PWD/LeanGolf,dst=/opt/lean-golf/LeanGolf,readonly" \
+  --mount "type=bind,src=$PWD/LeanGolf.lean,dst=/opt/lean-golf/LeanGolf.lean,readonly" \
+  --mount "type=bind,src=$PWD/Golfcheck,dst=/opt/lean-golf/Golfcheck,readonly" \
+  --mount "type=bind,src=$PWD/scripts,dst=/opt/lean-golf/scripts,readonly" \
+  --mount "type=bind,src=$PWD/theorems,dst=/opt/lean-golf/theorems,readonly" \
+  --mount "type=bind,src=$PWD/submissions/SLUG/LOGIN.lean,dst=/Submission.lean,readonly" \
+  "$(bash scripts/image-ref.sh)" lake exe golfcheck theorems/SLUG /Submission.lean
 ```
 
 The pinned toolchain, file format, and result schema are in [INTERFACE.md](INTERFACE.md).
