@@ -251,3 +251,16 @@ def test_verifier_rejects_results_that_disagree_with_controls():
         check_result(RESULT, 0, "f" * 64)
     with pytest.raises(RuntimeError):
         check_result(dict(RESULT, axioms=["sorryAx"]), 0, RESULT["statement_hash"])
+
+
+@pytest.mark.parametrize("fields", [
+    {"score": 0}, {"score": ci.MAX_BYTES + 1}, {"reason": "compilation failed"},
+])
+def test_valid_result_has_consistent_score_and_diagnostics(fields):
+    with pytest.raises(RuntimeError, match="checker result disagrees"):
+        check_result(dict(RESULT, **fields), 0, RESULT["statement_hash"])
+
+
+def test_rejection_requires_a_reason():
+    with pytest.raises(RuntimeError, match="did not exit normally"):
+        check_result(ci.invalid(""), 1, RESULT["statement_hash"])

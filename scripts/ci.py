@@ -211,11 +211,12 @@ def check_result(result, code, statement_hash):
             or not isinstance(result[STATEMENT_HASH], str)):
         raise RuntimeError("The checker did not return the expected result schema.")
     if result["valid"]:
-        if (code != 0 or type(result["score"]) is not int or result["score"] < 0
+        if (code != 0 or result["reason"] or type(result["score"]) is not int
+                or not 0 < result["score"] <= MAX_BYTES
                 or result[STATEMENT_HASH] != statement_hash
                 or not set(result["axioms"]) <= {"propext", "Classical.choice", "Quot.sound"}):
             raise RuntimeError("The checker result disagrees with its exit status or theorem metadata.")
-    elif code != 1 or result["score"] is not None:
+    elif code != 1 or result["score"] is not None or not result["reason"]:
         raise RuntimeError("The checker did not exit normally.")
     return result
 
