@@ -1,0 +1,6 @@
+{
+  "entry": {
+    "size": 65537
+  },
+  "reason": "exceeds 64 KB"
+}

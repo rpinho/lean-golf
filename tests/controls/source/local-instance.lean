@@ -1,0 +1,1 @@
+local instance : Inhabited Unit := ⟨()⟩

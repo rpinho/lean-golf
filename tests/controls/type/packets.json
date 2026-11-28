@@ -1,0 +1,32 @@
+{
+  "hypothesis": {
+    "statement": "theorem LeanGolf.fixture (h : False) : True",
+    "imports": []
+  },
+  "universe-monomorphic": {
+    "statement": "theorem LeanGolf.fixture {α : Type u} (a : α) : a = a",
+    "imports": []
+  },
+  "universe-successor": {
+    "statement": "theorem LeanGolf.fixture {α : Type u} (a : α) : a = a",
+    "imports": []
+  },
+  "binder-visibility": {
+    "statement": "theorem LeanGolf.fixture (n : Nat) : True",
+    "imports": []
+  },
+  "reducible-wrapper": {
+    "statement": "theorem LeanGolf.fixture : True",
+    "imports": []
+  },
+  "unique-existence": {
+    "statement": "theorem LeanGolf.fixture : ∃ n : Nat, n = 0",
+    "imports": [
+      "Mathlib.Logic.ExistsUnique"
+    ]
+  },
+  "integer-coercion": {
+    "statement": "theorem LeanGolf.fixture (n : Nat) : (n : Int) = (n : Int)",
+    "imports": []
+  }
+}

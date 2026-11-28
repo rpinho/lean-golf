@@ -1,0 +1,28 @@
+name: Checker controls
+
+on: push
+
+permissions:
+  contents: read
+
+jobs:
+  controls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      LEAN_NUM_THREADS: 2
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: leanprover/lean-action@v1
+        with:
+          auto-config: false
+          use-github-cache: false
+          use-mathlib-cache: true
+      - run: python -m pip install pytest==8.3.5
+      - run: lake build golfcheck
+      - run: python -m pytest -q tests tests/check_workflows.py

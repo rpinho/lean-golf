@@ -28,7 +28,7 @@ def oid(content):
 
 
 class FakeGitHub(GitHub):
-    def __init__(self):
+    def __init__(self, packet_root=FIXTURE):
         super().__init__(REPO)
         self.pr = dict(number=11, state="open", merged=False, changed_files=1,
                        user=dict(login="player", type="User"),
@@ -45,7 +45,7 @@ class FakeGitHub(GitHub):
         self.tree = {}
         for path, (mode, sha) in ci.verifier_objects(Path(ci.__file__).resolve().parents[1]).items():
             self.tree[path] = dict(mode=mode, sha=sha)
-        for path in (FIXTURE / "theorems" / SLUG).iterdir():
+        for path in (packet_root / "theorems" / SLUG).iterdir():
             blob = path.read_bytes()
             self.blobs[oid(blob)] = blob
             self.tree[f"theorems/{SLUG}/{path.name}"] = dict(mode="100644", type="blob",
@@ -139,25 +139,39 @@ def test_fork_run_and_single_immutable_blob():
     assert requests == [(REPO, f"git/blobs/{oid(PROOF)}")]
 
 
-@pytest.mark.parametrize("alter", ["head", "second-file", "login", "symlink", "too-large",
-                                    "wrong-blob"])
-def test_submission_rejections_do_not_download_proof(alter):
-    api = FakeGitHub()
-    if alter == "head":
-        api.pr["head"]["sha"] = "e" * 40
-    if alter == "second-file":
+GIT_CONTROLS = sorted((Path(__file__).parent / "controls" / "git").glob("*.json"))
+
+
+def apply_git_fixture(api, case):
+    api.pr["head"].update(case.get("head", {}))
+    api.entry.update(case.get("entry", {}))
+    api.files[0].update(case.get("changed_file", {}))
+    if case.get("duplicate_changed_file"):
         api.files.append(api.files[0])
-    if alter == "login":
-        api.files[0]["filename"] = f"submissions/{SLUG}/another.lean"
-    if alter == "symlink":
-        api.entry["mode"] = "120000"
-    if alter == "too-large":
-        api.entry["size"] = 65537
-    if alter == "wrong-blob":
-        api.files[0]["sha"] = "e" * 40
-    with pytest.raises(Rejected):
+
+
+@pytest.mark.parametrize("fixture", GIT_CONTROLS, ids=[p.stem for p in GIT_CONTROLS])
+def test_submission_rejections_do_not_download_proof(fixture):
+    api = FakeGitHub()
+    case = json.loads(fixture.read_text())
+    apply_git_fixture(api, case)
+    with pytest.raises(Rejected, match=case["reason"]):
         submission(api, 11, HEAD, "main")
     assert not any(path.startswith("git/blobs/") for _, path in api.requests)
+
+
+PR_CONTROLS = sorted((Path(__file__).parent / "controls" / "pr").glob("*.json"))
+
+
+@pytest.mark.parametrize("fixture", PR_CONTROLS, ids=[p.stem for p in PR_CONTROLS])
+def test_proof_pr_with_a_second_path_is_rejected(fixture):
+    case = json.loads(fixture.read_text())
+    api = FakeGitHub()
+    api.files.append(dict(filename=case["second_path"], status="modified", sha=oid(b"")))
+    api.pr["changed_files"] = len(api.files)
+    with pytest.raises(Rejected, match=case["reason"]):
+        submission(api, 11, HEAD, "main")
+    assert not api.writes and not api.record_commits
 
 
 def test_squash_is_pinned_and_record_commit_retries_without_merging_again():
@@ -198,6 +212,23 @@ def test_open_theorem_verifies_and_publishes_first_record(tmp_path, monkeypatch)
     history = json.loads(api.blobs[api.tree["data/history.jsonl"]["sha"]])
     assert history["previous"] is None and history["score"] == RESULT["score"]
     assert publish_record(api, "main", trusted)
+    assert len(api.record_commits) == 1
+
+
+def test_writer_consumes_the_trusted_jobs_output(tmp_path, monkeypatch):
+    root = Path(ci.__file__).resolve().parents[1]
+    api = FakeGitHub(packet_root=root)
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(tmp_path / "summary"))
+    monkeypatch.setenv("GITHUB_OUTPUT", str(tmp_path / "output"))
+    monkeypatch.setattr(ci, "run_checker", lambda root, item, expected:
+                        dict(RESULT, statement_hash=expected))
+    run = dict(event="pull_request", conclusion="success", head_sha=HEAD, head_branch="feature",
+               head_repository=dict(id=500, owner=dict(login="player")))
+    event = dict(repository=dict(default_branch="main"), workflow_run=run)
+    assert ci.verify(api, event, root, tmp_path / "result", trusted=True) == 0
+    key, value = (tmp_path / "output").read_text().split("=", 1)
+    assert key == "receipt"
+    assert publish_record(api, "main", json.loads(value))
     assert len(api.record_commits) == 1
 
 

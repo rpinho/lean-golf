@@ -81,44 +81,17 @@ def rejected(result, reason):
     assert reason in result["reason"], result
 
 
-@pytest.mark.parametrize(
-    ("source", "reason"),
-    [
-        (f"{FIXTURE} := by sorry", "banned token sorry"),
-        (f"{FIXTURE} := by admit", "banned token admit"),
-        (f"{FIXTURE} := by native_decide", "banned token native_decide"),
-        (f"{FIXTURE} := Lean.ofReduceBool (by decide)", "banned token Lean.ofReduceBool"),
-        (f"{FIXTURE} := _root_.Lean.ofReduceBool (by decide)", "banned token Lean.ofReduceBool"),
-        (f"axiom bogus : True\n{FIXTURE} := bogus", "banned token axiom"),
-        (f"namespace Other\n{FIXTURE} := True.intro\nend Other", "banned token namespace"),
-        (f"import Lean\n{FIXTURE} := True.intro", "unapproved import Lean"),
-        (f"prelude\n{FIXTURE} := True.intro", "prelude"),
-        (f"macro foo : term => foo\n{FIXTURE} := True.intro", "banned token macro"),
-        (f"notation X => True\n{FIXTURE} := True.intro", "banned token notation"),
-        (f"syntax ident : term\n{FIXTURE} := True.intro", "banned token syntax"),
-        (f"elab foo : term => foo\n{FIXTURE} := True.intro", "banned token elab"),
-        (f"set_option maxRecDepth 1\n{FIXTURE} := True.intro", "banned token set_option"),
-        (f"{FIXTURE} := by set_option maxRecDepth 5 in trivial", "banned token set_option"),
-        (f"@[implemented_by f] {FIXTURE} := True.intro", "banned token @["),
-        (f"@[extern f] {FIXTURE} := True.intro", "banned token @["),
-        (f"@[csimp] {FIXTURE} := True.intro", "banned token @["),
-        (f"#eval 0\n{FIXTURE} := True.intro", "banned token #eval"),
-        (f"run_cmd pure ()\n{FIXTURE} := True.intro", "banned token run_cmd"),
-        (f"{FIXTURE} := by\n  run_tac pure ()\n  trivial", "banned token run_tac"),
-        (f"run_elab pure ()\n{FIXTURE} := True.intro", "banned token run_elab"),
-        (f"run_meta pure ()\n{FIXTURE} := True.intro", "banned token run_meta"),
-        (f"{FIXTURE} := by_elab pure default", "banned token by_elab"),
-        (f"{FIXTURE} := True.intro\ntheorem Other.extra : True := True.intro", "exactly one theorem"),
-        ("theorem LeanGοlf.fixture : True := True.intro", "theorem name"),
-        ("def LeanGolf.fixture : True := True.intro", "plain theorem declaration"),
-        (f'{FIXTURE} := (fun _ : String => True.intro) "sorry"', "string literals are forbidden"),
-        ("theorem LeanGolf.«fixture» : True := True.intro", "quoted identifiers are forbidden"),
-        (f"{FIXTURE} := True.intro\n/- /- -/ ", "unterminated block comment"),
-        (f"{FIXTURE} := True.intro\n#check Nat", "exactly one theorem"),
-    ],
-)
-def test_source_rejections(packet, source, reason):
-    rejected(submit(packet(), source + "\n"), reason)
+SOURCE_CONTROLS = ROOT / "tests" / "controls" / "source"
+SOURCE_REASONS = json.loads((SOURCE_CONTROLS / "reasons.json").read_text())
+
+
+def test_all_source_controls_have_reasons():
+    assert {path.stem for path in SOURCE_CONTROLS.glob("*.lean")} == set(SOURCE_REASONS)
+
+
+@pytest.mark.parametrize("name,reason", sorted(SOURCE_REASONS.items()), ids=sorted(SOURCE_REASONS))
+def test_source_rejections(packet, name, reason):
+    rejected(invoke(packet(), SOURCE_CONTROLS / f"{name}.lean"), reason)
 
 
 def test_cannot_redefine_statement_constant(packet):
@@ -132,22 +105,17 @@ def Nat.Prime (_ : Nat) := True
     rejected(result, "expected one plain theorem declaration")
 
 
-@pytest.mark.parametrize(
-    ("reference", "candidate", "imports"),
-    [
-        ("(h : False) : True", "(h : True) : True := True.intro", ()),
-        ("{α : Type u} (a : α) : a = a", "{α : Type} (a : α) : a = a := rfl", ()),
-        ("{α : Type u} (a : α) : a = a", "{α : Type (u + 1)} (a : α) : a = a := rfl", ()),
-        ("(n : Nat) : True", "{n : Nat} : True := True.intro", ()),
-        (": True", ": id True := True.intro", ()),
-        (": ∃ n : Nat, n = 0",
-         ": ∃! n : Nat, n = 0 := ⟨0, rfl, fun _ h => h⟩", ("Mathlib.Logic.ExistsUnique",)),
-    ],
-)
-def test_changed_statement(packet, reference, candidate, imports):
-    header = "".join(f"import {module}\n" for module in imports)
-    prefix = "theorem LeanGolf.fixture "
-    result = submit(packet(prefix + reference, imports), f"{header}{prefix}{candidate}\n")
+TYPE_CONTROLS = ROOT / "tests" / "controls" / "type"
+TYPE_PACKETS = json.loads((TYPE_CONTROLS / "packets.json").read_text())
+
+
+def test_all_type_controls_have_packets():
+    assert {path.stem for path in TYPE_CONTROLS.glob("*.lean")} == set(TYPE_PACKETS)
+
+
+@pytest.mark.parametrize("name", sorted(TYPE_PACKETS))
+def test_changed_statement(packet, name):
+    result = invoke(packet(**TYPE_PACKETS[name]), TYPE_CONTROLS / f"{name}.lean")
     rejected(result, "statement type differs")
     assert len(result["statement_hash"]) == 64
 
@@ -159,13 +127,13 @@ def test_universe_parameter_can_be_renamed(packet):
 
 
 def test_independent_axiom_check(packet):
-    result = submit(packet(), f"{FIXTURE} := sorryAx True false\n")
+    result = invoke(packet(), ROOT / "tests" / "controls" / "axiom" / "sorry-axiom.lean")
     rejected(result, "disallowed axiom sorryAx")
     assert "sorryAx" in result["axioms"]
 
 
 def test_native_decide_configuration_rejected_by_axiom_check(packet):
-    result = submit(packet(), f"{FIXTURE} := by decide +native\n")
+    result = invoke(packet(), ROOT / "tests" / "controls" / "axiom" / "native-config.lean")
     rejected(result, "disallowed axiom")
     assert set(result["axioms"]) - AXIOMS
 
@@ -291,3 +259,36 @@ def test_seed_record(slug):
     assert result["statement_hash"] == metadata["statement_hash"]
     assert set(result["axioms"]) <= AXIOMS
     assert record["holder"] == "lean-golf-seed" and record["pr"] is None
+
+
+def test_native_record_tie_through_ci(tmp_path, monkeypatch):
+    import ci
+    from test_ci import FakeGitHub, HEAD, SLUG, oid
+
+    packet = ROOT / "theorems" / SLUG
+    proof = (packet / "Record.lean").read_bytes()
+    api = FakeGitHub(packet_root=ROOT)
+    api.entry.update(size=len(proof), sha=oid(proof))
+    api.files[0]["sha"] = oid(proof)
+    api.blobs[oid(proof)] = proof
+
+    def native_checker(root, item, expected_hash):
+        path = tmp_path / "Submission.lean"
+        path.write_bytes(item.content)
+        result = invoke(root / "theorems" / item.slug, path)
+        return ci.check_result(result, 0, expected_hash)
+
+    monkeypatch.setattr(ci, "run_checker", native_checker)
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(tmp_path / "summary"))
+    monkeypatch.setenv("GITHUB_OUTPUT", str(tmp_path / "output"))
+    run = dict(event="pull_request", conclusion="success", head_sha=HEAD, head_branch="feature",
+               head_repository=dict(id=500, owner=dict(login="player")))
+    event = dict(repository=dict(default_branch="main"), workflow_run=run)
+    assert ci.verify(api, event, ROOT, tmp_path / "result", trusted=True) == 0
+    key, raw = (tmp_path / "output").read_text().split("=", 1)
+    assert key == "receipt"
+    receipt = json.loads(raw)
+    assert receipt["result"]["score"] == json.loads((packet / "record.json").read_text())["score"]
+    assert ci.publish_record(api, "main", receipt) is False
+    assert [method for _, method, _ in api.writes] == ["POST", "PATCH"]
+    assert not api.record_commits

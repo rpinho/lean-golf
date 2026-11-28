@@ -21,13 +21,17 @@ a receipt from its own verify job, refetches the single file, and confirms the
 head, path, and bytes. GitHub's squash API requires the verified head SHA.
 A squash imports the submission path without importing the fork's commit
 history. The writer confirms the resulting default-branch blob before updating
-records. The four record files go into one commit conditional on the current
-default-branch SHA. The writer runs no Lean or fork code.
+records. The writer checks the theorem policy, statement, and checker revision
+against the verification run on every record-write attempt. It also checks the
+submission bytes in the snapshot used for that write. The four record files
+go into one commit conditional on the current default-branch SHA. The writer
+runs no Lean or fork code.
 
 GitHub squashes a PR and updates the records in two operations. If the record
 commit fails after a successful squash, rerun the failed publishing job with
 its existing verification receipt. It will recognize the completed squash and
-recheck the current record. Publishing jobs are serialized. GitHub Actions can
+recheck the current record. Changes to the packet or checker require fresh
+verification. Publishing jobs are serialized. GitHub Actions can
 replace a pending job in a concurrency group with a newer one, in which case
 the skipped run needs a rerun. Maintainers should use the automated route for
 submission PRs so the leaderboard stays in sync.
