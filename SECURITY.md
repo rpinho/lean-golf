@@ -6,10 +6,11 @@ workflow uses is the completion event. An apparent success only schedules a new
 check.
 
 The `workflow_run` definition and checker source come from the default branch.
-Its verifier has `contents: read` and receives no repository secrets. It resolves
-the open PR by the completion event's head SHA and source repository, validates
-the changed-file list against the immutable Git tree, and downloads a single
-plain Lean file. No fork source checkout or fork artifact enters trusted jobs.
+Its verifier uses read-only Contents and Pull Requests permissions and
+references no repository secrets. It resolves the open PR by the completion
+event's head SHA and source repository, validates the changed-file list against
+the immutable Git tree, and downloads one plain Lean file through the base
+repository's API. No fork source checkout or fork artifact enters trusted jobs.
 The verify job runs the checker with Docker networking disabled, a read-only
 filesystem outside scratch space, resource limits, dropped capabilities, and
 no tokens mounted in the container. The Lean lint, type comparison, and axiom

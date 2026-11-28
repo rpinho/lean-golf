@@ -22,7 +22,7 @@ def check():
     check_workflow = (WORKFLOWS / "check.yml").read_text()
     merge_workflow = (WORKFLOWS / "merge.yml").read_text()
     assert field(check_workflow, "on") == "pull_request:"
-    assert field(check_workflow, "permissions") == "contents: read"
+    assert field(check_workflow, "permissions") == "contents: read\npull-requests: read"
     assert not re.search(r"\bsecrets\s*(?:\.|\[|:)", check_workflow, re.IGNORECASE)
 
     check_job = field(field(check_workflow, "jobs"), "check")
@@ -36,7 +36,7 @@ def check():
     assert field(merge_workflow, "permissions") == "{}"
     jobs = field(merge_workflow, "jobs")
     verify, merge = (field(jobs, name) for name in ("verify", "merge"))
-    assert field(verify, "permissions") == "contents: read"
+    assert field(verify, "permissions") == "contents: read\npull-requests: read"
     assert not re.search(r"\bsecrets\s*(?:\.|\[|:)", verify, re.IGNORECASE)
     assert "python3 scripts/ci.py verify" in verify
     assert "python3 scripts/ci.py publish" in merge
