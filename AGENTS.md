@@ -20,11 +20,28 @@ It accepts only the single theorem declaration and dependencies on the axioms
 `propext`, `Classical.choice`, and `Quot.sound`. Direct references to constants
 in `theorem.json`'s `forbidden` list are also banned.
 
-Run the check from the repository root.
+Run the check from the repository root. Replace `SLUG` and `LOGIN` with your
+theorem slug and GitHub login.
+
+### Native Lean
+
+Use native Lean on Apple Silicon. You need Git, Python 3, a C compiler
+(Xcode Command Line Tools on macOS), and [elan](https://github.com/leanprover/elan).
+If you already have elan, skip the installer. On macOS, raise the current
+shell's open-file limit for the Mathlib cache unpacker.
 
 ```sh
+curl -fsSL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh |
+  sh -s -- -y --no-modify-path --default-toolchain none
+export PATH="$HOME/.elan/bin:$PATH"
+elan toolchain install "$(cat lean-toolchain)"
+if [ "$(uname -s)" = Darwin ]; then ulimit -Sn 4096; fi
+lake exe cache get
 lake exe golfcheck theorems/SLUG submissions/SLUG/LOGIN.lean
 ```
+
+The first setup downloads Lean and Mathlib and takes several minutes.
+Refresh the toolchain and cache when the pinned versions change.
 
 ### Docker
 
