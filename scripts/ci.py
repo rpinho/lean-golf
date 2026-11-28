@@ -457,6 +457,8 @@ def publish_record(api, branch, receipt):
                 return True
             if score >= previous["score"]:
                 return False
+        if read_blob(api, tree, item.path, optional=True) != item.content:
+            raise Rejected("The submitted file changed after the verified merge.")
         with tempfile.TemporaryDirectory() as work:
             root = Path(work)
             paths = record_paths(api, tree, root, item, receipt, pull["merged_at"])

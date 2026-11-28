@@ -220,6 +220,20 @@ def test_squash_confirmation_uses_bytes_before_publishing():
     assert not api.record_commits
 
 
+def test_record_retry_checks_current_proof_bytes():
+    api = FakeGitHub()
+    trusted = receipt(api)
+    def concurrent_update(branch, base, root, paths, number):
+        api.record_commits.append((branch, base, number))
+        api.tree.pop(PATH)
+        return None
+
+    api.commit_records = concurrent_update
+    with pytest.raises(Rejected, match="submitted file changed after the verified merge"):
+        publish_record(api, "main", trusted)
+    assert len(api.record_commits) == 1
+
+
 def test_changed_head_blocks_publication_before_any_write():
     api = FakeGitHub()
     trusted = receipt(api)
