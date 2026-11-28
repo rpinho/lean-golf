@@ -1,6 +1,7 @@
 """Source preparation, process limits and public JSON protocol for golfcheck."""
 
 import contextlib
+import errno
 import hashlib
 import json
 import os
@@ -29,7 +30,12 @@ class Rejected(Exception):
 
 
 def read_source(path):
-    fd = os.open(path, os.O_RDONLY | os.O_NONBLOCK)
+    try:
+        fd = os.open(path, os.O_RDONLY | os.O_NONBLOCK | os.O_NOFOLLOW)
+    except OSError as error:
+        if error.errno == errno.ELOOP:
+            raise Rejected("submission must be a regular file, not a symbolic link") from error
+        raise
     with os.fdopen(fd, "rb") as source:
         if not stat.S_ISREG(os.fstat(source.fileno()).st_mode):
             raise Rejected("submission must be a regular file")
